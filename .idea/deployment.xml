@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="arsenalprof.ru" autoUploadExternalChanges="true" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="arsenalprof.ru">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/www/arsenalprof.ru" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/www/arsenalprof.ru/_personal" />
+            <excludedPath path="/www/arsenalprof.ru/b2b" />
+            <excludedPath path="/www/arsenalprof.ru/b2bcabinet" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix" />
+            <excludedPath path="/www/arsenalprof.ru/components" />
+            <excludedPath path="/www/arsenalprof.ru/upload" />
+            <excludedPath path="/www/arsenalprof.ru/user_comments" />
+            <excludedPath path="/www/arsenalprof.ru/user_questions" />
+            <excludedPath path="/www/arsenalprof.ru/user_reviews" />
+            <excludedPath path="/www/arsenalprof.ru/webp-copy" />
+            <excludedPath path="/www/arsenalprof.ru/login" />
+            <excludedPath path="/www/arsenalprof.ru/news" />
+            <excludedPath path="/www/arsenalprof.ru/novinki" />
+            <excludedPath path="/www/arsenalprof.ru/oplata" />
+            <excludedPath path="/www/arsenalprof.ru/partners" />
+            <excludedPath path="/www/arsenalprof.ru/personal" />
+            <excludedPath path="/www/arsenalprof.ru/poisktest" />
+            <excludedPath path="/www/arsenalprof.ru/postanovleniya-i-usloviya" />
+            <excludedPath path="/www/arsenalprof.ru/pub" />
+            <excludedPath path="/www/arsenalprof.ru/rabota-u-nas" />
+            <excludedPath path="/www/arsenalprof.ru/sales" />
+            <excludedPath path="/www/arsenalprof.ru/search" />
+            <excludedPath path="/www/arsenalprof.ru/servis" />
+            <excludedPath path="/www/arsenalprof.ru/skidki" />
+            <excludedPath path="/www/arsenalprof.ru/stocks" />
+            <excludedPath path="/www/arsenalprof.ru/test" />
+            <excludedPath local="true" path="$PROJECT_DIR$/_personal" />
+            <excludedPath local="true" path="$PROJECT_DIR$/b2b" />
+            <excludedPath local="true" path="$PROJECT_DIR$/b2bcabinet" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix" />
+            <excludedPath local="true" path="$PROJECT_DIR$/components" />
+            <excludedPath local="true" path="$PROJECT_DIR$/upload" />
+            <excludedPath local="true" path="$PROJECT_DIR$/user_comments" />
+            <excludedPath local="true" path="$PROJECT_DIR$/user_questions" />
+            <excludedPath local="true" path="$PROJECT_DIR$/user_reviews" />
+            <excludedPath local="true" path="$PROJECT_DIR$/webp-copy" />
+            <excludedPath local="true" path="$PROJECT_DIR$/login" />
+            <excludedPath local="true" path="$PROJECT_DIR$/news" />
+            <excludedPath local="true" path="$PROJECT_DIR$/novinki" />
+            <excludedPath local="true" path="$PROJECT_DIR$/oplata" />
+            <excludedPath local="true" path="$PROJECT_DIR$/partners" />
+            <excludedPath local="true" path="$PROJECT_DIR$/personal" />
+            <excludedPath local="true" path="$PROJECT_DIR$/poisktest" />
+            <excludedPath local="true" path="$PROJECT_DIR$/postanovleniya-i-usloviya" />
+            <excludedPath local="true" path="$PROJECT_DIR$/pub" />
+            <excludedPath local="true" path="$PROJECT_DIR$/rabota-u-nas" />
+            <excludedPath local="true" path="$PROJECT_DIR$/sales" />
+            <excludedPath local="true" path="$PROJECT_DIR$/search" />
+            <excludedPath local="true" path="$PROJECT_DIR$/servis" />
+            <excludedPath local="true" path="$PROJECT_DIR$/skidki" />
+            <excludedPath local="true" path="$PROJECT_DIR$/stocks" />
+            <excludedPath local="true" path="$PROJECT_DIR$/test" />
+            <excludedPath path="/www/arsenalprof.ru/local/ajax" />
+            <excludedPath path="/www/arsenalprof.ru/local/components" />
+            <excludedPath path="/www/arsenalprof.ru/local/gadgets" />
+            <excludedPath path="/www/arsenalprof.ru/local/php_interface" />
+            <excludedPath path="/www/arsenalprof.ru/local/tests" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/.default" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/b2bcabinet" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/b2bshop_mail" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/sotbit_mailing_default_mail" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/sotbit_mailing_minimal" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/site_files" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
