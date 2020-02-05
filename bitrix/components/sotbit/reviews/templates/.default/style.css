@@ -1,0 +1,104 @@
+@font-face {
+	font-family: ProximaNova;
+	src: url(fonts/ProximaNova/ProximaNovaRegular.eot) format('eot'),
+		url(fonts/ProximaNova/ProximaNovaRegular.ttf) format('truetype'),
+		url(fonts/ProximaNova/ProximaNovaRegular.woff) format('woff'),
+		url("fonts/ProximaNova/ProximaNovaRegular.svg#ProximaNova")
+		format("svg"), url('fonts/ProximaNova/ProximaNovaRegular.woff2')
+		format('woff2');
+}
+
+@font-face {
+	font-family: ProximaNova;
+	font-weight: bold;
+	src: url("fonts/ProximaNova/ProximaNovaBold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: ProximaNovaThin;
+	src: url("fonts/ProximaNova/ProximaNovaThin.otf") format("opentype");
+}
+
+@font-face {
+	font-family: ProximaNovaLight;
+	src: url("fonts/ProximaNova/ProximaNovaLight.otf") format("opentype");
+}
+
+@font-face {
+	font-family: PG Isadora Cyr Pro;
+	src: url(fonts/Isadora/PGIsadoraCyrPro-Regular.eot) format('eot'),
+		url(fonts/Isadora/PGIsadoraCyrPro-Regular.ttf) format('truetype'),
+		url(fonts/Isadora/PGIsadoraCyrPro-Regular.woff) format('woff'),
+		url("fonts/Isadora/PGIsadoraCyrPro-Regular.svg#PG Isadora Cyr Pro")
+		format("svg");
+}
+
+@media ( max-width : 767px) {
+	.tabs ul.tabs-caption {
+		text-align: center;
+	}
+	.tabs a.open_window {
+		float: none;
+	}
+	.tabs .modal-link {
+		text-align: center;
+	}
+}
+
+@media ( min-width : 768px) {
+	a.open_window {
+		float: right;
+	}
+}
+/*Табы*/
+.tabs-content {
+	display: none;
+	/* по умолчанию прячем все блоки */
+}
+
+.tabs-content.active {
+	display: block;
+	/* по умолчанию показываем нужный блок */
+}
+
+.tabs .tabs-caption {
+	border-bottom: 1px solid #e2e5e9;
+}
+
+.tabs ul.tabs-caption {
+	margin: 0;
+	padding: 4px;
+}
+
+.tabs ul.tabs-caption li {
+	display: inline-block;
+	margin-right: 0px;
+	border-left: 1px solid #e2e5e9;
+	border-top: 1px solid #e2e5e9;
+	border-right: 1px solid #e2e5e9;
+	border-radius: 2px 2px 0 0;
+	padding: 0 15px;
+	height: 41px;
+	line-height: 41px;
+	color: #c2c6cb;
+	cursor: pointer;
+	width: 180px;
+	font-family: "ProximaNovaLight", Arial, sans-serif;
+}
+
+.tabs ul.tabs-caption li i {
+	margin-right: 6px;
+}
+
+.tabs ul.tabs-caption li:hover {
+	color: #a6aaaf;
+}
+
+.tabs ul.tabs-caption li.active {
+	color: #303030;
+	cursor: default;
+}
+
+.tabs ul.tabs-caption {
+	padding: 0;
+}

@@ -1,0 +1,60 @@
+#dlay-cookienotice-modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    z-index: 999999;
+    -webkit-box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.16);
+    box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.16);
+    font-size: 15px;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: transform .8s;
+    -o-transition: transform .8s;
+    transition: transform .8s;
+}
+
+#dlay-cookienotice-modal.dlay-cookienotice-load {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+.dlay-cookienotice-button {
+    background-color: transparent;
+    border: 2px solid #222 !important;
+    color: #222;
+    border: none;
+    padding: 3px 16px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+}
+
+.dlay-cookienotice-button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.dlay-cookienotice-link {
+    text-decoration: underline;
+    color: #222;
+}
+
+.dlay-cookienotice-p {
+    margin-bottom: 10px;
+}
+
+.dlay-cookienotice-text {
+    max-width: 90%;
+    margin: auto;
+    width: 800px;
+}

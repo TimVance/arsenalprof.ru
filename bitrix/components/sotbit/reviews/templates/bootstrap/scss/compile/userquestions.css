@@ -1,0 +1,236 @@
+/*font*/
+/*color text*/
+/*color background*/
+/*color button background*/
+/*fonts size*/
+/*border*/
+/*align*/
+@font-face {
+  font-family: ProximaNova;
+  src: url(fonts/ProximaNova/ProximaNovaRegular.ttf) format("truetype"), url(fonts/ProximaNova/ProximaNovaRegular.woff) format("woff"), url("fonts/ProximaNova/ProximaNovaRegular.svg#ProximaNova") format("svg"), url("fonts/ProximaNova/ProximaNovaRegular.woff2") format("woff2"); }
+@font-face {
+  font-family: ProximaNova;
+  font-weight: bold;
+  src: url("fonts/ProximaNova/ProximaNovaBold.otf") format("opentype"); }
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url("fonts/ProximaNova/ProximaNovaThin.otf") format("opentype"); }
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url("fonts/ProximaNova/ProximaNovaLight.otf") format("opentype"); }
+@font-face {
+  font-family: PG Isadora Cyr Pro;
+  src: local("PG Isadora Cyr Pro"), url(fonts/Isadora/PGIsadoraCyrPro-Regular.ttf) format("truetype"), url(fonts/Isadora/PGIsadoraCyrPro-Regular.woff) format("woff"), url("fonts/Isadora/PGIsadoraCyrPro-Regular.svg#PG Isadora Cyr Pro") format("svg"); }
+.questions-user-list {
+  padding-top: 30px; }
+  .questions-user-list .border {
+    margin-bottom: 55px;
+    border-bottom: 1px solid #e2e5e9;
+    padding-bottom: 60px; }
+  .questions-user-list .item .title {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    font-weight: bold; }
+  .questions-user-list .item .date-creation {
+    margin-bottom: 10px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px; }
+  .questions-user-list .item .rating {
+    display: flex;
+    justify-content: flex-start; }
+    .questions-user-list .item .rating .rating-text {
+      padding-right: 20px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      color: #6c727d;
+      font-size: 12px; }
+    .questions-user-list .item .rating .empty {
+      color: #6c727d; }
+    .questions-user-list .item .rating .full {
+      color: #303030; }
+  .questions-user-list .item .text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .questions-user-list .item .likes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px; }
+  .questions-user-list .item .voted-yes, .questions-user-list .item .voted-no {
+    width: 11px;
+    height: 12px;
+    margin-right: 8px; }
+  .questions-user-list .item .voted-yes {
+    background: url("images/voted-like.png"); }
+  .questions-user-list .item .voted-no {
+    background: url("images/voted-dislike.png"); }
+  .questions-user-list .item .yescnt {
+    margin-right: 15px; }
+  .questions-user-list .item .nocnt {
+    margin-right: 15px;
+    margin-right: 50px; }
+  .questions-user-list .item .recommendated {
+    padding-left: 15px;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    margin-bottom: 0; }
+  .questions-user-list .pagination {
+    float: right;
+    margin-bottom: 80px; }
+    .questions-user-list .pagination button {
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      font-size: 12px;
+      color: #6c727d;
+      background: #ffffff;
+      border: none;
+      height: 25px;
+      line-height: 25px;
+      margin: 0 0 0 10px;
+      display: inline-block;
+      text-align: center;
+      width: 25px; }
+      .questions-user-list .pagination button.current {
+        color: #000000; }
+    .questions-user-list .pagination .right-arrows button, .questions-user-list .pagination .left-arrows button {
+      color: #000000; }
+    .questions-user-list .pagination .right-arrows button {
+      border: 1px solid #d5d9dd;
+      border-radius: 15px;
+      line-height: 22px;
+      padding-left: 8px; }
+    .questions-user-list .pagination .left-arrows {
+      float: left; }
+      .questions-user-list .pagination .left-arrows button {
+        border: 1px solid #d5d9dd;
+        border-radius: 15px;
+        line-height: 22px;
+        padding-left: 8px; }
+    .questions-user-list .pagination .right-arrows {
+      float: right; }
+  .questions-user-list .item .video-title, .questions-user-list .item .images-title, .questions-user-list .item .presentation-title {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px;
+    margin: 10px 0 5px 0; }
+  .questions-user-list .item .images {
+    margin: 0; }
+  .questions-user-list .item .image img {
+    display: inline; }
+  .questions-user-list .item .add-field-title {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .questions-user-list .item .item .likes .yescnt, .questions-user-list .item .item .likes .nocnt {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .questions-user-list .item .add-field-title {
+    padding-right: 10px; }
+  .questions-user-list .item .add-field-text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .questions-user-list .add-field {
+    margin-top: 15px; }
+  .questions-user-list .element a {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    display: block; }
+    .questions-user-list .element a:hover {
+      text-decoration: none; }
+  .questions-user-list .shopanswer {
+    background: #f8f8f8;
+    padding: 30px 25px;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0; }
+    .questions-user-list .shopanswer .col-shopanswer {
+      display: flex;
+      justify-content: flex-start; }
+    .questions-user-list .shopanswer .bottom-border {
+      border-bottom: none; }
+    .questions-user-list .shopanswer .username {
+      color: #af7676;
+      border-bottom: 0;
+      text-decoration: none; }
+    .questions-user-list .shopanswer .text {
+      color: #303030;
+      font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .questions-user-list .item blockquote {
+    border: none !important;
+    background-color: #f2eccf;
+    padding: 8px 6px 8px 24px;
+    border-radius: 2px !important;
+    color: #303030 !important;
+    min-height: 1em !important;
+    margin: 0.6em 0 0.8em 0 !important; }
+
+.row questions-user-list {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+
+.sotbit_questions_user_questions .shopanswer .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px;
+  flex-shrink: 0; }
+  .sotbit_questions_user_questions .shopanswer .avatar .avatar-inner {
+    margin: auto; }
+
+.sotbit_reviews_user_questions .user-row {
+  margin-bottom: 40px; }
+.sotbit_reviews_user_questions .user {
+  display: flex; }
+.sotbit_reviews_user_questions .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px; }
+  .sotbit_reviews_user_questions .avatar .avatar-inner {
+    margin: auto; }
+.sotbit_reviews_user_questions .user-info {
+  flex: 1; }
+  .sotbit_reviews_user_questions .user-info .name {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    display: inline-block;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 13px; }
+  .sotbit_reviews_user_questions .user-info .age, .sotbit_reviews_user_questions .user-info .country {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 0; }
+  .sotbit_reviews_user_questions .user-info .age span, .sotbit_reviews_user_questions .user-info .country span {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    padding-right: 10px; }
+.sotbit_reviews_user_questions .cnt {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  border-bottom: 1px solid #e2e5e9; }
+
+/*# sourceMappingURL=userquestions.css.map */

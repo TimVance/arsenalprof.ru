@@ -1,0 +1,402 @@
+Array
+(
+    [USER_ID] => 21
+    [USER_LOGIN] => e.prokhorenko@sotbit.ru
+    [USER_EMAIL] => e.prokhorenko@sotbit.ru
+    [USER_NAME] => 
+    [USER_LAST_NAME] => 
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 21
+    [NOVELTY_GOODS] => 
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                )
+
+        )
+
+)
+Array
+(
+    [USER_ID] => 1
+    [USER_LOGIN] => admin
+    [USER_EMAIL] => admin@admin.admin
+    [USER_NAME] => admin
+    [USER_LAST_NAME] => admin
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 1
+    [NOVELTY_GOODS] => 
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                )
+
+        )
+
+)
+Array
+(
+    [USER_ID] => 21
+    [USER_LOGIN] => e.prokhorenko@sotbit.ru
+    [USER_EMAIL] => e.prokhorenko@sotbit.ru
+    [USER_NAME] => 
+    [USER_LAST_NAME] => 
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 21
+    [NOVELTY_GOODS] => 
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                )
+
+        )
+
+)
+Array
+(
+    [USER_ID] => 1
+    [USER_LOGIN] => admin
+    [USER_EMAIL] => admin@admin.admin
+    [USER_NAME] => admin
+    [USER_LAST_NAME] => admin
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 1
+    [NOVELTY_GOODS] => 
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                )
+
+        )
+
+)
+Array
+(
+    [USER_ID] => 21
+    [USER_LOGIN] => e.prokhorenko@sotbit.ru
+    [USER_EMAIL] => e.prokhorenko@sotbit.ru
+    [USER_NAME] => 
+    [USER_LAST_NAME] => 
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 21
+    [NOVELTY_GOODS] => 
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                )
+
+        )
+
+)
+Array
+(
+    [USER_ID] => 1
+    [USER_LOGIN] => admin
+    [USER_EMAIL] => admin@admin.admin
+    [USER_NAME] => admin
+    [USER_LAST_NAME] => admin
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 1
+    [NOVELTY_GOODS] => 
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                )
+
+        )
+
+)
+Array
+(
+    [USER_ID] => 21
+    [USER_LOGIN] => e.prokhorenko@sotbit.ru
+    [USER_EMAIL] => e.prokhorenko@sotbit.ru
+    [USER_NAME] => 
+    [USER_LAST_NAME] => 
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 21
+    [NOVELTY_GOODS] =>     &lt;div style=&quot;background-color: #89cbf5; padding: 5px 10px 5px 10px;color: #FFFFFF; margin-bottom: 10px;&quot;&gt;&lt;b&gt;Новинки бренда :&lt;/b&gt;&lt;/div&gt; 
+    &lt;div style=&quot;background-color: #fafbfb; border: 1px solid #d3dcdd; padding: 0px 20px 0px 20px;&quot;&gt;         
+    &lt;table width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+        &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-shoes/shoes-ultra-line/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/46c/100_200_1/46cb8fb59b72b95d5b19932b88957c8a.jpg&quot; width=&quot;100&quot; height=&quot;79&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-shoes/shoes-ultra-line/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Туфли Ультра Лайн&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;2 799.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-belts/strap-rainbow/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/1a7/100_200_1/1a7ddac8f0ce0782629cdfeb3bd488ee.jpg&quot; width=&quot;100&quot; height=&quot;73&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-belts/strap-rainbow/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Ремень Радуга&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;390.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/t-shirts/women-s-t-shirt-night/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/446/100_200_1/4461a77a274ebece2f60a2ea64919f99.jpg&quot; width=&quot;100&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/t-shirts/women-s-t-shirt-night/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Футболка Женская Ночь&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;759.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                    [0] => 35
+                    [1] => 36
+                    [2] => 20
+                )
+
+        )
+
+)
+Array
+(
+    [USER_ID] => 1
+    [USER_LOGIN] => admin
+    [USER_EMAIL] => admin@admin.admin
+    [USER_NAME] => admin
+    [USER_LAST_NAME] => admin
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 1
+    [NOVELTY_GOODS] =>     &lt;div style=&quot;background-color: #89cbf5; padding: 5px 10px 5px 10px;color: #FFFFFF; margin-bottom: 10px;&quot;&gt;&lt;b&gt;Новинки бренда :&lt;/b&gt;&lt;/div&gt; 
+    &lt;div style=&quot;background-color: #fafbfb; border: 1px solid #d3dcdd; padding: 0px 20px 0px 20px;&quot;&gt;         
+    &lt;table width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+        &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-shoes/shoes-ultra-line/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/46c/100_200_1/46cb8fb59b72b95d5b19932b88957c8a.jpg&quot; width=&quot;100&quot; height=&quot;79&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-shoes/shoes-ultra-line/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Туфли Ультра Лайн&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;2 799.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-belts/strap-rainbow/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/1a7/100_200_1/1a7ddac8f0ce0782629cdfeb3bd488ee.jpg&quot; width=&quot;100&quot; height=&quot;73&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-belts/strap-rainbow/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Ремень Радуга&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;390.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/t-shirts/women-s-t-shirt-night/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/446/100_200_1/4461a77a274ebece2f60a2ea64919f99.jpg&quot; width=&quot;100&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/t-shirts/women-s-t-shirt-night/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Футболка Женская Ночь&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;759.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                    [0] => 35
+                    [1] => 36
+                    [2] => 20
+                )
+
+        )
+
+)
+Array
+(
+    [USER_ID] => 21
+    [USER_LOGIN] => e.prokhorenko@sotbit.ru
+    [USER_EMAIL] => e.prokhorenko@sotbit.ru
+    [USER_NAME] => 
+    [USER_LAST_NAME] => 
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 21
+    [NOVELTY_GOODS] =>     &lt;div style=&quot;background-color: #89cbf5; padding: 5px 10px 5px 10px;color: #FFFFFF; margin-bottom: 10px;&quot;&gt;&lt;b&gt;Новинки бренда :&lt;/b&gt;&lt;/div&gt; 
+    &lt;div style=&quot;background-color: #fafbfb; border: 1px solid #d3dcdd; padding: 0px 20px 0px 20px;&quot;&gt;         
+    &lt;table width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+        &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-shoes/shoes-ultra-line/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/46c/100_200_1/46cb8fb59b72b95d5b19932b88957c8a.jpg&quot; width=&quot;100&quot; height=&quot;79&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-shoes/shoes-ultra-line/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Туфли Ультра Лайн&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;2 799.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-belts/strap-rainbow/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/1a7/100_200_1/1a7ddac8f0ce0782629cdfeb3bd488ee.jpg&quot; width=&quot;100&quot; height=&quot;73&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-belts/strap-rainbow/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Ремень Радуга&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;390.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/t-shirts/women-s-t-shirt-night/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/446/100_200_1/4461a77a274ebece2f60a2ea64919f99.jpg&quot; width=&quot;100&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/t-shirts/women-s-t-shirt-night/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Футболка Женская Ночь&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;759.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                    [0] => 35
+                    [1] => 36
+                    [2] => 20
+                )
+
+        )
+
+)
+Array
+(
+    [USER_ID] => 1
+    [USER_LOGIN] => admin
+    [USER_EMAIL] => admin@admin.admin
+    [USER_NAME] => admin
+    [USER_LAST_NAME] => admin
+    [USER_SECOND_NAME] => 
+    [PARAM_1] => 1
+    [NOVELTY_GOODS] =>     &lt;div style=&quot;background-color: #89cbf5; padding: 5px 10px 5px 10px;color: #FFFFFF; margin-bottom: 10px;&quot;&gt;&lt;b&gt;Новинки бренда :&lt;/b&gt;&lt;/div&gt; 
+    &lt;div style=&quot;background-color: #fafbfb; border: 1px solid #d3dcdd; padding: 0px 20px 0px 20px;&quot;&gt;         
+    &lt;table width=&quot;100%&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+        &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-shoes/shoes-ultra-line/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/46c/100_200_1/46cb8fb59b72b95d5b19932b88957c8a.jpg&quot; width=&quot;100&quot; height=&quot;79&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-shoes/shoes-ultra-line/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Туфли Ультра Лайн&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;2 799.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-belts/strap-rainbow/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/1a7/100_200_1/1a7ddac8f0ce0782629cdfeb3bd488ee.jpg&quot; width=&quot;100&quot; height=&quot;73&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/women-s-belts/strap-rainbow/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Ремень Радуга&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;390.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+                &lt;tr&gt;
+                    &lt;td width=&quot;110px&quot; style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/t-shirts/women-s-t-shirt-night/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot;&gt;&lt;img src=&quot;http://shop.sotbit.ru/upload/resize_cache/iblock/446/100_200_1/4461a77a274ebece2f60a2ea64919f99.jpg&quot; width=&quot;100&quot; height=&quot;150&quot; /&gt;&lt;/a&gt;     
+                    &lt;/td&gt;
+                    &lt;td style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;a href=&quot;http://shop.sotbit.ru/catalog/t-shirts/women-s-t-shirt-night/?MAILING_MESSAGE=#MAILING_MESSAGE#&utm_source=newsletter&utm_medium=email&utm_campaign=sotbit_mailing_4&quot; style=&quot;color: #00b6f4; font-size: 14px&quot;; &gt;Футболка Женская Ночь&lt;/a&gt; &lt;br /&gt;
+                        &lt;br /&gt;
+                         
+                    &lt;/td&gt;
+                    &lt;td  style=&quot;vertical-align: top; padding-bottom: 20px;padding-top: 20px;  border-top: 1px solid #E6EAEC; &quot;&gt;
+                        &lt;s style=&quot;color:red;display:block;&quot;&gt;&lt;/s&gt;
+                        &lt;b style=&quot;white-space: nowrap&quot;&gt;759.00 руб.&lt;/b&gt;
+                    &lt;/td&gt;                    
+                &lt;/tr&gt; 
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+
+    [PARAM_MESSEGE] => Array
+        (
+            [NOVELTY_PRODUCT_PRODUCT_ID] => Array
+                (
+                    [0] => 35
+                    [1] => 36
+                    [2] => 20
+                )
+
+        )
+
+)

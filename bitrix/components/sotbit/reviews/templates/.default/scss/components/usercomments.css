@@ -1,0 +1,86 @@
+.comments-user-list {
+  padding-top: 30px; }
+  .comments-user-list .border {
+    margin-bottom: 55px;
+    border-bottom: 1px solid #e2e5e9;
+    padding-bottom: 60px; }
+  .comments-user-list .item .title {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    font-weight: bold; }
+  .comments-user-list .item .date-creation {
+    margin-bottom: 10px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px; }
+  .comments-user-list .item .text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .comments-user-list .element a {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    display: block; }
+    .comments-user-list .element a:hover {
+      text-decoration: none; }
+  .comments-user-list .item blockquote {
+    border: none !important;
+    background-color: #f2eccf;
+    padding: 8px 6px 8px 24px;
+    border-radius: 2px !important;
+    color: #303030 !important;
+    min-height: 1em !important;
+    margin: 0.6em 0 0.8em 0 !important; }
+
+.row comments-user-list {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+
+.sotbit_reviews_user_comments .user-row {
+  margin-bottom: 40px; }
+.sotbit_reviews_user_comments .user {
+  display: flex; }
+.sotbit_reviews_user_comments .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px; }
+  .sotbit_reviews_user_comments .avatar .avatar-inner {
+    margin: auto; }
+.sotbit_reviews_user_comments .user-info {
+  flex: 1; }
+  .sotbit_reviews_user_comments .user-info .name {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    display: inline-block;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 13px; }
+  .sotbit_reviews_user_comments .user-info .age, .sotbit_reviews_user_comments .user-info .country {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 0; }
+  .sotbit_reviews_user_comments .user-info .age span, .sotbit_reviews_user_comments .user-info .country span {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    padding-right: 10px; }
+.sotbit_reviews_user_comments .cnt {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  border-bottom: 1px solid #e2e5e9; }
+
+/*# sourceMappingURL=usercomments.css.map */

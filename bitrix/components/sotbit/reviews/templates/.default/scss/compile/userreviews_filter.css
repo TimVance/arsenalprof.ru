@@ -1,0 +1,191 @@
+/*font*/
+/*color text*/
+/*color background*/
+/*color button background*/
+/*fonts size*/
+/*border*/
+/*align*/
+@font-face {
+  font-family: ProximaNova;
+  src: url(fonts/ProximaNova/ProximaNovaRegular.ttf) format("truetype"), url(fonts/ProximaNova/ProximaNovaRegular.woff) format("woff"), url("fonts/ProximaNova/ProximaNovaRegular.svg#ProximaNova") format("svg"), url("fonts/ProximaNova/ProximaNovaRegular.woff2") format("woff2"); }
+@font-face {
+  font-family: ProximaNova;
+  font-weight: bold;
+  src: url("fonts/ProximaNova/ProximaNovaBold.otf") format("opentype"); }
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url("fonts/ProximaNova/ProximaNovaThin.otf") format("opentype"); }
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url("fonts/ProximaNova/ProximaNovaLight.otf") format("opentype"); }
+@font-face {
+  font-family: PG Isadora Cyr Pro;
+  src: local("PG Isadora Cyr Pro"), url(fonts/Isadora/PGIsadoraCyrPro-Regular.ttf) format("truetype"), url(fonts/Isadora/PGIsadoraCyrPro-Regular.woff) format("woff"), url("fonts/Isadora/PGIsadoraCyrPro-Regular.svg#PG Isadora Cyr Pro") format("svg"); }
+@media (max-width: 767px) {
+  .sotbit_reviews_user_reviews #filter .filter {
+    float: none;
+    text-align: center; }
+  .sotbit_reviews_user_reviews #filter #select-rating, .sotbit_reviews_user_reviews #filter #select-sort, .sotbit_reviews_user_reviews #filter .checkbox-group {
+    margin: 0 auto;
+    clear: both; }
+  .sotbit_reviews_user_reviews #filter .filter-photo {
+    float: left; }
+  .sotbit_reviews_user_reviews #filter .checkbox-group {
+    width: 90px;
+    text-align: center; }
+  .sotbit_reviews_user_reviews #filter .filter-sort-text {
+    clear: both;
+    text-align: center; } }
+@media (min-width: 768px) {
+  .sotbit_reviews_user_reviews #filter .filter, .sotbit_reviews_user_reviews #filter .filter-photo {
+    margin-right: 25px;
+    float: left; }
+  .sotbit_reviews_user_reviews #filter .checkbox-group {
+    float: left; }
+  .sotbit_reviews_user_reviews #select-rating {
+    float: left;
+    margin-right: 25px; }
+  .sotbit_reviews_user_reviews .sort-group {
+    float: right;
+    margin-right: 25px; }
+  .sotbit_reviews_user_reviews #select-sort {
+    float: right; }
+  .sotbit_reviews_user_reviews .filter-sort-text {
+    float: left;
+    margin-right: 25px; } }
+.sotbit_reviews_user_reviews #filter {
+  display: block; }
+  .sotbit_reviews_user_reviews #filter .filter-sort-text {
+    line-height: 40px;
+    color: #000000;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .sotbit_reviews_user_reviews #filter #filter-images {
+    display: none; }
+    .sotbit_reviews_user_reviews #filter #filter-images ~ label > span {
+      border: 1px solid #e2e5e9;
+      display: inline-block;
+      height: 10px;
+      margin: 14px 7px 0 0;
+      position: relative;
+      width: 10px; }
+    .sotbit_reviews_user_reviews #filter #filter-images:checked ~ label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 8px;
+      line-height: 10px; }
+  .sotbit_reviews_user_reviews #filter .border {
+    border-bottom: 1px solid #e6e6e6;
+    min-height: 41px; }
+  .sotbit_reviews_user_reviews #filter .filter-photo {
+    color: #6c727d;
+    margin-right: 5px; }
+  .sotbit_reviews_user_reviews #filter #select-rating, .sotbit_reviews_user_reviews #filter #select-sort {
+    width: 170px;
+    text-align: left;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    height: 40px;
+    padding-top: 14px;
+    line-height: 14px; }
+  .sotbit_reviews_user_reviews #filter .select-rating-close, .sotbit_reviews_user_reviews #filter .select-sort-close {
+    color: #6c727d;
+    background: #ffffff; }
+  .sotbit_reviews_user_reviews #filter .select-rating-close .uni-stars {
+    color: #303030; }
+  .sotbit_reviews_user_reviews #filter .select-rating-open {
+    background: #303030;
+    color: #ffffff; }
+    .sotbit_reviews_user_reviews #filter .select-rating-open .uni-stars {
+      color: #ffffff; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-rating, .sotbit_reviews_user_reviews #filter #current-option-select-sort {
+    width: 100%;
+    cursor: pointer;
+    height: 26px;
+    padding-right: 10px;
+    padding-left: 10px; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-rating, .sotbit_reviews_user_reviews #filter #current-option-select-sort {
+    font-family: "ProximaNovaLight", Arial, sans-serif, FontAwesome; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-rating .stars-in {
+    margin-right: 10px; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-rating b {
+    height: 14px;
+    width: 20px;
+    float: right;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: 14px; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-sort b {
+    height: 14px;
+    width: 20px;
+    float: right;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: 14px; }
+  .sotbit_reviews_user_reviews #filter .select-rating-close b, .sotbit_reviews_user_reviews #filter .select-sort-close b {
+    background: #303030;
+    color: #fff; }
+  .sotbit_reviews_user_reviews #filter .select-rating-open b, .sotbit_reviews_user_reviews #filter .select-sort-open b {
+    background: #fff;
+    color: #303030; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-rating, .sotbit_reviews_user_reviews #filter #custom-options-select-sort {
+    display: none;
+    width: 215px;
+    padding: 0;
+    background: #ffffff;
+    position: absolute;
+    margin: 0;
+    z-index: 100; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-rating {
+    border: 1px solid #dbdbdb; }
+    .sotbit_reviews_user_reviews #filter #custom-options-select-rating li {
+      border-top: 1px solid #e2e5e9; }
+      .sotbit_reviews_user_reviews #filter #custom-options-select-rating li .uni-stars {
+        color: #303030; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-sort {
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-rating li, .sotbit_reviews_user_reviews #filter #custom-options-select-sort li {
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    padding: 0 10px; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-rating li:hover, .sotbit_reviews_user_reviews #filter #custom-options-select-sort li:hover {
+    cursor: pointer; }
+  .sotbit_reviews_user_reviews #filter #filter-images {
+    display: none; }
+    .sotbit_reviews_user_reviews #filter #filter-images ~ label > span {
+      border: 1px solid #e2e5e9;
+      display: inline-block;
+      height: 10px;
+      margin: 15px 7px 0 0;
+      position: relative;
+      width: 10px; }
+    .sotbit_reviews_user_reviews #filter #filter-images:checked ~ label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 8px;
+      line-height: 10px; }
+  .sotbit_reviews_user_reviews #filter .filter, .sotbit_reviews_user_reviews #filter .filter-photo {
+    font-family: "ProximaNova", Arial, sans-serif !important;
+    font-size: 14px;
+    line-height: 40px; }
+  .sotbit_reviews_user_reviews #filter .filter {
+    color: #000000; }
+  .sotbit_reviews_user_reviews #filter .filter-photo {
+    color: #6c727d !important;
+    margin-right: 5px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+
+/*# sourceMappingURL=userreviews_filter.css.map */

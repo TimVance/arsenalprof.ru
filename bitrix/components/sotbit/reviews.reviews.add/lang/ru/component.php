@@ -1,0 +1,42 @@
+<?
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_SPOILER_TITLE"] = "Написать отзыв";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_NO_AUTH"] = "Написание отзыва требует предварительной регистрации на сайте";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_USER_BAN_TITLE"] = "Извините, Вы не можете оставить отзыв, т.к внесены в черный список.";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_USER_BAN_REASON_TITLE"] = "Причина:";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_IF_BUY_NOT_TITLE"] = "Извините, Вы не можете оставить отзыв, т.к не покупали этот товар.";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_SUCCESS_TEXT"] = "Спасибо, Ваш отзыв отправлен.";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_SUBMIT_VALUE"] = "Отправить";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ADD_FIELD_TITLE_worth"]="Достоинства:";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ADD_FIELD_TITLE_limitations"]="Недостатки:";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_TITLE"]="Заголовок отзыва";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_TEXT"]="Ваш отзыв:";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_SORT_DATE"]="По дате";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_SORT_LIKES"]="По полезности";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_SORT_RATING"]="По рейтингу";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ERROR_IMAGE_MAX_SIZE"]="Размер фотографии не должен превышать";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ERROR_IMAGE_TYPE"]="Фотография должна быть в формате jpg или png";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ERROR_MAX_COUNT_IMAGES"]="Максимальное количество картинок";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_RECOMMENDATED"]="Вы бы порекомендовали  этот товар другу?";
+$MESS[CSotbitReviews::iModuleID."_AUTH_TITLE"]="У меня уже есть регистрация на ";
+$MESS[CSotbitReviews::iModuleID."_REGISTER_TITLE"]="Я новый пользователь";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ADD_TITLE"]="Написать отзыв";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ADD_RATING_TITLE1"]="Оценка";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ADD_RATING_TITLE2"]="Выберите то количество звёзд, которое отражает ваше общее удовлетворение товаром.";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_TITLE_EXAMPLE"]="Пример: “Самая лучшая покупка.”";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ADD_COUNT"]="Введено символов:";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_RECOMMENDATED_YES"]="Да";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_RECOMMENDATED_NO"]="Нет";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ADD_CANCEL"]="Отменить";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_ADD_IMAGES"]="Выберите изображения";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_TEXTAREA_RIGHT_TEXT1"]="Советы и рекомендации по составлению отзыва:";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_TEXTAREA_RIGHT_TEXT2"]="Сфокусируйтесь только на этом продукте. Расскажите покупателям Ваше мнение о продукте";
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_TEXTAREA_RIGHT_TEXT3"]='Свяжитесь с нами при наличии проблем, не касающихся специфики товара (доставка, гарантия, сервис)';
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_SPAM_ERROR"]='Ваш отзыв отмечен как сам';
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_VIDEO_ERROR"]='Не верная ссылка на видео';
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_PRESENTATION_ERROR"]='Не верная ссылка на презентацию';
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_VIDEO"]='Ссылка на видео (Youtube или Vimeo)';
+$MESS[CSotbitReviews::iModuleID."_REVIEWS_PRESENTATION"]='Ссылка на презентацию (Google Presentation или SlideShare)';
+
+$MESS[CSotbitReviews::iModuleID."_REPEAT"]='Вы уже оставляли отзыв к этому товару';
+$MESS[CSotbitReviews::iModuleID."_REPEAT_TIME"]='Вы уже оставляли отзыв к этому товару. Следующий отзыв можно оставить после ';
+?>

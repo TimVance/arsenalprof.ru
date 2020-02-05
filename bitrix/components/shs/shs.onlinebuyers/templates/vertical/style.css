@@ -1,0 +1,25 @@
+#shs-online-vertical{
+  width:200px;
+}
+#shs-online-vertical .with_tr_line{
+  text-align:center;
+}
+
+#shs-online-vertical .shs_online {
+    display: block;
+    font-size: 20px;
+    margin-top: 13px;
+    text-align: center;
+}
+#shs-online-vertical li{
+  list-style:none;
+  width:200px;
+  text-align:center;
+  margin-bottom:20px;
+}
+#shs-online-vertical li i{
+  display:block;
+}
+#shs-online-vertical .catalog-price{
+  font-weight:bold;
+}

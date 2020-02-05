@@ -11,7 +11,6 @@
             <excludedPath path="/www/arsenalprof.ru/_personal" />
             <excludedPath path="/www/arsenalprof.ru/b2b" />
             <excludedPath path="/www/arsenalprof.ru/b2bcabinet" />
-            <excludedPath path="/www/arsenalprof.ru/bitrix" />
             <excludedPath path="/www/arsenalprof.ru/components" />
             <excludedPath path="/www/arsenalprof.ru/upload" />
             <excludedPath path="/www/arsenalprof.ru/user_comments" />
@@ -37,7 +36,6 @@
             <excludedPath local="true" path="$PROJECT_DIR$/_personal" />
             <excludedPath local="true" path="$PROJECT_DIR$/b2b" />
             <excludedPath local="true" path="$PROJECT_DIR$/b2bcabinet" />
-            <excludedPath local="true" path="$PROJECT_DIR$/bitrix" />
             <excludedPath local="true" path="$PROJECT_DIR$/components" />
             <excludedPath local="true" path="$PROJECT_DIR$/upload" />
             <excludedPath local="true" path="$PROJECT_DIR$/user_comments" />
@@ -72,6 +70,35 @@
             <excludedPath path="/www/arsenalprof.ru/local/templates/sotbit_mailing_minimal" />
             <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix" />
             <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/site_files" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/activities" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/admin" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/backup" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/blocks" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/cache" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/catalog_export" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/css" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/fonts" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/gadgets" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/html_pages" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/image_uploader" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/images" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/js" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/managed_cache" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/modules" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/otp" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/panel" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/php_interface" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/services" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/sounds" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/stack_cache" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/template" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/templates" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/themes" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/tmp" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/tools" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/updates" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/wizards" />
+            <excludedPath path="/www/arsenalprof.ru/bitrix/components/bitrix" />
           </excludedPaths>
         </serverdata>
       </paths>

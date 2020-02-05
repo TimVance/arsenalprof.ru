@@ -1,0 +1,85 @@
+/*font*/
+/*color text*/
+/*color background*/
+/*color button background*/
+/*fonts size*/
+/*border*/
+/*align*/
+@font-face {
+  font-family: ProximaNova;
+  src: url(fonts/ProximaNova/ProximaNovaRegular.ttf) format("truetype"), url(fonts/ProximaNova/ProximaNovaRegular.woff) format("woff"), url("fonts/ProximaNova/ProximaNovaRegular.svg#ProximaNova") format("svg"), url("fonts/ProximaNova/ProximaNovaRegular.woff2") format("woff2"); }
+@font-face {
+  font-family: ProximaNova;
+  font-weight: bold;
+  src: url("fonts/ProximaNova/ProximaNovaBold.otf") format("opentype"); }
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url("fonts/ProximaNova/ProximaNovaThin.otf") format("opentype"); }
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url("fonts/ProximaNova/ProximaNovaLight.otf") format("opentype"); }
+@font-face {
+  font-family: PG Isadora Cyr Pro;
+  src: local("PG Isadora Cyr Pro"), url(fonts/Isadora/PGIsadoraCyrPro-Regular.ttf) format("truetype"), url(fonts/Isadora/PGIsadoraCyrPro-Regular.woff) format("woff"), url("fonts/Isadora/PGIsadoraCyrPro-Regular.svg#PG Isadora Cyr Pro") format("svg"); }
+#sotbit_reviews_share {
+  float: right; }
+  #sotbit_reviews_share .share {
+    font-size: 14px;
+    text-decoration: none;
+    color: #c1c4cb;
+    margin-right: 5px; }
+    #sotbit_reviews_share .share:hover {
+      color: #303030; }
+
+#reviews-sharelink-popup {
+  background: #fff;
+  position: fixed;
+  display: none;
+  opacity: 0;
+  z-index: 10000;
+  padding: 26px;
+  border-radius: 2px;
+  border: 1px solid #ebebeb; }
+
+#reviews-sharelink-overlay {
+  z-index: 9999;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=80);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none; }
+
+#sotbit_reviews_share .share-link-title {
+  display: none; }
+
+#reviews-sharelink-popup #modal_close {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 23px;
+  right: 21px;
+  cursor: pointer;
+  display: block;
+  color: #888888;
+  font-size: 20px; }
+#reviews-sharelink-popup .title {
+  font-size: 18px; }
+#reviews-sharelink-popup .text {
+  font-size: center; }
+
+@media (max-width: 768px) {
+  #sotbit_reviews_share {
+    float: none; }
+
+  #reviews-sharelink-popup .title {
+    font-size: center; }
+  #reviews-sharelink-popup .text {
+    font-size: 10px; } }
+
+/*# sourceMappingURL=reviews_share.css.map */

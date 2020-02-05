@@ -1,0 +1,83 @@
+
+#shs-online .shs_online {
+    display: block;
+    font-size: 20px;
+    margin-top: 13px;
+    text-align: center;
+}
+#shs-online .shs_carousel {
+    overflow: hidden;
+    padding: 35px 0 17px;
+    position: relative;
+}
+#shs-online .shs_carousel_in {
+  
+}
+#shs-online .shs_carousel_in ul {
+    position: absolute;
+    width: 20000em;
+}
+#shs-online .shs_carousel_in li {
+    float: left;
+    padding-right: 16px;
+    width: 180px;
+}
+#shs-online .shs_carousel_in li a {
+    font-size: 14px;
+    font-weight: bold;
+}
+#shs-online .shs_carousel_in li a i {
+    display: block;
+    height: 235px;
+    text-align: center;
+}
+#shs-online .shs_carousel_in li a i img {
+    vertical-align: top;
+}
+#shs-online .shs_carousel_in li span {
+    display: block;
+    font-size: 12px;
+}
+#shs-online .shs_carousel_in li p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 4px 0 7px;
+}
+#shs-online .shs_carousel_in li i {
+    color: #A0A0A0;
+    font-size: 12px;
+}
+#shs-online .shs_carousel_in .jcarousel-prev-horizontal, .shs_carousel_in .jcarousel-next-horizontal {
+}
+#shs-online .jcarousel-prev-horizontal {
+    background: url("images/arrow_left.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 37px;
+    left: 0;
+    margin-top: -18px;
+    position: absolute;
+    top: 50%;
+    width: 13px;
+    z-index: 2;
+}
+#shs-online .jcarousel-next-horizontal {
+    background: url("images/arrow_right.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 37px;
+    margin-top: -18px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 13px;
+    z-index: 2;
+}
+#shs-online .with_tr_line{
+  text-align:center;
+}
+#shs-online .jcarousel-item{
+  text-align:center;
+}
+#shs-online .catalog-price{
+  font-weight:bold;
+}
+

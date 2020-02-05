@@ -1,0 +1,59 @@
+Array
+(
+    [1] => Array
+        (
+            [ID] => 1
+            [ACTIVE] => Y
+            [DATE_CREATE] => 2017-09-07 11:43:44
+            [NAME] => test
+            [DESCRIPTION] => test
+            [SUNC_USER] => Y
+            [SUNC_USER_MESSAGE] => Y
+            [SUNC_USER_GROUP] => a:1:{i:0;s:1:"6";}
+            [SUNC_USER_EVENT] => 1
+            [SUNC_SUBSCRIPTION] => N
+            [SUNC_SUBSCRIPTION_LIST] => 
+            [SUNC_MAILCHIMP] => N
+            [SUNC_MAILCHIMP_BACK] => N
+            [SUNC_MAILCHIMP_LIST] => 
+            [SUNC_UNISENDER] => N
+            [SUNC_UNISENDER_BACK] => N
+            [SUNC_UNISENDER_LIST] => 
+            [PARAM_1] => 
+            [PARAM_2] => 
+            [PARAM_3] => 
+            [PARAM_INFO] => 
+            [USER_CONFIRM] => Y
+            [USER_EVENT_CONFIRM] => 1
+            [CONFIRM_ONLY] => N
+        )
+
+    [2] => Array
+        (
+            [ID] => 2
+            [ACTIVE] => Y
+            [DATE_CREATE] => 2017-09-07 18:16:32
+            [NAME] => order
+            [DESCRIPTION] => order
+            [SUNC_USER] => Y
+            [SUNC_USER_MESSAGE] => Y
+            [SUNC_USER_GROUP] => a:1:{i:0;s:1:"6";}
+            [SUNC_USER_EVENT] => 2
+            [SUNC_SUBSCRIPTION] => N
+            [SUNC_SUBSCRIPTION_LIST] => 
+            [SUNC_MAILCHIMP] => N
+            [SUNC_MAILCHIMP_BACK] => N
+            [SUNC_MAILCHIMP_LIST] => 
+            [SUNC_UNISENDER] => N
+            [SUNC_UNISENDER_BACK] => N
+            [SUNC_UNISENDER_LIST] => 
+            [PARAM_1] => 
+            [PARAM_2] => 
+            [PARAM_3] => 
+            [PARAM_INFO] => 
+            [USER_CONFIRM] => Y
+            [USER_EVENT_CONFIRM] => 1
+            [CONFIRM_ONLY] => Y
+        )
+
+)

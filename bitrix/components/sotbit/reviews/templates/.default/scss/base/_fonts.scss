@@ -1,0 +1,37 @@
+@font-face {
+  font-family: ProximaNova;
+  src:
+          url(fonts/ProximaNova/ProximaNovaRegular.ttf) format('truetype'),
+          url(fonts/ProximaNova/ProximaNovaRegular.woff) format('woff'),
+          url("fonts/ProximaNova/ProximaNovaRegular.svg#ProximaNova") format("svg"),
+          url('fonts/ProximaNova/ProximaNovaRegular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: ProximaNova;
+  font-weight: bold;
+  src:
+          url("fonts/ProximaNova/ProximaNovaBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: ProximaNovaThin;
+  src:
+          url("fonts/ProximaNova/ProximaNovaThin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: ProximaNovaLight;
+  src:
+          url("fonts/ProximaNova/ProximaNovaLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: PG Isadora Cyr Pro;
+  src:
+          local('PG Isadora Cyr Pro'),
+          url(fonts/Isadora/PGIsadoraCyrPro-Regular.ttf) format('truetype'),
+          url(fonts/Isadora/PGIsadoraCyrPro-Regular.woff) format('woff'),
+          url("fonts/Isadora/PGIsadoraCyrPro-Regular.svg#PG Isadora Cyr Pro")
+          format("svg");
+}

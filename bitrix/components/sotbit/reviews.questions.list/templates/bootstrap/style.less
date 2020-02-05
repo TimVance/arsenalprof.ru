@@ -1,0 +1,135 @@
+@main-font: "ProximaNovaLight", Arial, sans-serif;
+@black-color: #303030;
+@media (max-width: 767px) {
+	#questions-body {
+		.time , .user-info {
+			text-align: center;
+		}
+
+		.item .avatar {
+			position: relative;
+			left: 50%;
+			margin-left: -47px;
+			float: none;
+		}
+
+		.reply-block {
+			text-align: center;
+		}
+
+		.reply-text {
+			text-align: left;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	#questions-body {
+		margin-bottom: 80px;
+		.list {
+			padding-top: 50px;
+		}
+
+		.item {
+			margin-bottom: 60px;
+			border-bottom: 1px solid #e2e5e9;
+			padding-bottom: 60px;
+		}
+
+		.avatar {
+			float: left;
+			background: #ffffff;
+			width: 94px;
+			height: 94px;
+			display: flex;
+			display: -ms-flexbox;
+			-ms-flex-align: center;
+			text-align: center;
+			border: 1px solid #e6e6e6;
+			margin-right: 25px;
+		}
+
+		.avatar-inner {
+			margin: auto;
+		}
+
+		.user-info {
+			padding-left: 0;
+		}
+
+		.text {
+			padding-right: 0;
+		}
+
+		.username , .reply-header {
+			font-family: @main-font;
+			color: @black-color;
+			font-size: 14px;
+		}
+
+		.age , .country , .add-field-text , .reply-text , .recommendated {
+			font-family: "ProximaNova", Arial, sans-serif;
+			color: @black-color;
+			font-size: 14px;
+		}
+
+		.age span , .country span , .add-field-title , .likes-title , .likes .yescnt , .likes .nocnt {
+			color: #6c727d;
+			font-size: 14px;
+			font-family: @main-font;
+			padding-right: 10px;
+		}
+
+		.age span , .country span {
+			width: 75px;
+			display: inline-block;
+		}
+
+		.age .col-sm-8 , .country .col-sm-8 {
+			padding-left: 0;
+		}
+
+		img {
+			display: inline;
+		}
+
+		.time {
+			font-family: @main-font;
+			color: #6c727d;
+			font-size: 12px;
+		}
+
+		.text {
+			font-family: @main-font;
+			color: @black-color;
+			font-size: 14px;
+		}
+
+		.answer {
+			margin: 20px 0 0 0;
+			background: #f8f8f8;
+			padding: 15px 0;
+		}
+
+		.reply-header {
+			margin-bottom: 13px;
+			display: inline-block;
+			border-bottom: 1px solid #d8d8d8;
+		}
+
+		.username {
+			margin-bottom: 13px;
+			display: inline-block;
+			border-bottom: 1px solid #d8d8d8;
+		}
+
+		.age {
+			margin-bottom: 0px;
+		}
+
+		.time {
+			margin-bottom: 10px;
+		}
+	}
+}
+

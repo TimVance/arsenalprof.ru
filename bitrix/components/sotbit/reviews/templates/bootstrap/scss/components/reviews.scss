@@ -1,0 +1,57 @@
+.module_reviews {
+  .tabs-content {
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+  .tabs .tabs-caption {
+    border-bottom: $color_text_min_black;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin-right: 0px;
+      border-left: $color_text_min_black;
+      border-top: $color_text_min_black;
+      border-right: $color_text_min_black;
+      border-radius: 2px 2px 0 0;
+      padding: 0 15px;
+      height: 40px;
+      line-height: 40px;
+      color: #c2c6cb;
+      cursor: pointer;
+      width: 180px;
+      font-family: $font_Light;
+      i {
+        margin-right: 6px;
+      }
+      &:hover {
+        color: #a6aaaf;
+      }
+      &.active {
+        color: $color_text_min_black;
+        cursor: default;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .module_reviews .tabs {
+    ul.tabs-caption {
+      text-align: $text_align_main;
+    }
+    a.open_window {
+      float: none;
+    }
+    .modal-link {
+      text-align: $text_align_main;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .module_reviews .tabs a.open_window {
+    float: right;
+  }
+}

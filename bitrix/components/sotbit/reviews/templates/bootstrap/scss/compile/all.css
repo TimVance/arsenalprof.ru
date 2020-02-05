@@ -1,0 +1,4912 @@
+@charset "UTF-8";
+/*font*/
+/*color text*/
+/*color background*/
+/*color button background*/
+/*fonts size*/
+/*border*/
+/*align*/
+@font-face {
+  font-family: ProximaNova;
+  src: url(fonts/ProximaNova/ProximaNovaRegular.ttf) format("truetype"), url(fonts/ProximaNova/ProximaNovaRegular.woff) format("woff"), url("fonts/ProximaNova/ProximaNovaRegular.svg#ProximaNova") format("svg"), url("fonts/ProximaNova/ProximaNovaRegular.woff2") format("woff2"); }
+@font-face {
+  font-family: ProximaNova;
+  font-weight: bold;
+  src: url("fonts/ProximaNova/ProximaNovaBold.otf") format("opentype"); }
+@font-face {
+  font-family: ProximaNovaThin;
+  src: url("fonts/ProximaNova/ProximaNovaThin.otf") format("opentype"); }
+@font-face {
+  font-family: ProximaNovaLight;
+  src: url("fonts/ProximaNova/ProximaNovaLight.otf") format("opentype"); }
+@font-face {
+  font-family: PG Isadora Cyr Pro;
+  src: local("PG Isadora Cyr Pro"), url(fonts/Isadora/PGIsadoraCyrPro-Regular.ttf) format("truetype"), url(fonts/Isadora/PGIsadoraCyrPro-Regular.woff) format("woff"), url("fonts/Isadora/PGIsadoraCyrPro-Regular.svg#PG Isadora Cyr Pro") format("svg"); }
+div.bx-auth-reg input.bx-auth-input {
+  vertical-align: middle; }
+div.bx-auth-reg span.bx-auth-secure {
+  background-color: #FFFAE3;
+  border: 1px solid #DEDBC8;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: middle; }
+div.bx-auth-reg div.bx-auth-secure-icon {
+  background-image: url(images/sec.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 19px;
+  height: 18px; }
+div.bx-auth-reg div.bx-auth-secure-unlock {
+  background-image: url(images/sec-unlocked.png); }
+
+@media (max-width: 767px) {
+  #registration_anonymous input[type="submit"] {
+    margin: 0 auto;
+    display: block; }
+  #registration_anonymous .form-group {
+    margin: 0 auto 5px auto;
+    width: 230px;
+    display: block; } }
+@media (min-width: 768px) {
+  #registration_anonymous .captcha img {
+    display: inline-block;
+    margin-right: 10px;
+    width: 35%; }
+  #registration_anonymous .captcha input[type="text"] {
+    height: 42px;
+    width: 60%;
+    display: inline;
+    float: right; }
+  #registration_anonymous .form-group {
+    margin-bottom: 15px;
+    display: inline-block; } }
+#registration_anonymous {
+  text-align: left; }
+  #registration_anonymous p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 12px; }
+  #registration_anonymous input[type="text"], #registration_anonymous input[type="password"] {
+    width: 230px;
+    color: #303030;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    border: 1px solid #e2e5e9;
+    padding: 10px;
+    margin-right: 20px; }
+  #registration_anonymous .form-group p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #registration_anonymous .form-group a {
+    float: right;
+    color: #6c727d;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-weight: lighter; }
+  #registration_anonymous .checkbox {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 13px; }
+    #registration_anonymous .checkbox input[type="checkbox"] {
+      margin-right: 10px;
+      float: left; }
+    #registration_anonymous .checkbox label {
+      color: #303030;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      clear: both; }
+  #registration_anonymous input[type="submit"] {
+    background: #ffffff;
+    color: #767676;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 2px 2px 1px #dedede;
+    margin-top: 15px; }
+  #registration_anonymous .captcha {
+    background: #efeded;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    position: relative;
+    display: inline-block; }
+    #registration_anonymous .captcha .captcha-title {
+      color: #6c727d;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      margin-bottom: 10px; }
+    #registration_anonymous .captcha .captcha-title-2 {
+      color: #303030;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      font-weight: lighter; }
+    #registration_anonymous .captcha img {
+      display: inline-block;
+      margin-right: 10px;
+      width: 110px;
+      height: 40px; }
+    #registration_anonymous .captcha input[type="text"] {
+      height: 42px;
+      width: 230px;
+      display: inline;
+      float: none;
+      margin-right: 0; }
+
+.bx-auth-reg-anonymous .bx-auth-lbl {
+  color: #6c727d;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  font-size: 12px;
+  margin: 0 0 15px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden; }
+  .bx-auth-reg-anonymous .bx-auth-lbl .soc-text {
+    display: inline-block; }
+    .bx-auth-reg-anonymous .bx-auth-lbl .soc-text:before, .bx-auth-reg-anonymous .bx-auth-lbl .soc-text:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      border-top: 1px solid #e2e5e9;
+      margin-top: .6em; }
+    .bx-auth-reg-anonymous .bx-auth-lbl .soc-text:before {
+      margin-left: -102%; }
+    .bx-auth-reg-anonymous .bx-auth-lbl .soc-text:after {
+      margin-left: 2%; }
+
+#registration_anonymous p.anonym_registration_error {
+  color: #994d4d;
+  text-align: left; }
+#registration_anonymous .confidential-field {
+  margin-top: 0; }
+#registration_anonymous input[type="checkbox"] {
+  display: none; }
+#registration_anonymous .checkbox label > span {
+  border: 1px solid #b8b8b8;
+  display: inline-block;
+  height: 10px;
+  margin: 0 7px 0 0;
+  position: relative;
+  width: 10px; }
+  #registration_anonymous .checkbox label > span:after {
+    position: absolute;
+    content: "\f00c";
+    color: #303030;
+    font-family: FontAwesome;
+    font-size: 8px;
+    line-height: 8px;
+    display: none; }
+#registration_anonymous .checkbox label.checked > span:after {
+  display: block; }
+
+@media (min-width: 768px) {
+  .spoiler-comments-body .forms {
+    display: flex; }
+    .spoiler-comments-body .forms .form-auth {
+      flex-grow: 1;
+      background: #f8f8f8;
+      padding: 15px 20px 20px 20px;
+      margin: 0 10px 0 15px; }
+    .spoiler-comments-body .forms .form-reg {
+      flex-shrink: 1;
+      background: #f8f8f8;
+      padding: 15px 20px 20px 20px;
+      margin: 0 15px 0 10px; } }
+.add-comments {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .add-comments .feed-add-post-form-but-wrap {
+    border: none; }
+  .add-comments .feed-add-post {
+    border: 1px solid #f0f1f2; }
+  .add-comments #recaptcha-comment-0, .add-comments .captcha-block {
+    margin-top: 20px; }
+  .add-comments .spoiler-comments-body {
+    display: none;
+    padding-top: 40px; }
+    .add-comments .spoiler-comments-body .add-check-error {
+      text-align: left;
+      color: #994d4d;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif; }
+    .add-comments .spoiler-comments-body #auth_comment-check-error, .add-comments .spoiler-comments-body #registration_comment-check-error {
+      color: #994d4d;
+      text-align: left; }
+    .add-comments .spoiler-comments-body #add_comment {
+      text-align: left; }
+      .add-comments .spoiler-comments-body #add_comment p {
+        color: #6c727d;
+        font-size: 14px;
+        font-family: "ProximaNova", Arial, sans-serif; }
+        .add-comments .spoiler-comments-body #add_comment p.example {
+          color: #b0b3bb;
+          font-size: 14px;
+          font-family: "ProximaNova", Arial, sans-serif; }
+        .add-comments .spoiler-comments-body #add_comment p.count {
+          font-style: italic;
+          color: #c2c6cb;
+          font-size: 14px;
+          font-family: "ProximaNova", Arial, sans-serif;
+          margin-bottom: 20px; }
+      .add-comments .spoiler-comments-body #add_comment input[type="text"] {
+        border: 1px solid #e2e5e9;
+        height: 34px;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 5px;
+        font-family: "ProximaNovaLight", Arial, sans-serif;
+        color: #000000;
+        font-size: 13px; }
+      .add-comments .spoiler-comments-body #add_comment textarea {
+        border: 1px solid #e2e5e9;
+        width: 100%;
+        padding: 5px;
+        font-family: "ProximaNovaLight", Arial, sans-serif;
+        color: #000000;
+        font-size: 13px;
+        height: 190px; }
+      .add-comments .spoiler-comments-body #add_comment input[type="radio"] {
+        margin-right: 7px;
+        float: left; }
+      .add-comments .spoiler-comments-body #add_comment span.radio-label {
+        margin-right: 15px;
+        font-family: "ProximaNovaLight", Arial, sans-serif;
+        color: #000000;
+        font-size: 13px;
+        margin-right: 15px;
+        font-family: "ProximaNovaLight", Arial, sans-serif;
+        color: #000000;
+        font-size: 13px; }
+      .add-comments .spoiler-comments-body #add_comment .radio {
+        float: none;
+        line-height: 14px;
+        display: inline-block;
+        margin-bottom: 20px; }
+      .add-comments .spoiler-comments-body #add_comment input[type="submit"] {
+        background: #ffffff;
+        color: #767676;
+        font-size: 14px;
+        font-family: "ProximaNovaLight", Arial, sans-serif;
+        width: 170px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 5px;
+        border: 1px solid #c8c8c8;
+        box-shadow: 1px 2px 2px 1px #dedede;
+        margin-top: 20px; }
+      .add-comments .spoiler-comments-body #add_comment #reset-form {
+        border: 0;
+        color: #c2c6cb;
+        font-family: "ProximaNovaLight", Arial, sans-serif;
+        font-size: 14px;
+        text-decoration: underline;
+        margin-left: 15px;
+        background: #ffffff; }
+      .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-top-bar-btn, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-top-bar-select, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-fontsize-wrap {
+        /*display: none;*/ }
+      .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-bold, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-italic, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-underline, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-strike, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-remove-format, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-top-bar-color, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-ordered-list, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-unordered-list, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-align-left, .add-comments .spoiler-comments-body #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-quote {
+        display: inline-block; }
+      .add-comments .spoiler-comments-body #add_comment .bxhtmled-iframe-cnt {
+        overflow: hidden !important; }
+      .add-comments .spoiler-comments-body #add_comment .feed-add-post-text {
+        padding-left: 0;
+        padding-right: 0; }
+  .add-comments .spoiler {
+    border: 1px solid #7c7c7c;
+    box-shadow: 1px 2px 1px 1px #e2e2e2;
+    padding: 5px;
+    display: inline-block; }
+    .add-comments .spoiler .spoiler-input {
+      padding: 5px 15px;
+      color: #ffffff;
+      text-decoration: none;
+      font-family: "PG Isadora Cyr Pro", Arial, regular;
+      font-size: 18px;
+      min-height: 30px;
+      line-height: 20px;
+      cursor: pointer; }
+  .add-comments #comments-body .success {
+    color: green;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    margin-top: 10px; }
+
+.spoiler-comments-body .reason-title {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-align: center; }
+.spoiler-comments-body .reason-text {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: center; }
+.spoiler-comments-body .not-ban-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #994d4d;
+  text-align: center; }
+.spoiler-comments-body .not-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #994d4d;
+  margin-bottom: 8px; }
+
+div.bx-auth-reg input.bx-auth-input {
+  vertical-align: middle; }
+div.bx-auth-reg span.bx-auth-secure {
+  background-color: #FFFAE3;
+  border: 1px solid #DEDBC8;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: middle; }
+div.bx-auth-reg div.bx-auth-secure-icon {
+  background-image: url(images/sec.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 19px;
+  height: 18px; }
+div.bx-auth-reg div.bx-auth-secure-unlock {
+  background-image: url(images/sec-unlocked.png); }
+
+@media (max-width: 767px) {
+  #registration_comment input[type="submit"] {
+    margin: 0 auto;
+    display: block; }
+  #registration_comment .form-group {
+    margin: 0 auto 5px auto;
+    width: 230px;
+    display: block; } }
+@media (min-width: 768px) {
+  #registration_comment .captcha img {
+    display: inline-block;
+    margin-right: 10px;
+    width: 35%; }
+  #registration_comment .captcha input[type="text"] {
+    height: 42px;
+    width: 60%;
+    display: inline;
+    float: right; }
+  #registration_comment .form-group {
+    margin-bottom: 15px;
+    display: inline-block; } }
+#registration_comment {
+  text-align: left; }
+  #registration_comment p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 12px; }
+  #registration_comment input[type="text"], #registration_comment input[type="password"] {
+    width: 230px;
+    color: #303030;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    border: 1px solid #e2e5e9;
+    padding: 10px;
+    margin-right: 20px; }
+  #registration_comment .form-group p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #registration_comment .form-group a {
+    float: right;
+    color: #6c727d;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-weight: lighter; }
+  #registration_comment .checkbox {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 13px; }
+    #registration_comment .checkbox input[type="checkbox"] {
+      margin-right: 10px;
+      float: left; }
+    #registration_comment .checkbox label {
+      color: #303030;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      clear: both; }
+  #registration_comment input[type="submit"] {
+    background: #ffffff;
+    color: #767676;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 2px 2px 1px #dedede;
+    margin-top: 15px; }
+  #registration_comment .captcha {
+    background: #efeded;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    position: relative;
+    display: inline-block; }
+    #registration_comment .captcha .captcha-title {
+      color: #6c727d;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      margin-bottom: 10px; }
+    #registration_comment .captcha .captcha-title-2 {
+      color: #303030;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      font-weight: lighter; }
+    #registration_comment .captcha img {
+      display: inline-block;
+      margin-right: 10px;
+      width: 110px;
+      height: 40px; }
+    #registration_comment .captcha input[type="text"] {
+      height: 42px;
+      width: 230px;
+      display: inline;
+      float: none;
+      margin-right: 0; }
+  #registration_comment input[type="checkbox"] {
+    display: none; }
+  #registration_comment .checkbox label > span {
+    border: 1px solid #b8b8b8;
+    display: inline-block;
+    height: 10px;
+    margin: 0 7px 0 0;
+    position: relative;
+    width: 10px; }
+    #registration_comment .checkbox label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 8px;
+      line-height: 8px;
+      display: none; }
+  #registration_comment .checkbox label.checked > span:after {
+    display: block; }
+
+.item .add-comments {
+  margin: 0 0 5px 0; }
+  .item .add-comments .spoiler {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    float: right; }
+    .item .add-comments .spoiler .spoiler-input {
+      font-size: 15px;
+      font-family: "PG Isadora Cyr Pro", Arial, regular;
+      cursor: pointer;
+      display: inline-block;
+      background: none;
+      color: #c19292;
+      line-height: 15px;
+      border-bottom: 1px dotted #c19292;
+      padding: 0;
+      min-height: unset; }
+  .item .add-comments .no-right-padding {
+    padding-right: 0; }
+  .item .add-comments .wrap-quote {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    float: right;
+    margin-right: 15px; }
+    .item .add-comments .wrap-quote .quote {
+      font-size: 15px;
+      font-family: "PG Isadora Cyr Pro", Arial, regular;
+      cursor: pointer;
+      display: inline-block;
+      background: none;
+      color: #c19292;
+      line-height: 15px;
+      border-bottom: 1px dotted #c19292;
+      padding: 0;
+      min-height: unset; }
+
+.spoiler-comments-body .not-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #994d4d;
+  margin-bottom: 8px; }
+
+div.bx-auth-reg input.bx-auth-input {
+  vertical-align: middle; }
+div.bx-auth-reg span.bx-auth-secure {
+  background-color: #FFFAE3;
+  border: 1px solid #DEDBC8;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: middle; }
+div.bx-auth-reg div.bx-auth-secure-icon {
+  background-image: url(images/sec.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 19px;
+  height: 18px; }
+div.bx-auth-reg div.bx-auth-secure-unlock {
+  background-image: url(images/sec-unlocked.png); }
+
+@media (max-width: 767px) {
+  #registration_comment input[type="submit"] {
+    margin: 0 auto;
+    display: block; }
+  #registration_comment .form-group {
+    margin: 0 auto 5px auto;
+    width: 230px;
+    display: block; } }
+@media (min-width: 768px) {
+  #registration_comment .captcha img {
+    display: inline-block;
+    margin-right: 10px;
+    width: 35%; }
+  #registration_comment .captcha input[type="text"] {
+    height: 42px;
+    width: 60%;
+    display: inline;
+    float: right; }
+  #registration_comment .form-group {
+    margin-bottom: 15px;
+    display: inline-block; } }
+#registration_comment {
+  text-align: left; }
+  #registration_comment p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 12px; }
+  #registration_comment input[type="text"], #registration_comment input[type="password"] {
+    width: 230px;
+    color: #303030;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    border: 1px solid #e2e5e9;
+    padding: 10px;
+    margin-right: 20px; }
+  #registration_comment .form-group p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #registration_comment .form-group a {
+    float: right;
+    color: #6c727d;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-weight: lighter; }
+  #registration_comment .checkbox {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 13px; }
+    #registration_comment .checkbox input[type="checkbox"] {
+      margin-right: 10px;
+      float: left; }
+    #registration_comment .checkbox label {
+      color: #303030;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      clear: both; }
+  #registration_comment input[type="submit"] {
+    background: #ffffff;
+    color: #767676;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 2px 2px 1px #dedede;
+    margin-top: 15px; }
+  #registration_comment .captcha {
+    background: #efeded;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    position: relative;
+    display: inline-block; }
+    #registration_comment .captcha .captcha-title {
+      color: #6c727d;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      margin-bottom: 10px; }
+    #registration_comment .captcha .captcha-title-2 {
+      color: #303030;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      font-weight: lighter; }
+    #registration_comment .captcha img {
+      display: inline-block;
+      margin-right: 10px;
+      width: 110px;
+      height: 40px; }
+    #registration_comment .captcha input[type="text"] {
+      height: 42px;
+      width: 230px;
+      display: inline;
+      float: none;
+      margin-right: 0; }
+
+@media (max-width: 767px) {
+  #comments-body .time, #comments-body .user-info {
+    text-align: center; }
+  #comments-body .item .avatar {
+    position: relative;
+    left: 50%;
+    margin-left: -47px;
+    float: none; }
+  #comments-body .level-1 {
+    margin-left: 10px; }
+  #comments-body .level-2 {
+    margin-left: 20px; }
+  #comments-body .level-3 {
+    margin-left: 30px; }
+  #comments-body .level-4 {
+    margin-left: 40px; }
+  #comments-body .level-5 {
+    margin-left: 50px; }
+  #comments-body .level-6 {
+    margin-left: 60px; }
+  #comments-body .level-7 {
+    margin-left: 70px; }
+  #comments-body .level-8 {
+    margin-left: 80px; }
+  #comments-body .level-9 {
+    margin-left: 90px; } }
+@media (min-width: 768px) {
+  #comments-body .item .avatar {
+    float: left; }
+  #comments-body .user-info {
+    padding-left: 0; }
+  #comments-body .text .text {
+    padding-right: 0; }
+  #comments-body .level-1 {
+    margin-left: 30px; }
+  #comments-body .level-2 {
+    margin-left: 60px; }
+  #comments-body .level-3 {
+    margin-left: 90px; }
+  #comments-body .level-4 {
+    margin-left: 120px; }
+  #comments-body .level-5 {
+    margin-left: 150px; }
+  #comments-body .level-6 {
+    margin-left: 180px; }
+  #comments-body .level-7 {
+    margin-left: 210px; }
+  #comments-body .level-8 {
+    margin-left: 240px; }
+  #comments-body .level-9 {
+    margin-left: 270px; } }
+#comments-body {
+  margin-bottom: 80px; }
+  #comments-body #filter-pagination-comments {
+    float: right;
+    margin-bottom: 80px; }
+    #comments-body #filter-pagination-comments button {
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      font-size: 12px;
+      color: #6c727d;
+      background: #FFF;
+      border: none;
+      height: 25px;
+      line-height: 25px;
+      margin: 0 0 0 10px;
+      display: inline-block;
+      text-align: center;
+      width: 25px; }
+      #comments-body #filter-pagination-comments button.current {
+        color: #000000; }
+    #comments-body #filter-pagination-comments .right-arrows button, #comments-body #filter-pagination-comments .left-arrows button {
+      color: #000000; }
+    #comments-body #filter-pagination-comments .right-arrows button {
+      border: 1px solid #d5d9dd;
+      border-radius: 15px;
+      line-height: 22px;
+      padding-left: 8px; }
+    #comments-body #filter-pagination-comments .left-arrows {
+      float: left; }
+      #comments-body #filter-pagination-comments .left-arrows button {
+        border: 1px solid #d5d9dd;
+        border-radius: 15px;
+        line-height: 22px;
+        padding-left: 8px; }
+    #comments-body #filter-pagination-comments .right-arrows {
+      float: right; }
+  #comments-body .item {
+    padding: 30px 25px 0 25px; }
+    #comments-body .item .bottom-border {
+      border-bottom: 1px dashed #e2e5e9; }
+    #comments-body .item .avatar {
+      width: 94px;
+      height: 94px;
+      text-align: center;
+      display: flex;
+      display: -ms-flexbox;
+      -ms-flex-align: center;
+      border: 1px solid #e6e6e6;
+      margin-right: 25px;
+      background: #ffffff; }
+    #comments-body .item .avatar-inner {
+      margin: auto;
+      background: #ffffff; }
+    #comments-body .item .username, #comments-body .item .reply-header, #comments-body .item .age, #comments-body .item .country, #comments-body .item .add-field-text, #comments-body .item .reply-text, #comments-body .item .cnt_comments, #comments-body .item .likes .recommendated {
+      font-family: "ProximaNova", Arial, sans-serif;
+      color: #303030;
+      font-size: 14px; }
+    #comments-body .item .age span, #comments-body .item .country span, #comments-body .item .cnt_comments span, #comments-body .item .add-field-title, #comments-body .item .likes-title {
+      color: #6c727d;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif;
+      padding-right: 10px; }
+    #comments-body .item .likes .yescnt, #comments-body .item .likes .nocnt {
+      color: #6c727d;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif;
+      padding-right: 10px; }
+    #comments-body .item .age span, #comments-body .item .cnt_comments span, #comments-body .item .country span {
+      width: 110px;
+      display: inline-block; }
+    #comments-body .item .age .col-sm-8, #comments-body .item .country .col-sm-8 {
+      padding-left: 0; }
+    #comments-body .item img {
+      display: inline; }
+    #comments-body .item .time {
+      font-family: "ProximaNova", Arial, sans-serif;
+      color: #6c727d;
+      font-size: 12px; }
+    #comments-body .item .text {
+      font-family: "ProximaNova", Arial, sans-serif;
+      color: #303030;
+      font-size: 14px;
+      margin-bottom: 5px; }
+    #comments-body .item .username {
+      margin-bottom: 13px;
+      display: inline-block;
+      border-bottom: 1px solid #d8d8d8; }
+    #comments-body .item .age {
+      margin-bottom: 0px; }
+    #comments-body .item .time {
+      margin-bottom: 8px; }
+    #comments-body .item blockquote {
+      border: none !important;
+      background-color: #f2eccf;
+      padding: 8px 6px 8px 24px;
+      border-radius: 2px !important;
+      color: #303030 !important;
+      min-height: 1em !important;
+      margin: 0.6em 0 0.8em 0 !important; }
+  #comments-body .list {
+    margin-top: 50px; }
+    #comments-body .list .level-0 {
+      margin-left: 0px; }
+      #comments-body .list .level-0 .bottom-border {
+        border-bottom: 1px solid #e2e5e9; }
+    #comments-body .list .shopanswer {
+      background: #f8f8f8;
+      padding: 30px 25px;
+      margin-top: 30px;
+      margin-right: 10px; }
+      #comments-body .list .shopanswer .bottom-border {
+        border-bottom: none; }
+      #comments-body .list .shopanswer .username {
+        color: #946363;
+        border-bottom: 0;
+        text-decoration: none; }
+      #comments-body .list .shopanswer .text {
+        color: #af7676;
+        font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #comments-body .dnone {
+    display: none; }
+  #comments-body .item .menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    /*display:none;*/ }
+    #comments-body .item .menu .message {
+      padding: 8px 8px 5px 8px;
+      position: absolute;
+      opacity: 0;
+      top: 25px;
+      background: #ffffff;
+      z-index: 0;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif; }
+    #comments-body .item .menu .message-success {
+      border: 1px solid green;
+      color: green;
+      box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25); }
+    #comments-body .item .menu .message-error {
+      border: 1px solid #e64343;
+      color: #e64343;
+      box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25); }
+  #comments-body .item:hover .menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block; }
+  #comments-body .item .menu ul {
+    margin: 0 15px 0 0;
+    list-style: none;
+    border: 1px solid #e2e5e9;
+    display: none; }
+  #comments-body .item .menu .actions {
+    cursor: pointer;
+    font-size: 14px;
+    color: #cfd3da;
+    display: block;
+    z-index: 9999;
+    float: right;
+    margin-top: 0px; }
+  #comments-body .item .menu:hover .actions {
+    color: #303030; }
+  #comments-body .item .menu .actions::before {
+    font-size: 80%; }
+  #comments-body .item .menu.open ul {
+    display: block;
+    width: 180px;
+    z-index: 9999;
+    margin-top: 15px; }
+  #comments-body .item .menu ul li {
+    padding: 8px 12px 5px 12px;
+    border-bottom: 1px solid #e2e5e9;
+    z-index: 0;
+    cursor: pointer;
+    position: relative;
+    background: #f9f9f9;
+    font-size: 12px;
+    color: #6c727d;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+    #comments-body .item .menu ul li:hover {
+      color: #303030; }
+    #comments-body .item .menu ul li:last-child {
+      border-bottom: none; }
+  #comments-body .item .cnt_comments a {
+    display: inline-block; }
+  #comments-body .share {
+    padding-right: 0; }
+
+.sotbit_comments_personal_comments table {
+  width: 100%;
+  border-collapse: collapse; }
+.sotbit_comments_personal_comments tr:nth-of-type(odd) {
+  background: #f8f8f8; }
+.sotbit_comments_personal_comments th {
+  background: #dbbfb9;
+  color: white; }
+
+/* Zebra striping */
+.sotbit_comments_personal_commentstd, .sotbit_comments_personal_comments th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left; }
+
+#modal-comments-popup {
+  background: #fff;
+  position: absolute;
+  /* ╤ç╤éo╨▒╤ï o╨║╨╜o ╨▒╤ï╨╗o ╨▓ ╨▓╨╕╨┤╨╕╨╝o╨╣ ╨╖o╨╜╨╡ ╨▓ ╨╗╤Ä╨▒o╨╝ ╨╝╨╡╤ü╤é╨╡ */
+  display: none;
+  /* ╨▓ o╨▒╤ï╤ç╨╜o╨╝ ╤üo╤ü╤éo╤Å╨╜╨╕╨╕ o╨║╨╜a ╨╜╨╡ ╨┤o╨╗╨╢╨╜o ╨▒╤ï╤é╤î */
+  opacity: 0;
+  /* ╨┐o╨╗╨╜o╤ü╤é╤î╤Ä ╨┐╤Ço╨╖╤Ça╤ç╨╜o ╨┤╨╗╤Å a╨╜╨╕╨╝╨╕╤Ço╨▓a╨╜╨╕╤Å */
+  z-index: 9999;
+  /* o╨║╨╜o ╨┤o╨╗╨╢╨╜o ╨▒╤ï╤é╤î ╨╜a╨╕╨▒o╨╗╨╡╨╡ ╨▒o╨╗╤î╤ê╨╡╨╝ ╤ü╨╗o╨╡ */
+  padding: 26px;
+  border-radius: 2px;
+  border: 1px solid #ebebeb;
+  width: 50%; }
+  #modal-comments-popup #modal_close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 23px;
+    right: 21px;
+    cursor: pointer;
+    display: block;
+    color: #888888;
+    font-size: 20px; }
+  #modal-comments-popup .title-video {
+    margin-top: 20px; }
+
+#comments-personal-overlay {
+  z-index: 999;
+  /* ╨┐o╨┤╨╗o╨╢╨║a ╨┤o╨╗╨╢╨╜a ╨▒╤ï╤é╤î ╨▓╤ï╤ê╨╡ ╤ü╨╗o╨╡╨▓ ╤ì╨╗╨╡╨╝╨╡╨╜╤éo╨▓ ╤üa╨╣╤éa, ╨╜o ╨╜╨╕╨╢╨╡ ╤ü╨╗o╤Å ╨╝o╨┤a╨╗╤î╨╜o╨│o o╨║╨╜a */
+  position: fixed;
+  /* ╨▓╤ü╨╡╨│╨┤a ╨┐╨╡╤Ç╨╡╨║╤Ç╤ï╨▓a╨╡╤é ╨▓╨╡╤ü╤î ╤üa╨╣╤é */
+  background-color: #000;
+  opacity: 0.8;
+  /* ╨╜o ╨╜╨╡╨╝╨╜o╨│o ╨┐╤Ço╨╖╤Ça╤ç╨╜a */
+  -moz-opacity: 0.8;
+  /* ╤ä╨╕╨║╤ü ╨┐╤Ç╨╛╨╖╤Ç╨░╤ç╨╜╨╛╤ü╤é╨╕ ╨┤╨╗╤Å ╤ü╤é╨░╤Ç╤ï╤à ╨▒╤Ç╨░╤â╨╖╨╡╤Ç╨╛╨▓ */
+  filter: alpha(opacity=80);
+  width: 100%;
+  height: 100%;
+  /* ╤Ça╨╖╨╝╨╡╤Ço╨╝ ╨▓o ╨▓╨╡╤ü╤î ╤ì╨║╤Ça╨╜ */
+  top: 0;
+  /* ╤ü╨▓╨╡╤Ç╤à╤â ╨╕ ╤ü╨╗╨╡╨▓a 0, o╨▒╤Å╨╖a╤é╨╡╨╗╤î╨╜╤ï╨╡ ╤ü╨▓o╨╣╤ü╤é╨▓a! */
+  left: 0;
+  cursor: pointer;
+  display: none;
+  /* ╨▓ o╨▒╤ï╤ç╨╜o╨╝ ╤üo╤ü╤éo╤Å╨╜╨╕╨╕ ╨╡╤æ ╨╜╨╡╤é) */ }
+
+.sotbit_comments_personal_comments .spoiler-input {
+  margin-top: 10px;
+  padding: 0 6px;
+  color: #383838;
+  text-decoration: none;
+  font-family: Ubuntu, Arial, sans-serif;
+  font-size: 14px;
+  min-height: 26px;
+  line-height: 26px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  background: #fafafa;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fafafa 0%, #f1f1f1 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fafafa 0%, #f1f1f1 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fafafa 0%, #f1f1f1 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#f1f1f1',GradientType=0 );
+  /* IE6-9 */
+  text-transform: uppercase;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3); }
+  .sotbit_comments_personal_comments .spoiler-input:hover {
+    background: #fafafa;
+    transition: none; }
+
+.auth-error {
+  font-size: 18px;
+  color: #994d4d;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 20px; }
+
+#auth-title, #register-title {
+  color: #000000;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left; }
+
+#auth_review-check-error, #registration_review-check-error {
+  color: #994d4d;
+  text-align: left; }
+
+.sotbit_comments_personal_comments .success {
+  color: green;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-top: 10px; }
+
+#add_comment .captcha-block {
+  margin-top: 30px; }
+#add_comment input[type='file'] {
+  width: 14px;
+  height: 14px;
+  opacity: 0; }
+#add_comment .textbox-group-review {
+  position: relative; }
+#add_comment .comment-editor {
+  display: block; }
+#add_comment #add-photo-button {
+  display: block;
+  height: 22px;
+  color: #767676;
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: underline;
+  cursor: pointer; }
+#add_comment ul#preview-photo {
+  margin: 0; }
+  #add_comment ul#preview-photo li {
+    list-style: none;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 30px; }
+    #add_comment ul#preview-photo li span.delete {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: #F00;
+      font-size: 20px;
+      cursor: pointer; }
+
+.comments-popup .add-check-error {
+  text-align: left;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif; }
+.comments-popup .not-buy-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif; }
+.comments-popup .comment-add-title, .comments-popup .comment-mark-title {
+  font-size: 15px;
+  font-family: Ubuntu, Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 10px; }
+.comments-popup .comment-add-rating-title1 {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 5px; }
+.comments-popup .comment-add-rating-title2 {
+  color: #b0b3bb;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 10px; }
+
+#add_comment {
+  text-align: left; }
+  #add_comment p.title {
+    margin-bottom: 5px; }
+  #add_comment p.title-example {
+    color: #b0b3bb;
+    margin-bottom: 5px; }
+  #add_comment p.text, #add_comment p.add-field-title {
+    margin-bottom: 5px; }
+  #add_comment p.example {
+    color: #b0b3bb;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+  #add_comment input[type="text"] {
+    border: 1px solid #e2e5e9;
+    height: 34px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 13px; }
+  #add_comment textarea {
+    outline: none;
+    border-bottom: 1px solid #b3b3b3;
+    border-top: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    padding: 0;
+    font-family: "Ubuntu", Arial, sans-serif;
+    color: #888888;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 30px;
+    height: 32px;
+    min-height: 32px;
+    background: #ffffff;
+    overflow: hidden;
+    -webkit-appearance: none; }
+  #add_comment .hiddendiv {
+    visibility: hidden;
+    position: absolute;
+    white-space: pre-wrap;
+    font-family: "Ubuntu", Arial, sans-serif;
+    font-size: 17px;
+    padding: 5px;
+    word-wrap: break-word;
+    min-height: 30px;
+    line-height: 30px; }
+  #add_comment .add-field {
+    margin-bottom: 16px;
+    display: block; }
+  #add_comment #recommendated {
+    display: none; }
+    #add_comment #recommendated ~ label > span {
+      border: 1px solid #b3b3b3;
+      display: inline-block;
+      height: 14px;
+      border-radius: 1px;
+      position: relative;
+      width: 14px;
+      top: 3px; }
+    #add_comment #recommendated:checked ~ label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 14px;
+      line-height: 14px; }
+  #add_comment input[type="radio"] {
+    margin-right: 7px;
+    float: left; }
+  #add_comment span.radio-label {
+    margin-right: 15px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 13px; }
+  #add_comment .radio {
+    float: none;
+    line-height: 14px;
+    display: inline-block;
+    margin-bottom: 15px; }
+  #add_comment #reset-form:hover {
+    color: #ffffff;
+    background: #6c8191; }
+  #add_comment .feed-add-post {
+    border: 1px solid #f0f1f2; }
+  #add_comment .textarea-right-text {
+    /*margin-left: 30px;
+    width: 225px;
+    float: left;*/ }
+    #add_comment .textarea-right-text p {
+      color: #6c727d;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif;
+      margin-bottom: 10px; }
+    #add_comment .textarea-right-text ul {
+      margin-left: 13px; }
+      #add_comment .textarea-right-text ul li {
+        color: #6c727d;
+        font-size: 12px;
+        font-family: "ProximaNova", Arial, sans-serif; }
+        #add_comment .textarea-right-text ul li span {
+          color: #994d4d; }
+
+.rating_selection {
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 15px; }
+  .rating_selection input[type='radio'], .rating_selection span {
+    display: none; }
+  .rating_selection label {
+    cursor: pointer; }
+
+#add_comment #add-photo-button .fa-plus {
+  margin-right: 10px; }
+#add_comment .bxhtmled-top-bar-wrap .bxhtmled-top-bar-btn, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-top-bar-select, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-fontsize-wrap {
+  display: none; }
+#add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-bold, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-italic, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-underline, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-strike, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-remove-format, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-top-bar-color, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-ordered-list, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-unordered-list, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-align-left, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-quote {
+  display: inline-block; }
+#add_comment .bxhtmled-iframe-cnt {
+  overflow: hidden !important; }
+#add_comment .feed-add-post-text {
+  padding-left: 0;
+  padding-right: 0; }
+
+.comments-popup .reason-title {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 16px;
+  margin-bottom: 0px; }
+.comments-popup .reason-text {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px;
+  margin-bottom: 8px; }
+.comments-popup .not-ban-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #994d4d; }
+.comments-popup .comment-element {
+  color: #383838;
+  text-align: left;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 25px;
+  margin-bottom: 35px; }
+
+.sotbit_comments_personal_comments .success-delete, .sotbit_comments_personal_comments .success-edit {
+  color: #44bb44;
+  display: none; }
+.sotbit_comments_personal_comments th, .sotbit_comments_personal_comments td {
+  border: 1px solid #e2e5e9;
+  padding: 5px; }
+.sotbit_comments_personal_comments th {
+  font-family: "ProximaNova", Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  font-weight: normal; }
+.sotbit_comments_personal_comments .date {
+  font-family: "ProximaNova", Arial, sans-serif;
+  font-size: 12px;
+  color: #303030;
+  vertical-align: middle;
+  width: 110px; }
+.sotbit_comments_personal_comments .comment {
+  vertical-align: top; }
+  .sotbit_comments_personal_comments .comment a {
+    font-size: 16px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    display: block;
+    margin-bottom: 5px; }
+  .sotbit_comments_personal_comments .comment .title {
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px; }
+  .sotbit_comments_personal_comments .comment .text {
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+.sotbit_comments_personal_comments .rating .stars {
+  display: flex;
+  justify-content: center; }
+  .sotbit_comments_personal_comments .rating .stars .star {
+    font-size: 10px; }
+  .sotbit_comments_personal_comments .rating .stars .empty {
+    display: none;
+    display: none; }
+.sotbit_comments_personal_comments .status {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 12px; }
+.sotbit_comments_personal_comments .status-3 {
+  color: #44bb44; }
+.sotbit_comments_personal_comments .status-2 {
+  color: #ff0000; }
+.sotbit_comments_personal_comments .status-1 {
+  color: #aaaa00; }
+.sotbit_comments_personal_comments .options .wrap-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .sotbit_comments_personal_comments .options .wrap-options .personal-edit, .sotbit_comments_personal_comments .options .wrap-options .personal-delete {
+    cursor: pointer; }
+.sotbit_comments_personal_comments .shows, .sotbit_comments_personal_comments .bill, .sotbit_comments_personal_comments .likes, .sotbit_comments_personal_comments .dislikes {
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: center; }
+
+#add_comment .rating_selection label {
+  background: #ffffff;
+  font-size: 14px;
+  border: 1px solid #e2e5e9;
+  display: inline-block;
+  height: 33px;
+  width: 33px;
+  line-height: 33px;
+  text-align: center; }
+
+.rating_selection {
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 15px; }
+  .rating_selection input[type='radio'], .rating_selection span {
+    display: none; }
+  .rating_selection label {
+    cursor: pointer; }
+    .rating_selection label:before {
+      display: inline-block;
+      content: "\F005";
+      font-size: 14px;
+      color: #231f20;
+      font-family: "FontAwesome"; }
+  .rating_selection input:checked + label ~ label:before {
+    color: #cfd3da; }
+  .rating_selection:hover label[for]:before {
+    color: #231f20; }
+  .rating_selection:hover label:hover ~ label:before {
+    color: #cfd3da; }
+
+#add_comment .add-photo {
+  position: relative;
+  width: 100%; }
+#add_comment p {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 0; }
+#add_comment .bxhtmled-top-bar-wrap .bxhtmled-top-bar-btn, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-top-bar-select, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-fontsize-wrap {
+  display: none; }
+#add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-bold, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-italic, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-underline, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-strike, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-remove-format, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-top-bar-color, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-ordered-list, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-unordered-list, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-align-left, #add_comment .bxhtmled-top-bar-wrap .bxhtmled-button-quote {
+  display: inline-block; }
+#add_comment .bxhtmled-iframe-cnt {
+  overflow: hidden !important; }
+#add_comment .feed-add-post-text {
+  padding-left: 0;
+  padding-right: 0; }
+#add_comment input[type="submit"] {
+  color: #767676;
+  font-size: 14px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  width: 170px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #c8c8c8;
+  box-shadow: 1px 2px 2px 1px #dedede;
+  margin-top: 30px;
+  background: #ffffff; }
+
+.sotbit_comments_personal_comments .table-personal-comments th {
+  cursor: pointer; }
+
+#add_comment #contentbox {
+  width: 100%; }
+#add_comment textarea {
+  border: 1px solid #e2e5e9;
+  padding: 5px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #000000;
+  font-weight: lighter;
+  font-size: 13px;
+  height: 190px;
+  width: 100%;
+  margin-bottom: 10px; }
+#add_comment p.count {
+  font-style: italic;
+  color: #c2c6cb;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 5px; }
+
+.sotbit_comments_personal_comments .options, .sotbit_comments_personal_comments .shows, .sotbit_comments_personal_comments .bill, .sotbit_comments_personal_comments .likes, .sotbit_comments_personal_comments .dislikes {
+  width: 60px; }
+.sotbit_comments_personal_comments .align-center {
+  text-align: center; }
+.sotbit_comments_personal_comments .answer {
+  border: 1px solid #eee;
+  padding: 5px;
+  background: #eee;
+  margin-top: 5px; }
+  .sotbit_comments_personal_comments .answer .answer-name {
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    color: #a76e6e; }
+  .sotbit_comments_personal_comments .answer .answer-text {
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+
+#modal-comments-popup .error {
+  color: #ff0000;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 10px;
+  display: none; }
+
+@media (max-width: 768px) {
+  .sotbit_comments_personal_comments {
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 1em; }
+    .sotbit_comments_personal_comments::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 14px;
+      height: 14px; }
+    .sotbit_comments_personal_comments::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 3px solid #fff;
+      background-color: rgba(0, 0, 0, 0.3); }
+
+  #modal-comments-popup {
+    width: 90%; } }
+.sotbit_questions_personal_questions table {
+  width: 100%;
+  border-collapse: collapse; }
+.sotbit_questions_personal_questions tr:nth-of-type(odd) {
+  background: #f8f8f8; }
+.sotbit_questions_personal_questions th {
+  background: #dbbfb9;
+  color: white; }
+
+/* Zebra striping */
+.sotbit_questions_personal_questionstd, .sotbit_questions_personal_questions th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left; }
+
+#modal-questions-popup {
+  background: #fff;
+  position: absolute;
+  /* ╤ç╤éo╨▒╤ï o╨║╨╜o ╨▒╤ï╨╗o ╨▓ ╨▓╨╕╨┤╨╕╨╝o╨╣ ╨╖o╨╜╨╡ ╨▓ ╨╗╤Ä╨▒o╨╝ ╨╝╨╡╤ü╤é╨╡ */
+  display: none;
+  /* ╨▓ o╨▒╤ï╤ç╨╜o╨╝ ╤üo╤ü╤éo╤Å╨╜╨╕╨╕ o╨║╨╜a ╨╜╨╡ ╨┤o╨╗╨╢╨╜o ╨▒╤ï╤é╤î */
+  opacity: 0;
+  /* ╨┐o╨╗╨╜o╤ü╤é╤î╤Ä ╨┐╤Ço╨╖╤Ça╤ç╨╜o ╨┤╨╗╤Å a╨╜╨╕╨╝╨╕╤Ço╨▓a╨╜╨╕╤Å */
+  z-index: 9999;
+  /* o╨║╨╜o ╨┤o╨╗╨╢╨╜o ╨▒╤ï╤é╤î ╨╜a╨╕╨▒o╨╗╨╡╨╡ ╨▒o╨╗╤î╤ê╨╡╨╝ ╤ü╨╗o╨╡ */
+  padding: 26px;
+  border-radius: 2px;
+  border: 1px solid #ebebeb;
+  width: 50%; }
+  #modal-questions-popup #modal_close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 23px;
+    right: 21px;
+    cursor: pointer;
+    display: block;
+    color: #888888;
+    font-size: 20px; }
+  #modal-questions-popup .title-video {
+    margin-top: 20px; }
+
+#questions-personal-overlay {
+  z-index: 999;
+  /* ╨┐o╨┤╨╗o╨╢╨║a ╨┤o╨╗╨╢╨╜a ╨▒╤ï╤é╤î ╨▓╤ï╤ê╨╡ ╤ü╨╗o╨╡╨▓ ╤ì╨╗╨╡╨╝╨╡╨╜╤éo╨▓ ╤üa╨╣╤éa, ╨╜o ╨╜╨╕╨╢╨╡ ╤ü╨╗o╤Å ╨╝o╨┤a╨╗╤î╨╜o╨│o o╨║╨╜a */
+  position: fixed;
+  /* ╨▓╤ü╨╡╨│╨┤a ╨┐╨╡╤Ç╨╡╨║╤Ç╤ï╨▓a╨╡╤é ╨▓╨╡╤ü╤î ╤üa╨╣╤é */
+  background-color: #000;
+  opacity: 0.8;
+  /* ╨╜o ╨╜╨╡╨╝╨╜o╨│o ╨┐╤Ço╨╖╤Ça╤ç╨╜a */
+  -moz-opacity: 0.8;
+  /* ╤ä╨╕╨║╤ü ╨┐╤Ç╨╛╨╖╤Ç╨░╤ç╨╜╨╛╤ü╤é╨╕ ╨┤╨╗╤Å ╤ü╤é╨░╤Ç╤ï╤à ╨▒╤Ç╨░╤â╨╖╨╡╤Ç╨╛╨▓ */
+  filter: alpha(opacity=80);
+  width: 100%;
+  height: 100%;
+  /* ╤Ça╨╖╨╝╨╡╤Ço╨╝ ╨▓o ╨▓╨╡╤ü╤î ╤ì╨║╤Ça╨╜ */
+  top: 0;
+  /* ╤ü╨▓╨╡╤Ç╤à╤â ╨╕ ╤ü╨╗╨╡╨▓a 0, o╨▒╤Å╨╖a╤é╨╡╨╗╤î╨╜╤ï╨╡ ╤ü╨▓o╨╣╤ü╤é╨▓a! */
+  left: 0;
+  cursor: pointer;
+  display: none;
+  /* ╨▓ o╨▒╤ï╤ç╨╜o╨╝ ╤üo╤ü╤éo╤Å╨╜╨╕╨╕ ╨╡╤æ ╨╜╨╡╤é) */ }
+
+.sotbit_questions_personal_questions .spoiler-input {
+  margin-top: 10px;
+  padding: 0 6px;
+  color: #383838;
+  text-decoration: none;
+  font-family: Ubuntu, Arial, sans-serif;
+  font-size: 14px;
+  min-height: 26px;
+  line-height: 26px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  background: #fafafa;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fafafa 0%, #f1f1f1 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fafafa 0%, #f1f1f1 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fafafa 0%, #f1f1f1 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#f1f1f1',GradientType=0 );
+  /* IE6-9 */
+  text-transform: uppercase;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3); }
+  .sotbit_questions_personal_questions .spoiler-input:hover {
+    background: #fafafa;
+    transition: none; }
+
+.auth-error {
+  font-size: 18px;
+  color: #994d4d;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 20px; }
+
+#auth-title, #register-title {
+  color: #000000;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left; }
+
+#auth_review-check-error, #registration_review-check-error {
+  color: #994d4d;
+  text-align: left; }
+
+.sotbit_questions_personal_questions .success {
+  color: green;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-top: 10px; }
+
+#add_question .captcha-block {
+  margin-top: 30px; }
+#add_question input[type='file'] {
+  width: 14px;
+  height: 14px;
+  opacity: 0; }
+#add_question .textbox-group-review {
+  position: relative; }
+#add_question .question-editor {
+  display: block; }
+#add_question #add-photo-button {
+  display: block;
+  height: 22px;
+  color: #767676;
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: underline;
+  cursor: pointer; }
+#add_question ul#preview-photo {
+  margin: 0; }
+  #add_question ul#preview-photo li {
+    list-style: none;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 30px; }
+    #add_question ul#preview-photo li span.delete {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: #F00;
+      font-size: 20px;
+      cursor: pointer; }
+
+.questions-popup .add-check-error {
+  text-align: left;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif; }
+.questions-popup .not-buy-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif; }
+.questions-popup .question-add-title, .questions-popup .question-mark-title {
+  font-size: 15px;
+  font-family: Ubuntu, Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 10px; }
+.questions-popup .question-add-rating-title1 {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 5px; }
+.questions-popup .question-add-rating-title2 {
+  color: #b0b3bb;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 10px; }
+
+#add_question {
+  text-align: left; }
+  #add_question p.title {
+    margin-bottom: 5px; }
+  #add_question p.title-example {
+    color: #b0b3bb;
+    margin-bottom: 5px; }
+  #add_question p.text, #add_question p.add-field-title {
+    margin-bottom: 5px; }
+  #add_question p.example {
+    color: #b0b3bb;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+  #add_question input[type="text"] {
+    border: 1px solid #e2e5e9;
+    height: 34px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 13px; }
+  #add_question textarea {
+    outline: none;
+    border-bottom: 1px solid #b3b3b3;
+    border-top: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    padding: 0;
+    font-family: "Ubuntu", Arial, sans-serif;
+    color: #888888;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 30px;
+    height: 32px;
+    min-height: 32px;
+    background: #ffffff;
+    overflow: hidden;
+    -webkit-appearance: none; }
+  #add_question .hiddendiv {
+    visibility: hidden;
+    position: absolute;
+    white-space: pre-wrap;
+    font-family: "Ubuntu", Arial, sans-serif;
+    font-size: 17px;
+    padding: 5px;
+    word-wrap: break-word;
+    min-height: 30px;
+    line-height: 30px; }
+  #add_question .add-field {
+    margin-bottom: 16px;
+    display: block; }
+  #add_question #recommendated {
+    display: none; }
+    #add_question #recommendated ~ label > span {
+      border: 1px solid #b3b3b3;
+      display: inline-block;
+      height: 14px;
+      border-radius: 1px;
+      position: relative;
+      width: 14px;
+      top: 3px; }
+    #add_question #recommendated:checked ~ label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 14px;
+      line-height: 14px; }
+  #add_question input[type="radio"] {
+    margin-right: 7px;
+    float: left; }
+  #add_question span.radio-label {
+    margin-right: 15px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 13px; }
+  #add_question .radio {
+    float: none;
+    line-height: 14px;
+    display: inline-block;
+    margin-bottom: 15px; }
+  #add_question #reset-form:hover {
+    color: #ffffff;
+    background: #6c8191; }
+  #add_question .feed-add-post {
+    border: 1px solid #f0f1f2; }
+  #add_question .textarea-right-text {
+    /*margin-left: 30px;
+    width: 225px;
+    float: left;*/ }
+    #add_question .textarea-right-text p {
+      color: #6c727d;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif;
+      margin-bottom: 10px; }
+    #add_question .textarea-right-text ul {
+      margin-left: 13px; }
+      #add_question .textarea-right-text ul li {
+        color: #6c727d;
+        font-size: 12px;
+        font-family: "ProximaNova", Arial, sans-serif; }
+        #add_question .textarea-right-text ul li span {
+          color: #994d4d; }
+
+.rating_selection {
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 15px; }
+  .rating_selection input[type='radio'], .rating_selection span {
+    display: none; }
+  .rating_selection label {
+    cursor: pointer; }
+
+#add_question #add-photo-button .fa-plus {
+  margin-right: 10px; }
+#add_question .bxhtmled-top-bar-wrap .bxhtmled-top-bar-btn, #add_question .bxhtmled-top-bar-wrap .bxhtmled-top-bar-select, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-fontsize-wrap {
+  display: none; }
+#add_question .bxhtmled-top-bar-wrap .bxhtmled-button-bold, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-italic, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-underline, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-strike, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-remove-format, #add_question .bxhtmled-top-bar-wrap .bxhtmled-top-bar-color, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-ordered-list, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-unordered-list, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-align-left, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-quote {
+  display: inline-block; }
+#add_question .bxhtmled-iframe-cnt {
+  overflow: hidden !important; }
+#add_question .feed-add-post-text {
+  padding-left: 0;
+  padding-right: 0; }
+
+.questions-popup .reason-title {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 16px;
+  margin-bottom: 0px; }
+.questions-popup .reason-text {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px;
+  margin-bottom: 8px; }
+.questions-popup .not-ban-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #994d4d; }
+.questions-popup .question-element {
+  color: #383838;
+  text-align: left;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 25px;
+  margin-bottom: 35px; }
+
+.sotbit_questions_personal_questions .success-delete, .sotbit_questions_personal_questions .success-edit {
+  color: #44bb44;
+  display: none; }
+.sotbit_questions_personal_questions th, .sotbit_questions_personal_questions td {
+  border: 1px solid #e2e5e9;
+  padding: 5px; }
+.sotbit_questions_personal_questions th {
+  font-family: "ProximaNova", Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  font-weight: normal; }
+.sotbit_questions_personal_questions .date {
+  font-family: "ProximaNova", Arial, sans-serif;
+  font-size: 12px;
+  color: #303030;
+  vertical-align: middle;
+  width: 110px; }
+.sotbit_questions_personal_questions .question {
+  vertical-align: top; }
+  .sotbit_questions_personal_questions .question a {
+    font-size: 16px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    display: block;
+    margin-bottom: 5px; }
+  .sotbit_questions_personal_questions .question .title {
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px; }
+  .sotbit_questions_personal_questions .question .text {
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+.sotbit_questions_personal_questions .rating .stars {
+  display: flex;
+  justify-content: center; }
+  .sotbit_questions_personal_questions .rating .stars .star {
+    font-size: 10px; }
+  .sotbit_questions_personal_questions .rating .stars .empty {
+    display: none;
+    display: none; }
+.sotbit_questions_personal_questions .status {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 12px; }
+.sotbit_questions_personal_questions .status-3 {
+  color: #44bb44; }
+.sotbit_questions_personal_questions .status-2 {
+  color: #ff0000; }
+.sotbit_questions_personal_questions .status-1 {
+  color: #aaaa00; }
+.sotbit_questions_personal_questions .options .wrap-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .sotbit_questions_personal_questions .options .wrap-options .personal-edit, .sotbit_questions_personal_questions .options .wrap-options .personal-delete {
+    cursor: pointer; }
+.sotbit_questions_personal_questions .shows, .sotbit_questions_personal_questions .bill, .sotbit_questions_personal_questions .likes, .sotbit_questions_personal_questions .dislikes {
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: center; }
+.sotbit_questions_personal_questions .bill {
+  width: 50px; }
+
+#add_question .rating_selection label {
+  background: #ffffff;
+  font-size: 14px;
+  border: 1px solid #e2e5e9;
+  display: inline-block;
+  height: 33px;
+  width: 33px;
+  line-height: 33px;
+  text-align: center; }
+
+.rating_selection {
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 15px; }
+  .rating_selection input[type='radio'], .rating_selection span {
+    display: none; }
+  .rating_selection label {
+    cursor: pointer; }
+    .rating_selection label:before {
+      display: inline-block;
+      content: "\F005";
+      font-size: 14px;
+      color: #231f20;
+      font-family: "FontAwesome"; }
+  .rating_selection input:checked + label ~ label:before {
+    color: #cfd3da; }
+  .rating_selection:hover label[for]:before {
+    color: #231f20; }
+  .rating_selection:hover label:hover ~ label:before {
+    color: #cfd3da; }
+
+#add_question .add-photo {
+  position: relative;
+  width: 100%; }
+#add_question p {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 0; }
+#add_question .bxhtmled-top-bar-wrap .bxhtmled-top-bar-btn, #add_question .bxhtmled-top-bar-wrap .bxhtmled-top-bar-select, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-fontsize-wrap {
+  display: none; }
+#add_question .bxhtmled-top-bar-wrap .bxhtmled-button-bold, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-italic, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-underline, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-strike, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-remove-format, #add_question .bxhtmled-top-bar-wrap .bxhtmled-top-bar-color, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-ordered-list, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-unordered-list, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-align-left, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-quote {
+  display: inline-block; }
+#add_question .bxhtmled-iframe-cnt {
+  overflow: hidden !important; }
+#add_question .feed-add-post-text {
+  padding-left: 0;
+  padding-right: 0; }
+#add_question input[type="submit"] {
+  color: #767676;
+  font-size: 14px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  width: 170px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #c8c8c8;
+  box-shadow: 1px 2px 2px 1px #dedede;
+  margin-top: 30px;
+  background: #ffffff; }
+
+.sotbit_questions_personal_questions .table-personal-questions th {
+  cursor: pointer; }
+
+#add_question #contentbox {
+  width: 100%; }
+#add_question textarea {
+  border: 1px solid #e2e5e9;
+  padding: 5px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #000000;
+  font-weight: lighter;
+  font-size: 13px;
+  height: 190px;
+  width: 100%;
+  margin-bottom: 10px; }
+#add_question p.count {
+  font-style: italic;
+  color: #c2c6cb;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 5px; }
+
+.sotbit_questions_personal_questions .options, .sotbit_questions_personal_questions .shows, .sotbit_questions_personal_questions .bill, .sotbit_questions_personal_questions .likes, .sotbit_questions_personal_questions .dislikes {
+  width: 60px; }
+.sotbit_questions_personal_questions .align-center {
+  text-align: center; }
+.sotbit_questions_personal_questions .answer {
+  border: 1px solid #eee;
+  padding: 5px;
+  background: #eee;
+  margin-top: 5px; }
+  .sotbit_questions_personal_questions .answer .answer-name {
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    color: #a76e6e; }
+  .sotbit_questions_personal_questions .answer .answer-text {
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+
+#modal-questions-popup .error {
+  color: #ff0000;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 10px;
+  display: none; }
+
+@media (max-width: 768px) {
+  .sotbit_questions_personal_questions {
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 1em; }
+    .sotbit_questions_personal_questions::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 14px;
+      height: 14px; }
+    .sotbit_questions_personal_questions::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 3px solid #fff;
+      background-color: rgba(0, 0, 0, 0.3); }
+
+  #modal-questions-popup {
+    width: 90%; } }
+.sotbit_reviews_personal_reviews table {
+  width: 100%;
+  border-collapse: collapse; }
+.sotbit_reviews_personal_reviews tr:nth-of-type(odd) {
+  background: #f8f8f8; }
+.sotbit_reviews_personal_reviews th {
+  background: #dbbfb9;
+  color: white; }
+
+/* Zebra striping */
+.sotbit_reviews_personal_reviewstd, .sotbit_reviews_personal_reviews th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left; }
+
+#modal-reviews-popup {
+  background: #fff;
+  position: absolute;
+  /* ╤ç╤éo╨▒╤ï o╨║╨╜o ╨▒╤ï╨╗o ╨▓ ╨▓╨╕╨┤╨╕╨╝o╨╣ ╨╖o╨╜╨╡ ╨▓ ╨╗╤Ä╨▒o╨╝ ╨╝╨╡╤ü╤é╨╡ */
+  display: none;
+  /* ╨▓ o╨▒╤ï╤ç╨╜o╨╝ ╤üo╤ü╤éo╤Å╨╜╨╕╨╕ o╨║╨╜a ╨╜╨╡ ╨┤o╨╗╨╢╨╜o ╨▒╤ï╤é╤î */
+  opacity: 0;
+  /* ╨┐o╨╗╨╜o╤ü╤é╤î╤Ä ╨┐╤Ço╨╖╤Ça╤ç╨╜o ╨┤╨╗╤Å a╨╜╨╕╨╝╨╕╤Ço╨▓a╨╜╨╕╤Å */
+  z-index: 9999;
+  /* o╨║╨╜o ╨┤o╨╗╨╢╨╜o ╨▒╤ï╤é╤î ╨╜a╨╕╨▒o╨╗╨╡╨╡ ╨▒o╨╗╤î╤ê╨╡╨╝ ╤ü╨╗o╨╡ */
+  padding: 26px;
+  border-radius: 2px;
+  border: 1px solid #ebebeb;
+  width: 50%; }
+  #modal-reviews-popup #modal_close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 23px;
+    right: 21px;
+    cursor: pointer;
+    display: block;
+    color: #888888;
+    font-size: 20px; }
+  #modal-reviews-popup .title-video {
+    margin-top: 20px; }
+
+#reviews-personal-overlay {
+  z-index: 999;
+  /* ╨┐o╨┤╨╗o╨╢╨║a ╨┤o╨╗╨╢╨╜a ╨▒╤ï╤é╤î ╨▓╤ï╤ê╨╡ ╤ü╨╗o╨╡╨▓ ╤ì╨╗╨╡╨╝╨╡╨╜╤éo╨▓ ╤üa╨╣╤éa, ╨╜o ╨╜╨╕╨╢╨╡ ╤ü╨╗o╤Å ╨╝o╨┤a╨╗╤î╨╜o╨│o o╨║╨╜a */
+  position: fixed;
+  /* ╨▓╤ü╨╡╨│╨┤a ╨┐╨╡╤Ç╨╡╨║╤Ç╤ï╨▓a╨╡╤é ╨▓╨╡╤ü╤î ╤üa╨╣╤é */
+  background-color: #000;
+  opacity: 0.8;
+  /* ╨╜o ╨╜╨╡╨╝╨╜o╨│o ╨┐╤Ço╨╖╤Ça╤ç╨╜a */
+  -moz-opacity: 0.8;
+  /* ╤ä╨╕╨║╤ü ╨┐╤Ç╨╛╨╖╤Ç╨░╤ç╨╜╨╛╤ü╤é╨╕ ╨┤╨╗╤Å ╤ü╤é╨░╤Ç╤ï╤à ╨▒╤Ç╨░╤â╨╖╨╡╤Ç╨╛╨▓ */
+  filter: alpha(opacity=80);
+  width: 100%;
+  height: 100%;
+  /* ╤Ça╨╖╨╝╨╡╤Ço╨╝ ╨▓o ╨▓╨╡╤ü╤î ╤ì╨║╤Ça╨╜ */
+  top: 0;
+  /* ╤ü╨▓╨╡╤Ç╤à╤â ╨╕ ╤ü╨╗╨╡╨▓a 0, o╨▒╤Å╨╖a╤é╨╡╨╗╤î╨╜╤ï╨╡ ╤ü╨▓o╨╣╤ü╤é╨▓a! */
+  left: 0;
+  cursor: pointer;
+  display: none;
+  /* ╨▓ o╨▒╤ï╤ç╨╜o╨╝ ╤üo╤ü╤éo╤Å╨╜╨╕╨╕ ╨╡╤æ ╨╜╨╡╤é) */ }
+
+.sotbit_reviews_personal_reviews .spoiler-input {
+  margin-top: 10px;
+  padding: 0 6px;
+  color: #383838;
+  text-decoration: none;
+  font-family: Ubuntu, Arial, sans-serif;
+  font-size: 14px;
+  min-height: 26px;
+  line-height: 26px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  background: #fafafa;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fafafa 0%, #f1f1f1 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fafafa 0%, #f1f1f1 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fafafa 0%, #f1f1f1 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#f1f1f1',GradientType=0 );
+  /* IE6-9 */
+  text-transform: uppercase;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3); }
+  .sotbit_reviews_personal_reviews .spoiler-input:hover {
+    background: #fafafa;
+    transition: none; }
+
+.auth-error {
+  font-size: 18px;
+  color: #994d4d;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 20px; }
+
+#auth-title, #register-title {
+  color: #000000;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left; }
+
+#auth_review-check-error, #registration_review-check-error {
+  color: #994d4d;
+  text-align: left; }
+
+.sotbit_reviews_personal_reviews .success {
+  color: green;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-top: 10px; }
+
+#add_review .captcha-block {
+  margin-top: 30px; }
+#add_review input[type='file'] {
+  width: 14px;
+  height: 14px;
+  opacity: 0; }
+#add_review .textbox-group-review {
+  position: relative; }
+#add_review .review-editor {
+  display: block; }
+#add_review #add-photo-button {
+  display: block;
+  height: 22px;
+  color: #767676;
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: underline;
+  cursor: pointer; }
+#add_review ul#preview-photo {
+  margin: 0; }
+  #add_review ul#preview-photo li {
+    list-style: none;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 30px; }
+    #add_review ul#preview-photo li span.delete {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: #F00;
+      font-size: 20px;
+      cursor: pointer; }
+
+.reviews-popup .add-check-error {
+  text-align: left;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif; }
+.reviews-popup .not-buy-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif; }
+.reviews-popup .review-add-title, .reviews-popup .review-mark-title {
+  font-size: 15px;
+  font-family: Ubuntu, Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 10px; }
+.reviews-popup .review-add-rating-title1 {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 5px; }
+.reviews-popup .review-add-rating-title2 {
+  color: #b0b3bb;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 10px; }
+
+#add_review {
+  text-align: left; }
+  #add_review p.title {
+    margin-bottom: 5px; }
+  #add_review p.title-example {
+    color: #b0b3bb;
+    margin-bottom: 5px; }
+  #add_review p.text, #add_review p.add-field-title {
+    margin-bottom: 5px; }
+  #add_review p.example {
+    color: #b0b3bb;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+  #add_review input[type="text"] {
+    border: 1px solid #e2e5e9;
+    height: 34px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 13px; }
+  #add_review textarea {
+    outline: none;
+    border-bottom: 1px solid #b3b3b3;
+    border-top: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    padding: 0;
+    font-family: "Ubuntu", Arial, sans-serif;
+    color: #888888;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 30px;
+    height: 32px;
+    min-height: 32px;
+    background: #ffffff;
+    overflow: hidden;
+    -webkit-appearance: none; }
+  #add_review .hiddendiv {
+    visibility: hidden;
+    position: absolute;
+    white-space: pre-wrap;
+    font-family: "Ubuntu", Arial, sans-serif;
+    font-size: 17px;
+    padding: 5px;
+    word-wrap: break-word;
+    min-height: 30px;
+    line-height: 30px; }
+  #add_review .add-field {
+    margin-bottom: 16px;
+    display: block; }
+  #add_review #recommendated {
+    display: none; }
+    #add_review #recommendated ~ label > span {
+      border: 1px solid #b3b3b3;
+      display: inline-block;
+      height: 14px;
+      border-radius: 1px;
+      position: relative;
+      width: 14px;
+      top: 3px; }
+    #add_review #recommendated:checked ~ label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 14px;
+      line-height: 14px; }
+  #add_review input[type="radio"] {
+    margin-right: 7px;
+    float: left; }
+  #add_review span.radio-label {
+    margin-right: 15px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 13px; }
+  #add_review .radio {
+    float: none;
+    line-height: 14px;
+    display: inline-block;
+    margin-bottom: 15px; }
+  #add_review #reset-form:hover {
+    color: #ffffff;
+    background: #6c8191; }
+  #add_review .feed-add-post {
+    border: 1px solid #f0f1f2; }
+  #add_review .textarea-right-text {
+    /*margin-left: 30px;
+    width: 225px;
+    float: left;*/ }
+    #add_review .textarea-right-text p {
+      color: #6c727d;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif;
+      margin-bottom: 10px; }
+    #add_review .textarea-right-text ul {
+      margin-left: 13px; }
+      #add_review .textarea-right-text ul li {
+        color: #6c727d;
+        font-size: 12px;
+        font-family: "ProximaNova", Arial, sans-serif; }
+        #add_review .textarea-right-text ul li span {
+          color: #994d4d; }
+
+.rating_selection {
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 15px; }
+  .rating_selection input[type='radio'], .rating_selection span {
+    display: none; }
+  .rating_selection label {
+    cursor: pointer; }
+
+#add_review #add-photo-button .fa-plus {
+  margin-right: 10px; }
+#add_review .bxhtmled-top-bar-wrap .bxhtmled-top-bar-btn, #add_review .bxhtmled-top-bar-wrap .bxhtmled-top-bar-select, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-fontsize-wrap {
+  display: none; }
+#add_review .bxhtmled-top-bar-wrap .bxhtmled-button-bold, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-italic, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-underline, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-strike, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-remove-format, #add_review .bxhtmled-top-bar-wrap .bxhtmled-top-bar-color, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-ordered-list, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-unordered-list, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-align-left, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-quote {
+  display: inline-block; }
+#add_review .bxhtmled-iframe-cnt {
+  overflow: hidden !important; }
+#add_review .feed-add-post-text {
+  padding-left: 0;
+  padding-right: 0; }
+
+.reviews-popup .reason-title {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 16px;
+  margin-bottom: 0px; }
+.reviews-popup .reason-text {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px;
+  margin-bottom: 8px; }
+.reviews-popup .not-ban-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #994d4d; }
+.reviews-popup .review-element {
+  color: #383838;
+  text-align: left;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 25px;
+  margin-bottom: 35px; }
+
+.sotbit_reviews_personal_reviews .success-delete, .sotbit_reviews_personal_reviews .success-edit {
+  color: #44bb44;
+  display: none; }
+.sotbit_reviews_personal_reviews th, .sotbit_reviews_personal_reviews td {
+  border: 1px solid #e2e5e9;
+  padding: 5px; }
+.sotbit_reviews_personal_reviews th {
+  font-family: "ProximaNova", Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  font-weight: normal; }
+.sotbit_reviews_personal_reviews .date {
+  font-family: "ProximaNova", Arial, sans-serif;
+  font-size: 12px;
+  color: #303030;
+  vertical-align: middle;
+  width: 110px; }
+.sotbit_reviews_personal_reviews .review {
+  vertical-align: top; }
+  .sotbit_reviews_personal_reviews .review a {
+    font-size: 16px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    display: block;
+    margin-bottom: 5px; }
+  .sotbit_reviews_personal_reviews .review .title {
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px; }
+  .sotbit_reviews_personal_reviews .review .text {
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+.sotbit_reviews_personal_reviews .rating .stars {
+  display: flex;
+  justify-content: center; }
+  .sotbit_reviews_personal_reviews .rating .stars .star {
+    font-size: 10px; }
+  .sotbit_reviews_personal_reviews .rating .stars .empty {
+    display: none;
+    display: none; }
+.sotbit_reviews_personal_reviews .status {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 12px; }
+.sotbit_reviews_personal_reviews .status-3 {
+  color: #44bb44; }
+.sotbit_reviews_personal_reviews .status-2 {
+  color: #ff0000; }
+.sotbit_reviews_personal_reviews .status-1 {
+  color: #aaaa00; }
+.sotbit_reviews_personal_reviews .options .wrap-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .sotbit_reviews_personal_reviews .options .wrap-options .personal-edit, .sotbit_reviews_personal_reviews .options .wrap-options .personal-delete {
+    cursor: pointer; }
+.sotbit_reviews_personal_reviews .shows, .sotbit_reviews_personal_reviews .bill, .sotbit_reviews_personal_reviews .likes, .sotbit_reviews_personal_reviews .dislikes {
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: center; }
+
+#add_review .rating_selection label {
+  background: #ffffff;
+  font-size: 14px;
+  border: 1px solid #e2e5e9;
+  display: inline-block;
+  height: 33px;
+  width: 33px;
+  line-height: 33px;
+  text-align: center; }
+
+.rating_selection {
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 15px; }
+  .rating_selection input[type='radio'], .rating_selection span {
+    display: none; }
+  .rating_selection label {
+    cursor: pointer; }
+    .rating_selection label:before {
+      display: inline-block;
+      content: "\F005";
+      font-size: 14px;
+      color: #231f20;
+      font-family: "FontAwesome"; }
+  .rating_selection input:checked + label ~ label:before {
+    color: #cfd3da; }
+  .rating_selection:hover label[for]:before {
+    color: #231f20; }
+  .rating_selection:hover label:hover ~ label:before {
+    color: #cfd3da; }
+
+#add_review .add-photo {
+  position: relative;
+  width: 100%; }
+#add_review p {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 0; }
+#add_review .bxhtmled-top-bar-wrap .bxhtmled-top-bar-btn, #add_review .bxhtmled-top-bar-wrap .bxhtmled-top-bar-select, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-fontsize-wrap {
+  display: none; }
+#add_review .bxhtmled-top-bar-wrap .bxhtmled-button-bold, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-italic, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-underline, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-strike, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-remove-format, #add_review .bxhtmled-top-bar-wrap .bxhtmled-top-bar-color, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-ordered-list, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-unordered-list, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-align-left, #add_review .bxhtmled-top-bar-wrap .bxhtmled-button-quote {
+  display: inline-block; }
+#add_review .bxhtmled-iframe-cnt {
+  overflow: hidden !important; }
+#add_review .feed-add-post-text {
+  padding-left: 0;
+  padding-right: 0; }
+#add_review input[type="submit"] {
+  color: #767676;
+  font-size: 14px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  width: 170px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #c8c8c8;
+  box-shadow: 1px 2px 2px 1px #dedede;
+  margin-top: 30px;
+  background: #ffffff; }
+
+.sotbit_reviews_personal_reviews .table-personal-reviews th {
+  cursor: pointer; }
+
+#add_review #contentbox {
+  width: 100%; }
+#add_review textarea {
+  border: 1px solid #e2e5e9;
+  padding: 5px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #000000;
+  font-weight: lighter;
+  font-size: 13px;
+  height: 190px;
+  width: 100%;
+  margin-bottom: 10px; }
+#add_review p.count {
+  font-style: italic;
+  color: #c2c6cb;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 30px;
+  margin-top: 5px; }
+
+.sotbit_reviews_personal_reviews .options, .sotbit_reviews_personal_reviews .shows, .sotbit_reviews_personal_reviews .bill, .sotbit_reviews_personal_reviews .likes, .sotbit_reviews_personal_reviews .dislikes {
+  width: 60px; }
+.sotbit_reviews_personal_reviews .align-center {
+  text-align: center; }
+.sotbit_reviews_personal_reviews .answer {
+  border: 1px solid #eee;
+  padding: 5px;
+  background: #eee;
+  margin-top: 5px; }
+  .sotbit_reviews_personal_reviews .answer .answer-name {
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    color: #a76e6e; }
+  .sotbit_reviews_personal_reviews .answer .answer-text {
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+
+#modal-reviews-popup .error {
+  color: #ff0000;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 10px;
+  display: none; }
+
+@media (max-width: 768px) {
+  .sotbit_reviews_personal_reviews {
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 1em; }
+    .sotbit_reviews_personal_reviews::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 14px;
+      height: 14px; }
+    .sotbit_reviews_personal_reviews::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 3px solid #fff;
+      background-color: rgba(0, 0, 0, 0.3); }
+
+  #modal-reviews-popup {
+    width: 90%; } }
+@media (min-width: 768px) {
+  .spoiler-questions-body .forms {
+    display: flex; }
+    .spoiler-questions-body .forms .form-auth {
+      flex-grow: 1;
+      background: #f8f8f8;
+      padding: 15px 20px 20px 20px;
+      margin: 0 10px 0 15px; }
+    .spoiler-questions-body .forms .form-reg {
+      flex-shrink: 1;
+      background: #f8f8f8;
+      padding: 15px 20px 20px 20px;
+      margin: 0 15px 0 10px; } }
+.add-questions {
+  margin: 20px 0; }
+
+.spoiler-questions-body {
+  display: none;
+  padding-top: 40px; }
+
+.spoiler_links {
+  cursor: pointer; }
+
+.add-questions .spoiler {
+  border: 1px solid #7c7c7c;
+  box-shadow: 1px 2px 1px 1px #e2e2e2;
+  padding: 5px;
+  display: inline-block; }
+.add-questions .spoiler-input {
+  padding: 5px 40px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "PG Isadora Cyr Pro", Arial, regular;
+  font-size: 18px;
+  min-height: 30px;
+  line-height: 20px;
+  cursor: pointer; }
+
+#questions-body .success {
+  color: green;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-top: 10px; }
+#questions-body .spoiler_body p.add-check-error, #questions-body .spoiler_body p.registration-check-error {
+  color: red; }
+
+.tabs a.spoiler {
+  display: inline-block;
+  padding: 10px;
+  color: #ffffff;
+  background: #603a2f;
+  text-transform: uppercase;
+  text-decoration: none; }
+.tabs .auth-error {
+  font-size: 16px;
+  color: #ed008e; }
+.tabs p.auth-check-error {
+  color: red; }
+
+#add_question {
+  text-align: left; }
+  #add_question .feed-add-post-form-but-wrap {
+    border: none; }
+  #add_question .feed-add-post {
+    border: 1px solid #f0f1f2; }
+  #add_question #recaptcha-question-0 {
+    margin-top: 20px; }
+  #add_question p {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+    #add_question p.example {
+      color: #b0b3bb;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif; }
+    #add_question p.count {
+      font-style: italic;
+      color: #c2c6cb;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif;
+      margin-bottom: 20px; }
+  #add_question input[type="text"] {
+    border: 1px solid #e2e5e9;
+    height: 34px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #000000;
+    font-size: 13px; }
+  #add_question textarea {
+    border: 1px solid #e2e5e9;
+    width: 100%;
+    padding: 5px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #000000;
+    font-size: 13px;
+    height: 190px; }
+  #add_question input[type="radio"] {
+    margin-right: 7px;
+    float: left; }
+  #add_question span.radio-label {
+    margin-right: 15px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #000000;
+    font-size: 13px;
+    margin-right: 15px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #000000;
+    font-size: 13px; }
+  #add_question .radio {
+    float: none;
+    line-height: 14px;
+    display: inline-block;
+    margin-bottom: 20px; }
+  #add_question input[type="submit"] {
+    background: #ffffff;
+    color: #767676;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 2px 2px 1px #dedede;
+    margin-top: 20px; }
+  #add_question #reset-form {
+    border: 0;
+    color: #c2c6cb;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 15px;
+    background: #ffffff; }
+
+.spoiler-questions-body .add-check-error {
+  text-align: left;
+  color: #994d4d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif; }
+
+#auth_question-check-error, #registration_question-check-error {
+  color: #994d4d;
+  text-align: left; }
+
+#add_question .bxhtmled-top-bar-wrap .bxhtmled-top-bar-btn, #add_question .bxhtmled-top-bar-wrap .bxhtmled-top-bar-select, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-fontsize-wrap {
+  display: none; }
+#add_question .bxhtmled-top-bar-wrap .bxhtmled-button-bold, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-italic, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-underline, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-strike, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-remove-format, #add_question .bxhtmled-top-bar-wrap .bxhtmled-top-bar-color, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-ordered-list, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-unordered-list, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-align-left, #add_question .bxhtmled-top-bar-wrap .bxhtmled-button-quote {
+  display: inline-block; }
+#add_question .bxhtmled-iframe-cnt {
+  overflow: hidden !important; }
+#add_question .feed-add-post-text {
+  padding-left: 0;
+  padding-right: 0; }
+
+.spoiler-questions-body .reason-title {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-align: center; }
+.spoiler-questions-body .reason-text {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: center; }
+.spoiler-questions-body .not-ban-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #994d4d;
+  text-align: center; }
+
+div.bx-auth-reg input.bx-auth-input {
+  vertical-align: middle; }
+div.bx-auth-reg span.bx-auth-secure {
+  background-color: #ffffff;
+  border: 1px solid #DEDBC8;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: middle; }
+div.bx-auth-reg div.bx-auth-secure-icon {
+  background-image: url(images/sec.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 19px;
+  height: 18px; }
+div.bx-auth-reg div.bx-auth-secure-unlock {
+  background-image: url(images/sec-unlocked.png); }
+
+@media (max-width: 767px) {
+  #registration_question input[type="submit"] {
+    margin: 0 auto;
+    display: block; }
+  #registration_question .form-group {
+    margin: 0 auto 5px auto;
+    width: 230px;
+    display: block; } }
+@media (min-width: 768px) {
+  #registration_question .captcha img {
+    display: inline-block;
+    margin-right: 10px;
+    width: 35%; }
+  #registration_question .captcha input[type="text"] {
+    height: 42px;
+    width: 60%;
+    display: inline;
+    float: right; }
+  #registration_question .form-group {
+    margin-bottom: 15px;
+    display: inline-block; } }
+#registration_question {
+  text-align: left; }
+  #registration_question p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 12px; }
+  #registration_question input[type="text"], #registration_question input[type="password"] {
+    width: 230px;
+    color: #303030;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    border: 1px solid #e2e5e9;
+    padding: 10px;
+    margin-right: 20px; }
+  #registration_question .form-group p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #registration_question .form-group a {
+    float: right;
+    color: #6c727d;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-weight: lighter; }
+  #registration_question .checkbox {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 13px; }
+    #registration_question .checkbox input[type="checkbox"] {
+      margin-right: 10px;
+      float: left; }
+    #registration_question .checkbox label {
+      color: #303030;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      clear: both; }
+  #registration_question input[type="submit"] {
+    background: #ffffff;
+    color: #767676;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 2px 2px 1px #dedede;
+    margin-top: 15px; }
+  #registration_question .captcha {
+    background: #efeded;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    position: relative;
+    display: inline-block; }
+    #registration_question .captcha .captcha-title {
+      color: #6c727d;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      margin-bottom: 10px; }
+    #registration_question .captcha .captcha-title-2 {
+      color: #303030;
+      font-size: 12px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      font-weight: lighter; }
+    #registration_question .captcha img {
+      display: inline-block;
+      margin-right: 10px;
+      width: 110px;
+      height: 40px; }
+    #registration_question .captcha input[type="text"] {
+      height: 42px;
+      width: 230px;
+      display: inline;
+      float: none;
+      margin-right: 0; }
+  #registration_question input[type="checkbox"] {
+    display: none; }
+  #registration_question .checkbox label > span {
+    border: 1px solid #b8b8b8;
+    display: inline-block;
+    height: 10px;
+    margin: 0 7px 0 0;
+    position: relative;
+    width: 10px; }
+    #registration_question .checkbox label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 8px;
+      line-height: 8px;
+      display: none; }
+  #registration_question .checkbox label.checked > span:after {
+    display: block; }
+
+@media (max-width: 767px) {
+  #questions-body .time, #questions-body .user-info {
+    text-align: center; }
+  #questions-body .item .avatar {
+    position: relative;
+    left: 50%;
+    margin-left: -47px;
+    float: none; }
+  #questions-body .reply-block {
+    text-align: center; }
+  #questions-body .reply-text {
+    text-align: left; } }
+@media (min-width: 768px) {
+  #questions-body {
+    margin-bottom: 80px; }
+    #questions-body .list {
+      padding-top: 50px; }
+    #questions-body .item {
+      margin-bottom: 60px;
+      border-bottom: 1px solid #e2e5e9;
+      padding-bottom: 60px; }
+    #questions-body .avatar {
+      float: left;
+      background: #ffffff;
+      width: 94px;
+      height: 94px;
+      display: flex;
+      display: -ms-flexbox;
+      -ms-flex-align: center;
+      text-align: center;
+      border: 1px solid #e6e6e6;
+      margin-right: 25px; }
+    #questions-body .avatar-inner {
+      margin: auto; }
+    #questions-body .user-info {
+      padding-left: 0; }
+    #questions-body .text .text {
+      padding-right: 0; }
+    #questions-body .username, #questions-body .reply-header {
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      color: #303030;
+      font-size: 14px; }
+    #questions-body .age, #questions-body .country, #questions-body .item .cnt_questions, #questions-body .add-field-text, #questions-body .reply-text, #questions-body .recommendated {
+      font-family: "ProximaNova", Arial, sans-serif;
+      color: #303030;
+      font-size: 14px; }
+    #questions-body .age span, #questions-body .country span, #questions-body .item .cnt_questions span, #questions-body .add-field-title, #questions-body .likes-title {
+      color: #6c727d;
+      font-size: 14px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      padding-right: 10px; }
+    #questions-body .likes .yescnt, #questions-body .likes .nocnt {
+      color: #6c727d;
+      font-size: 14px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      padding-right: 10px; }
+    #questions-body .age span, #questions-body .country span, #questions-body .item .cnt_questions span {
+      width: 80px;
+      display: inline-block; }
+    #questions-body .age .col-sm-8, #questions-body .country .col-sm-8 {
+      padding-left: 0; }
+    #questions-body img {
+      display: inline; }
+    #questions-body .time {
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      color: #6c727d;
+      font-size: 12px; }
+    #questions-body .text {
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      color: #303030;
+      font-size: 14px; }
+    #questions-body .answer {
+      margin: 20px 0 0 0;
+      background: #f8f8f8;
+      padding: 15px 0; }
+    #questions-body .reply-header, #questions-body .username {
+      margin-bottom: 13px;
+      display: inline-block;
+      border-bottom: 1px solid #d8d8d8; }
+    #questions-body .age {
+      margin-bottom: 0px; }
+    #questions-body .time {
+      margin-bottom: 10px; } }
+#questions-body #filter-pagination-questions {
+  float: right;
+  margin-bottom: 80px; }
+  #questions-body #filter-pagination-questions button {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 12px;
+    color: #6c727d;
+    background: #FFF;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 0 10px;
+    display: inline-block;
+    text-align: center;
+    width: 25px; }
+    #questions-body #filter-pagination-questions button.current {
+      color: #000000; }
+  #questions-body #filter-pagination-questions .right-arrows button, #questions-body #filter-pagination-questions .left-arrows button {
+    color: #000000; }
+  #questions-body #filter-pagination-questions .right-arrows button {
+    border: 1px solid #d5d9dd;
+    border-radius: 15px;
+    line-height: 22px;
+    padding-left: 8px; }
+  #questions-body #filter-pagination-questions .left-arrows {
+    float: left; }
+    #questions-body #filter-pagination-questions .left-arrows button {
+      border: 1px solid #d5d9dd;
+      border-radius: 15px;
+      line-height: 22px;
+      padding-left: 8px; }
+  #questions-body #filter-pagination-questions .right-arrows {
+    float: right; }
+#questions-body .list .shopanswer {
+  background: #f8f8f8;
+  padding: 30px 25px;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0; }
+  #questions-body .list .shopanswer .bottom-border {
+    border-bottom: none; }
+  #questions-body .list .shopanswer .username {
+    color: #af7676;
+    border-bottom: 0;
+    text-decoration: none;
+    display: block; }
+  #questions-body .list .shopanswer .text {
+    color: #303030;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+#questions-body .item-row {
+  margin-left: 0;
+  margin-right: 0; }
+#questions-body .wrap-quote {
+  border: none;
+  box-shadow: none; }
+#questions-body .quote {
+  font-size: 15px;
+  font-family: "PG Isadora Cyr Pro", Arial, regular;
+  cursor: pointer;
+  display: inline-block;
+  background: none;
+  color: #c19292;
+  line-height: 15px;
+  border-bottom: 1px dotted #c19292;
+  padding: 0;
+  min-height: unset;
+  float: right; }
+#questions-body .item blockquote {
+  border: none !important;
+  background-color: #f2eccf;
+  padding: 8px 6px 8px 24px;
+  border-radius: 2px !important;
+  color: #303030 !important;
+  min-height: 1em !important;
+  margin: 0.6em 0 0.8em 0 !important; }
+#questions-body .item .menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  /*display:none;*/ }
+  #questions-body .item .menu .message {
+    padding: 8px 8px 5px 8px;
+    position: absolute;
+    opacity: 0;
+    top: 25px;
+    background: #ffffff;
+    z-index: 0;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #questions-body .item .menu .message-success {
+    border: 1px solid green;
+    color: green;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25); }
+  #questions-body .item .menu .message-error {
+    border: 1px solid #e64343;
+    color: #e64343;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25); }
+#questions-body .item:hover .menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block; }
+#questions-body .item .menu ul {
+  margin: 0 15px 0 0;
+  list-style: none;
+  border: 1px solid #e2e5e9;
+  display: none; }
+#questions-body .item .menu .actions {
+  cursor: pointer;
+  font-size: 14px;
+  color: #cfd3da;
+  display: block;
+  z-index: 9999;
+  float: right;
+  margin-top: 0px; }
+#questions-body .item .menu:hover .actions {
+  color: #303030; }
+#questions-body .item .menu .actions::before {
+  font-size: 80%; }
+#questions-body .item .menu.open ul {
+  display: block;
+  width: 180px;
+  z-index: 9999;
+  margin-top: 15px; }
+#questions-body .item .menu ul li {
+  padding: 8px 12px 5px 12px;
+  border-bottom: 1px solid #e2e5e9;
+  z-index: 0;
+  cursor: pointer;
+  position: relative;
+  background: #f9f9f9;
+  font-size: 12px;
+  color: #6c727d;
+  font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #questions-body .item .menu ul li:hover {
+    color: #303030; }
+  #questions-body .item .menu ul li:last-child {
+    border-bottom: none; }
+#questions-body .item .cnt_questions a {
+  display: inline-block; }
+#questions-body .share {
+  padding-right: 0; }
+
+.module_reviews .tabs-content {
+  display: none; }
+  .module_reviews .tabs-content.active {
+    display: block; }
+.module_reviews .tabs .tabs-caption {
+  border-bottom: #303030;
+  margin: 0;
+  padding: 0; }
+  .module_reviews .tabs .tabs-caption li {
+    display: inline-block;
+    margin-right: 0px;
+    border-left: #303030;
+    border-top: #303030;
+    border-right: #303030;
+    border-radius: 2px 2px 0 0;
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    color: #c2c6cb;
+    cursor: pointer;
+    width: 180px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+    .module_reviews .tabs .tabs-caption li i {
+      margin-right: 6px; }
+    .module_reviews .tabs .tabs-caption li:hover {
+      color: #a6aaaf; }
+    .module_reviews .tabs .tabs-caption li.active {
+      color: #303030;
+      cursor: default; }
+
+@media (max-width: 767px) {
+  .module_reviews .tabs ul.tabs-caption {
+    text-align: center; }
+  .module_reviews .tabs a.open_window {
+    float: none; }
+  .module_reviews .tabs .modal-link {
+    text-align: center; } }
+@media (min-width: 768px) {
+  .module_reviews .tabs a.open_window {
+    float: right; } }
+#add_review #contentbox {
+  width: 100%; }
+
+.add-reviews {
+  text-align: center;
+  margin-bottom: 50px; }
+
+#reviews-body .add-reviews {
+  margin-top: 20px; }
+
+.spoiler-reviews-body {
+  display: none;
+  padding-top: 20px; }
+
+#reviews-statistics .spoiler-reviews-body {
+  padding-top: 40px; }
+
+.add-reviews .bg {
+  background: #f8f8f8;
+  padding: 25px 0; }
+.add-reviews .success {
+  color: green;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-top: 10px; }
+.add-reviews .spoiler {
+  border: 1px solid #7c7c7c;
+  box-shadow: 1px 2px 1px 1px #e2e2e2;
+  padding: 5px;
+  display: inline-block;
+  background: #ffffff; }
+.add-reviews .spoiler-input {
+  padding: 5px 40px;
+  color: #ffffff;
+  background: #dbbfb9 url(images/button.jpg);
+  text-decoration: none;
+  font-family: "PG Isadora Cyr Pro", Arial, regular;
+  font-size: 18px;
+  min-height: 30px;
+  line-height: 20px;
+  cursor: pointer; }
+.add-reviews .spoiler-reviews-body .add-check-error {
+  text-align: left;
+  color: #994d4d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif; }
+.add-reviews .spoiler-reviews-body .not-buy-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #994d4d; }
+.add-reviews .spoiler-reviews-body .review-add-block {
+  width: 80%;
+  margin-left: 10%; }
+.add-reviews .spoiler-reviews-body .review-add-title {
+  color: #994d4d;
+  font-size: 18px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 25px; }
+.add-reviews .spoiler-reviews-body .review-add-rating-title1 {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 5px; }
+.add-reviews .spoiler-reviews-body .review-add-rating-title2 {
+  color: #b0b3bb;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 10px; }
+.add-reviews .spoiler-reviews-body .not-error {
+  font-size: 18px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #994d4d;
+  margin-bottom: 8px; }
+.add-reviews .spoiler_links {
+  cursor: pointer; }
+.add-reviews .add-photo {
+  width: 150px;
+  height: 22px;
+  position: relative;
+  margin-top: 30px; }
+.add-reviews input[type='file'] {
+  width: 150px;
+  height: 22px;
+  opacity: 0; }
+.add-reviews #add-photo-button {
+  display: block;
+  width: 175px;
+  height: 22px;
+  color: #767676;
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: underline;
+  cursor: pointer; }
+.add-reviews .textarea-right-text p {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  margin-bottom: 10px; }
+.add-reviews .textarea-right-text ul {
+  margin-left: 13px; }
+  .add-reviews .textarea-right-text ul li {
+    color: #6c727d;
+    font-size: 12px;
+    font-family: "ProximaNova", Arial, sans-serif; }
+    .add-reviews .textarea-right-text ul li span {
+      color: #994d4d; }
+.add-reviews ul#preview-photo {
+  margin: 0; }
+  .add-reviews ul#preview-photo li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 30px; }
+    .add-reviews ul#preview-photo li span.delete {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: #F00;
+      font-size: 20px;
+      cursor: pointer; }
+
+.auth-error {
+  font-size: 18px;
+  color: #994d4d;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 20px; }
+
+#auth-title, #register-title {
+  color: #000000;
+  font-size: 14px;
+  font-family: "ProximaNova", Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 20px; }
+
+#auth_review-check-error, #registration_review-check-error {
+  color: #994d4d;
+  text-align: left; }
+
+#add_review {
+  text-align: left; }
+  #add_review .rating_selection label {
+    background: #ffffff;
+    font-size: 14px;
+    border: 1px solid #e2e5e9;
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+    line-height: 33px;
+    text-align: center; }
+  #add_review p {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    margin-bottom: 0; }
+    #add_review p.title {
+      margin-bottom: 5px; }
+    #add_review p.title-example {
+      color: #b0b3bb;
+      margin-bottom: 10px; }
+    #add_review p.text {
+      margin-bottom: 10px; }
+    #add_review p.example {
+      color: #b0b3bb;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif; }
+    #add_review p.count {
+      font-style: italic;
+      color: #c2c6cb;
+      font-size: 14px;
+      font-family: "ProximaNova", Arial, sans-serif;
+      margin-bottom: 30px;
+      margin-top: 5px; }
+  #add_review input[type="text"] {
+    border: 1px solid #e2e5e9;
+    height: 34px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 13px; }
+  #add_review textarea {
+    border: 1px solid #e2e5e9;
+    padding: 5px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 13px;
+    height: 190px;
+    width: 100%; }
+  #add_review input[type="radio"] {
+    margin-right: 7px;
+    float: left; }
+  #add_review span.radio-label {
+    margin-right: 15px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #000000;
+    font-weight: lighter;
+    font-size: 13px; }
+  #add_review .radio {
+    float: none;
+    line-height: 14px;
+    display: inline-block; }
+  #add_review .captcha-block {
+    margin-top: 30px; }
+  #add_review input[type="submit"] {
+    color: #767676;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 2px 2px 1px #dedede;
+    margin-top: 30px;
+    background: #ffffff; }
+  #add_review #reset-form {
+    background: #f8f8f8;
+    border: 0;
+    color: #c2c6cb;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 15px; }
+  #add_review p.recommendated {
+    margin-bottom: 5px; }
+  #add_review p.add-field-title {
+    margin-bottom: 5px;
+    margin-top: 30px; }
+
+.rating_selection {
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 40px; }
+  .rating_selection input[type='radio'], .rating_selection span {
+    display: none; }
+  .rating_selection label {
+    cursor: pointer; }
+    .rating_selection label:before {
+      display: inline-block;
+      content: "\F005";
+      font-size: 14px;
+      color: #231f20;
+      font-family: "FontAwesome"; }
+  .rating_selection input:checked + label ~ label:before {
+    color: #cfd3da; }
+  .rating_selection:hover label[for]:before {
+    color: #231f20; }
+  .rating_selection:hover label:hover ~ label:before {
+    color: #cfd3da; }
+
+.add-reviews #add-photo-button .fa-plus {
+  margin-right: 10px; }
+.add-reviews .bxhtmled-top-bar-wrap .bxhtmled-top-bar-btn, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-top-bar-select, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-fontsize-wrap {
+  display: none; }
+.add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-bold, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-italic, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-underline, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-strike, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-remove-format, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-top-bar-color, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-ordered-list, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-unordered-list, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-align-left, .add-reviews .bxhtmled-top-bar-wrap .bxhtmled-button-quote {
+  display: inline-block; }
+.add-reviews .bxhtmled-iframe-cnt {
+  overflow: hidden !important; }
+.add-reviews .feed-add-post-text {
+  padding-left: 0;
+  padding-right: 0; }
+
+.add-reviews .spoiler-reviews-body .reason-title {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 16px;
+  margin-bottom: 0px; }
+.add-reviews .spoiler-reviews-body .reason-text {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px;
+  margin-bottom: 8px; }
+
+#add_review .title-video, #add_review .title-presentation {
+  margin-top: 30px; }
+#add_review input.video, #add_review input.presentation {
+  margin-bottom: 0; }
+
+@media (min-width: 768px) {
+  .add-reviews .title, .add-reviews #add_review textarea {
+    width: 58%; }
+
+  .add-reviews .forms {
+    display: flex; }
+    .add-reviews .forms .form-auth {
+      flex-grow: 1;
+      background: #f8f8f8;
+      padding: 15px 20px 20px 20px;
+      margin: 0 10px 0 15px; }
+    .add-reviews .forms .form-reg {
+      flex-shrink: 1;
+      background: #f8f8f8;
+      padding: 15px 20px 20px 20px;
+      margin: 0 15px 0 10px; } }
+@media (max-width: 767px) {
+  .add-reviews textarea {
+    width: 100%; } }
+#reviews-body #filter {
+  display: block; }
+  #reviews-body #filter .filter-sort-text {
+    line-height: 40px;
+    color: #000000;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #reviews-body #filter #filter-images {
+    display: none; }
+    #reviews-body #filter #filter-images ~ label > span {
+      border: 1px solid #e2e5e9;
+      display: inline-block;
+      height: 10px;
+      margin: 14px 7px 0 0;
+      position: relative;
+      width: 10px; }
+    #reviews-body #filter #filter-images:checked ~ label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 8px;
+      line-height: 10px; }
+  #reviews-body #filter .border {
+    border-bottom: 1px solid #e6e6e6;
+    min-height: 41px; }
+  #reviews-body #filter .filter-photo {
+    color: #6c727d;
+    margin-right: 5px; }
+  #reviews-body #filter #select-rating, #reviews-body #filter #select-sort {
+    width: 170px;
+    text-align: left;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    height: 40px;
+    padding-top: 14px;
+    line-height: 14px; }
+  #reviews-body #filter .select-rating-close, #reviews-body #filter .select-sort-close {
+    color: #6c727d;
+    background: #ffffff; }
+  #reviews-body #filter .select-rating-close .uni-stars {
+    color: #303030; }
+  #reviews-body #filter .select-rating-open {
+    background: #303030;
+    color: #ffffff; }
+    #reviews-body #filter .select-rating-open .uni-stars {
+      color: #ffffff; }
+  #reviews-body #filter #current-option-select-rating, #reviews-body #filter #current-option-select-sort {
+    width: 100%;
+    cursor: pointer;
+    height: 26px;
+    padding-right: 10px;
+    padding-left: 10px; }
+  #reviews-body #filter #current-option-select-rating, #reviews-body #filter #current-option-select-sort {
+    font-family: "ProximaNovaLight", Arial, sans-serif, FontAwesome; }
+  #reviews-body #filter #current-option-select-rating .stars-in {
+    margin-right: 10px; }
+  #reviews-body #filter #current-option-select-rating b {
+    height: 14px;
+    width: 20px;
+    float: right;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: 14px; }
+  #reviews-body #filter #current-option-select-sort b {
+    height: 14px;
+    width: 20px;
+    float: right;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: 14px; }
+  #reviews-body #filter .select-rating-close b, #reviews-body #filter .select-sort-close b {
+    background: #303030;
+    color: #fff; }
+  #reviews-body #filter .select-rating-open b, #reviews-body #filter .select-sort-open b {
+    background: #fff;
+    color: #303030; }
+  #reviews-body #filter #custom-options-select-rating, #reviews-body #filter #custom-options-select-sort {
+    display: none;
+    width: 215px;
+    padding: 0;
+    background: #ffffff;
+    position: absolute;
+    margin: 0;
+    z-index: 100; }
+  #reviews-body #filter #custom-options-select-rating {
+    border: 1px solid #dbdbdb; }
+    #reviews-body #filter #custom-options-select-rating li {
+      border-top: 1px solid #e2e5e9; }
+      #reviews-body #filter #custom-options-select-rating li .uni-stars {
+        color: #303030; }
+  #reviews-body #filter #custom-options-select-sort {
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb; }
+  #reviews-body #filter #custom-options-select-rating li, #reviews-body #filter #custom-options-select-sort li {
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    padding: 0 10px; }
+  #reviews-body #filter #custom-options-select-rating li:hover, #reviews-body #filter #custom-options-select-sort li:hover {
+    cursor: pointer; }
+  #reviews-body #filter #filter-images {
+    display: none; }
+    #reviews-body #filter #filter-images ~ label > span {
+      border: 1px solid #e2e5e9;
+      display: inline-block;
+      height: 10px;
+      margin: 15px 7px 0 0;
+      position: relative;
+      width: 10px; }
+    #reviews-body #filter #filter-images:checked ~ label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 8px;
+      line-height: 10px; }
+  #reviews-body #filter .filter, #reviews-body #filter .filter-photo {
+    font-family: "ProximaNova", Arial, sans-serif !important;
+    font-size: 14px;
+    line-height: 40px; }
+  #reviews-body #filter .filter {
+    color: #000000; }
+  #reviews-body #filter .filter-photo {
+    color: #6c727d !important;
+    margin-right: 5px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+
+@media (max-width: 767px) {
+  #reviews-body #filter .filter {
+    float: none;
+    text-align: center; }
+  #reviews-body #filter #select-rating, #reviews-body #filter #select-sort, #reviews-body #filter .checkbox-group {
+    margin: 0 auto;
+    clear: both; }
+  #reviews-body #filter .filter-photo {
+    float: left; }
+  #reviews-body #filter .checkbox-group {
+    width: 90px;
+    text-align: center; }
+  #reviews-body #filter .filter-sort-text {
+    clear: both;
+    text-align: center; } }
+@media (min-width: 768px) {
+  #reviews-body #filter .filter, #reviews-body #filter .filter-photo {
+    margin-right: 25px;
+    float: left; }
+  #reviews-body #filter .checkbox-group {
+    float: left; }
+  #reviews-body #select-rating {
+    float: left;
+    margin-right: 25px; }
+  #reviews-body .sort-group {
+    float: right;
+    margin-right: 25px; }
+  #reviews-body #select-sort {
+    float: right; }
+  #reviews-body .filter-sort-text {
+    float: left;
+    margin-right: 25px; } }
+#reviews-body .item .likes .fa-check {
+  font-size: 12px; }
+#reviews-body .item .username, #reviews-body .item .reply-header {
+  margin-bottom: 13px;
+  display: inline-block;
+  border-bottom: 1px solid #d8d8d8; }
+#reviews-body .item .age {
+  margin-bottom: 0px; }
+#reviews-body span.yes, #reviews-body span.yescnt {
+  margin-right: 23px; }
+#reviews-body .add-field {
+  margin-top: 20px; }
+#reviews-body .item p {
+  margin: 0; }
+#reviews-body .item .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px; }
+#reviews-body .item .avatar-inner {
+  margin: auto; }
+#reviews-body .item .username, #reviews-body .item .reply-header {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+#reviews-body .item .age {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+
+.item .country {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+
+#reviews-body .item .add-field-text, #reviews-body .item .cnt_reviews, #reviews-body .item .reply-text, #reviews-body .item .likes .recommendated {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+#reviews-body .item .age span, #reviews-body .item .country span, #reviews-body .item .cnt_reviews span {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  padding-right: 10px; }
+#reviews-body .add-field-title {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  padding-right: 10px; }
+#reviews-body .item .likes .yescnt, #reviews-body .item .likes .nocnt {
+  color: #6c727d;
+  font-size: 14px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  padding-right: 10px; }
+#reviews-body .item .likes-title {
+  color: #6c727d;
+  font-size: 12px;
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  padding-right: 10px; }
+#reviews-body .item .age span, #reviews-body .item .country span, #reviews-body .item .cnt_reviews span {
+  width: 75px;
+  display: inline-block; }
+#reviews-body .age .col-sm-8, #reviews-body .country .col-sm-8 {
+  padding-left: 0; }
+#reviews-body .item img {
+  display: inline; }
+#reviews-body .rating .empty-stars, #reviews-body .rating .full-stars {
+  background-image: url(images/stars.png);
+  background-position: repeat-x;
+  height: 16px; }
+#reviews-body .item .rating-text, #reviews-body .rating .stars {
+  display: inline-block; }
+#reviews-body .list .item {
+  margin-bottom: 60px;
+  border-bottom: 1px solid #e2e5e9;
+  padding-bottom: 60px; }
+#reviews-body .stars .full {
+  color: #303030; }
+#reviews-body .item .rating-text {
+  line-height: 16px; }
+#reviews-body .rating .empty-stars {
+  background-position: 0px 0px; }
+#reviews-body .rating .full-stars {
+  background-position: 0px -16px; }
+#reviews-body .rating-filter {
+  display: none; }
+#reviews-body .item .time, #reviews-body .item .rating {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #cfd3da;
+  font-size: 12px; }
+#reviews-body .item .title {
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%; }
+#reviews-body .item .text {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+#reviews-body .item ul.images-reviews {
+  margin: 0; }
+  #reviews-body .item ul.images-reviews a.image-review {
+    margin-right: 10px; }
+#reviews-body .item .likes-title {
+  float: left;
+  margin-bottom: 0; }
+#reviews-body .item .likes i {
+  width: 13px; }
+#reviews-body .item .likes .yes {
+  display: inline-block;
+  cursor: pointer;
+  width: 11px;
+  height: 12px;
+  background: url("images/like.png");
+  margin-right: 5px; }
+#reviews-body .item .likes .no {
+  display: inline-block;
+  cursor: pointer;
+  width: 11px;
+  height: 12px;
+  background: url("images/dislike.png");
+  margin-right: 5px; }
+#reviews-body .item .likes .voted-yes {
+  display: inline-block;
+  width: 11px;
+  height: 12px;
+  background: url("images/voted-like.png");
+  margin-right: 5px; }
+#reviews-body .item .likes .voted-no {
+  display: inline-block;
+  width: 11px;
+  height: 12px;
+  background: url("images/voted-dislike.png");
+  margin-right: 5px; }
+#reviews-body .item .likes .recommendated {
+  display: inline-block;
+  padding-left: 15px;
+  font-size: 12px; }
+#reviews-body .item .likes .yescnt, #reviews-body .item .likes .nocnt {
+  display: inline-block;
+  width: 20px; }
+#reviews-body .list {
+  padding-top: 55px; }
+#reviews-body .add-field-title {
+  color: #6c727d;
+  font-family: "ProximaNova", Arial, sans-serif;
+  font-size: 14px; }
+#reviews-body .answer {
+  margin: 20px 0 0 0;
+  background: #f8f8f8;
+  padding: 15px 0; }
+#reviews-body .stars-sort {
+  display: none; }
+#reviews-body .sort ul li {
+  color: #6c727d;
+  font-family: "ProximaNova", Arial, sans-serif;
+  font-size: 14px; }
+  #reviews-body .sort ul li:hover span {
+    color: #a76e6e;
+    font-family: "ProximaNova", Arial, sans-serif;
+    font-size: 14px; }
+#reviews-body .time-filter {
+  display: none; }
+#reviews-body #filter-pagination {
+  float: right;
+  margin-bottom: 80px; }
+  #reviews-body #filter-pagination button {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 12px;
+    color: #6c727d;
+    background: #ffffff;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 0 10px;
+    display: inline-block;
+    text-align: center;
+    width: 25px; }
+    #reviews-body #filter-pagination button.current {
+      color: #000000; }
+  #reviews-body #filter-pagination .right-arrows button, #reviews-body #filter-pagination .left-arrows button {
+    color: #000000; }
+  #reviews-body #filter-pagination .right-arrows button {
+    border: 1px solid #d5d9dd;
+    border-radius: 15px;
+    line-height: 22px;
+    padding-left: 8px; }
+  #reviews-body #filter-pagination .left-arrows {
+    float: left; }
+    #reviews-body #filter-pagination .left-arrows button {
+      border: 1px solid #d5d9dd;
+      border-radius: 15px;
+      line-height: 22px;
+      padding-left: 8px; }
+  #reviews-body #filter-pagination .right-arrows {
+    float: right; }
+#reviews-body .item .time {
+  margin-bottom: 10px; }
+#reviews-body .item .rating {
+  margin-top: 2px;
+  margin-bottom: 15px; }
+#reviews-body .item .likes {
+  margin-top: 20px; }
+#reviews-body p.filter-photo {
+  color: #6c727d !important;
+  margin-right: 5px;
+  font-family: "ProximaNovaLight", Arial, sans-serif; }
+#reviews-body .dnone {
+  display: none; }
+#reviews-body .list .shopanswer {
+  background: #f8f8f8;
+  padding: 30px 25px;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0; }
+  #reviews-body .list .shopanswer .bottom-border {
+    border-bottom: none; }
+  #reviews-body .list .shopanswer .username {
+    color: #af7676;
+    border-bottom: 0;
+    text-decoration: none; }
+  #reviews-body .list .shopanswer .text {
+    color: #303030;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+#reviews-body .item-row {
+  margin-left: 0;
+  margin-right: 0; }
+#reviews-body .item blockquote {
+  border: none !important;
+  background-color: #f2eccf;
+  padding: 8px 6px 8px 24px;
+  border-radius: 2px !important;
+  color: #303030 !important;
+  min-height: 1em !important;
+  margin: 0.6em 0 0.8em 0 !important; }
+
+#reviews-list .item .wrap-quote {
+  border: none;
+  box-shadow: none;
+  padding: 0; }
+  #reviews-list .item .wrap-quote .quote {
+    font-size: 15px;
+    font-family: "PG Isadora Cyr Pro", Arial, regular;
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    color: #c19292;
+    line-height: 15px;
+    border-bottom: 1px dotted #c19292;
+    padding: 0;
+    min-height: unset;
+    float: right; }
+#reviews-list .item .menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  /*display:none;*/ }
+  #reviews-list .item .menu .message {
+    padding: 8px 8px 5px 8px;
+    position: absolute;
+    opacity: 0;
+    top: 25px;
+    background: #ffffff;
+    z-index: 0;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #reviews-list .item .menu .message-success {
+    border: 1px solid green;
+    color: green;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25); }
+  #reviews-list .item .menu .message-error {
+    border: 1px solid #e64343;
+    color: #e64343;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25); }
+#reviews-list .item:hover .menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block; }
+#reviews-list .item .menu ul {
+  margin: 0 15px 0 0;
+  list-style: none;
+  border: 1px solid #e2e5e9;
+  display: none; }
+#reviews-list .item .menu .actions {
+  cursor: pointer;
+  font-size: 14px;
+  color: #cfd3da;
+  display: block;
+  z-index: 9999;
+  float: right;
+  margin-top: 0px; }
+#reviews-list .item .menu:hover .actions {
+  color: #303030; }
+#reviews-list .item .menu .actions::before {
+  font-size: 80%; }
+#reviews-list .item .menu.open ul {
+  display: block;
+  width: 180px;
+  z-index: 9999;
+  margin-top: 15px; }
+#reviews-list .item .menu ul li {
+  padding: 8px 12px 5px 12px;
+  border-bottom: 1px solid #e2e5e9;
+  z-index: 0;
+  cursor: pointer;
+  position: relative;
+  background: #f9f9f9;
+  font-size: 12px;
+  color: #6c727d;
+  font-family: "ProximaNovaLight", Arial, sans-serif; }
+  #reviews-list .item .menu ul li:hover {
+    color: #303030; }
+  #reviews-list .item .menu ul li:last-child {
+    border-bottom: none; }
+
+#reviews-body .item .video-title, #reviews-body .item .images-title, #reviews-body .item .presentation-title {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #6c727d;
+  font-size: 12px;
+  margin: 10px 0 5px 0; }
+#reviews-body .item .cnt_reviews a {
+  display: inline-block; }
+#reviews-body .share {
+  padding-right: 0; }
+
+@media (max-width: 767px) {
+  #reviews-body .time, .rating, .user-info {
+    text-align: center; }
+
+  #reviews-body {
+    margin-bottom: 20px; }
+    #reviews-body .item .rating-text {
+      padding-right: 0; }
+    #reviews-body .item .avatar {
+      position: relative;
+      left: 50%;
+      margin-left: -47px;
+      float: none; }
+    #reviews-body .item .likes {
+      text-align: center; }
+      #reviews-body .item .likes .fa-check {
+        padding-left: 5px;
+        padding-right: 5px; }
+    #reviews-body .reply-block {
+      text-align: center; }
+    #reviews-body .reply-text {
+      text-align: left; } }
+@media (min-width: 768px) {
+  #reviews-body {
+    margin-bottom: 80px; }
+    #reviews-body .item .rating-text {
+      padding-right: 20px; }
+    #reviews-body .item .avatar {
+      float: left; }
+    #reviews-body .item .likes .fa-check {
+      padding-left: 20px;
+      padding-right: 5px; }
+    #reviews-body p.filter, #reviews-body p.filter-photo {
+      margin-right: 20px;
+      float: left; }
+    #reviews-body .panel-top .sort {
+      float: right; }
+    #reviews-body .reply-block {
+      padding-left: 25px; }
+    #reviews-body .user-info {
+      padding-left: 0; }
+    #reviews-body .text .text {
+      padding-right: 0; } }
+#sotbit_reviews_share {
+  float: right; }
+  #sotbit_reviews_share .share {
+    font-size: 14px;
+    text-decoration: none;
+    color: #c1c4cb;
+    margin-right: 5px; }
+    #sotbit_reviews_share .share:hover {
+      color: #303030; }
+
+#reviews-sharelink-popup {
+  background: #fff;
+  position: fixed;
+  display: none;
+  opacity: 0;
+  z-index: 10000;
+  padding: 26px;
+  border-radius: 2px;
+  border: 1px solid #ebebeb; }
+
+#reviews-sharelink-overlay {
+  z-index: 9999;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=80);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none; }
+
+#sotbit_reviews_share .share-link-title {
+  display: none; }
+
+#reviews-sharelink-popup #modal_close {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 23px;
+  right: 21px;
+  cursor: pointer;
+  display: block;
+  color: #888888;
+  font-size: 20px; }
+#reviews-sharelink-popup .title {
+  font-size: 18px; }
+#reviews-sharelink-popup .text {
+  font-size: center; }
+
+@media (max-width: 768px) {
+  #sotbit_reviews_share {
+    float: none; }
+
+  #reviews-sharelink-popup .title {
+    font-size: center; }
+  #reviews-sharelink-popup .text {
+    font-size: 10px; } }
+@media (min-width: 768px) {
+  #reviews-statistics .cnt-stars {
+    text-align: left; }
+  #reviews-statistics .bg {
+    padding-left: 119px;
+    padding-right: 119px; } }
+@media (max-width: 767px) {
+  #reviews-statistics .reviews-count-block {
+    margin: 0 auto; }
+  #reviews-statistics .cnt-stars {
+    text-align: center; }
+  #reviews-statistics .bg {
+    padding-left: 10px;
+    padding-right: 10px; } }
+#reviews-statistics {
+  border-top: 1px solid #e2e5e9;
+  padding-top: 35px;
+  margin-top: 70px; }
+  #reviews-statistics .bg {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #f8f8f8; }
+  #reviews-statistics h3 {
+    color: #a76e6e;
+    font-size: 25px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    margin-bottom: 35px; }
+  #reviews-statistics .text-center {
+    text-align: center; }
+  #reviews-statistics .border {
+    border-bottom: 1px solid #e1e4ea;
+    padding-bottom: 18px;
+    padding-top: 26px; }
+  #reviews-statistics h5 {
+    color: #000000;
+    font-size: 22px;
+    font-family: "ProximaNovaThin", Arial, sans-serif;
+    margin-bottom: 20px; }
+  #reviews-statistics .grey-bg {
+    background: #f8f8f8;
+    margin-left: 0px;
+    margin-right: 0px; }
+  #reviews-statistics p.text-fixed {
+    color: #000000;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    margin-bottom: 8px; }
+  #reviews-statistics p.mid-rating {
+    color: #6c727d;
+    font-size: 13px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    margin-bottom: 8px; }
+  #reviews-statistics .empty-stars, #reviews-statistics .full-stars {
+    background-image: url(images/stars.png);
+    background-position: repeat-x;
+    height: 31px; }
+  #reviews-statistics .empty-stars {
+    background-position: 0px 0px;
+    margin: 0 auto;
+    margin-bottom: 15px; }
+  #reviews-statistics .full-stars {
+    background-position: 0px -31px; }
+  #reviews-statistics .reviews-scale-empty, #reviews-statistics .reviews-scale-full {
+    height: 5px;
+    vertical-align: middle; }
+  #reviews-statistics .review-line {
+    padding-bottom: 10px; }
+    #reviews-statistics .review-line:last-child {
+      padding-bottom: 30px; }
+  #reviews-statistics .col {
+    min-height: 20px; }
+  #reviews-statistics .reviews-scale-empty {
+    display: inline-block;
+    width: 100%;
+    background: #e1e4ea;
+    float: none; }
+  #reviews-statistics .spoiler-reviews-body {
+    padding-left: 0;
+    padding-right: 0; }
+  #reviews-statistics .add-reviews {
+    margin-left: 0;
+    margin-right: 0;
+    /*padding:20px 0;*/
+    /*background:$main_background;*/ }
+  #reviews-statistics .spoiler-bottom {
+    padding: 23px 0 24px 0;
+    background: #f8f8f8; }
+  #reviews-statistics .add-review-text {
+    padding-left: 0;
+    padding-right: 0; }
+  #reviews-statistics .reviews-scale-full {
+    background: #c58d8d; }
+  #reviews-statistics .reviews-count-block {
+    height: 20px;
+    border: 1px solid #c0c5cb;
+    border-radius: 3px;
+    color: #303030;
+    font-size: 13px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    width: 50px; }
+  #reviews-statistics .no-reviews-title1 {
+    color: #000000;
+    font-size: 22px;
+    font-family: "ProximaNovaThin", Arial, sans-serif;
+    margin-bottom: 10px; }
+  #reviews-statistics .no-reviews-title2 {
+    color: #000000;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    margin-bottom: 0; }
+  #reviews-statistics .cnt-stars {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #000000;
+    font-size: 14px; }
+
+.comments-user-list {
+  padding-top: 30px; }
+  .comments-user-list .border {
+    margin-bottom: 55px;
+    border-bottom: 1px solid #e2e5e9;
+    padding-bottom: 60px; }
+  .comments-user-list .item .title {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    font-weight: bold; }
+  .comments-user-list .item .date-creation {
+    margin-bottom: 10px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px; }
+  .comments-user-list .item .text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .comments-user-list .element a {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    display: block; }
+    .comments-user-list .element a:hover {
+      text-decoration: none; }
+  .comments-user-list .item blockquote {
+    border: none !important;
+    background-color: #f2eccf;
+    padding: 8px 6px 8px 24px;
+    border-radius: 2px !important;
+    color: #303030 !important;
+    min-height: 1em !important;
+    margin: 0.6em 0 0.8em 0 !important; }
+
+.row comments-user-list {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+
+.sotbit_reviews_user_comments .user-row {
+  margin-bottom: 40px; }
+.sotbit_reviews_user_comments .user {
+  display: flex; }
+.sotbit_reviews_user_comments .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px; }
+  .sotbit_reviews_user_comments .avatar .avatar-inner {
+    margin: auto; }
+.sotbit_reviews_user_comments .user-info {
+  flex: 1; }
+  .sotbit_reviews_user_comments .user-info .name {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    display: inline-block;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 13px; }
+  .sotbit_reviews_user_comments .user-info .age, .sotbit_reviews_user_comments .user-info .country {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 0; }
+  .sotbit_reviews_user_comments .user-info .age span, .sotbit_reviews_user_comments .user-info .country span {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    padding-right: 10px; }
+.sotbit_reviews_user_comments .cnt {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  border-bottom: 1px solid #e2e5e9; }
+
+.questions-user-list {
+  padding-top: 30px; }
+  .questions-user-list .border {
+    margin-bottom: 55px;
+    border-bottom: 1px solid #e2e5e9;
+    padding-bottom: 60px; }
+  .questions-user-list .item .title {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    font-weight: bold; }
+  .questions-user-list .item .date-creation {
+    margin-bottom: 10px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px; }
+  .questions-user-list .item .rating {
+    display: flex;
+    justify-content: flex-start; }
+    .questions-user-list .item .rating .rating-text {
+      padding-right: 20px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      color: #6c727d;
+      font-size: 12px; }
+    .questions-user-list .item .rating .empty {
+      color: #6c727d; }
+    .questions-user-list .item .rating .full {
+      color: #303030; }
+  .questions-user-list .item .text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .questions-user-list .item .likes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px; }
+  .questions-user-list .item .voted-yes, .questions-user-list .item .voted-no {
+    width: 11px;
+    height: 12px;
+    margin-right: 8px; }
+  .questions-user-list .item .voted-yes {
+    background: url("images/voted-like.png"); }
+  .questions-user-list .item .voted-no {
+    background: url("images/voted-dislike.png"); }
+  .questions-user-list .item .yescnt {
+    margin-right: 15px; }
+  .questions-user-list .item .nocnt {
+    margin-right: 15px;
+    margin-right: 50px; }
+  .questions-user-list .item .recommendated {
+    padding-left: 15px;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    margin-bottom: 0; }
+  .questions-user-list .pagination {
+    float: right;
+    margin-bottom: 80px; }
+    .questions-user-list .pagination button {
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      font-size: 12px;
+      color: #6c727d;
+      background: #ffffff;
+      border: none;
+      height: 25px;
+      line-height: 25px;
+      margin: 0 0 0 10px;
+      display: inline-block;
+      text-align: center;
+      width: 25px; }
+      .questions-user-list .pagination button.current {
+        color: #000000; }
+    .questions-user-list .pagination .right-arrows button, .questions-user-list .pagination .left-arrows button {
+      color: #000000; }
+    .questions-user-list .pagination .right-arrows button {
+      border: 1px solid #d5d9dd;
+      border-radius: 15px;
+      line-height: 22px;
+      padding-left: 8px; }
+    .questions-user-list .pagination .left-arrows {
+      float: left; }
+      .questions-user-list .pagination .left-arrows button {
+        border: 1px solid #d5d9dd;
+        border-radius: 15px;
+        line-height: 22px;
+        padding-left: 8px; }
+    .questions-user-list .pagination .right-arrows {
+      float: right; }
+  .questions-user-list .item .video-title, .questions-user-list .item .images-title, .questions-user-list .item .presentation-title {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px;
+    margin: 10px 0 5px 0; }
+  .questions-user-list .item .images {
+    margin: 0; }
+  .questions-user-list .item .image img {
+    display: inline; }
+  .questions-user-list .item .add-field-title {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .questions-user-list .item .item .likes .yescnt, .questions-user-list .item .item .likes .nocnt {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .questions-user-list .item .add-field-title {
+    padding-right: 10px; }
+  .questions-user-list .item .add-field-text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .questions-user-list .add-field {
+    margin-top: 15px; }
+  .questions-user-list .element a {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    display: block; }
+    .questions-user-list .element a:hover {
+      text-decoration: none; }
+  .questions-user-list .shopanswer {
+    background: #f8f8f8;
+    padding: 30px 25px;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0; }
+    .questions-user-list .shopanswer .col-shopanswer {
+      display: flex;
+      justify-content: flex-start; }
+    .questions-user-list .shopanswer .bottom-border {
+      border-bottom: none; }
+    .questions-user-list .shopanswer .username {
+      color: #af7676;
+      border-bottom: 0;
+      text-decoration: none; }
+    .questions-user-list .shopanswer .text {
+      color: #303030;
+      font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .questions-user-list .item blockquote {
+    border: none !important;
+    background-color: #f2eccf;
+    padding: 8px 6px 8px 24px;
+    border-radius: 2px !important;
+    color: #303030 !important;
+    min-height: 1em !important;
+    margin: 0.6em 0 0.8em 0 !important; }
+
+.row questions-user-list {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+
+.sotbit_questions_user_questions .shopanswer .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px;
+  flex-shrink: 0; }
+  .sotbit_questions_user_questions .shopanswer .avatar .avatar-inner {
+    margin: auto; }
+
+.sotbit_reviews_user_questions .user-row {
+  margin-bottom: 40px; }
+.sotbit_reviews_user_questions .user {
+  display: flex; }
+.sotbit_reviews_user_questions .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px; }
+  .sotbit_reviews_user_questions .avatar .avatar-inner {
+    margin: auto; }
+.sotbit_reviews_user_questions .user-info {
+  flex: 1; }
+  .sotbit_reviews_user_questions .user-info .name {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    display: inline-block;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 13px; }
+  .sotbit_reviews_user_questions .user-info .age, .sotbit_reviews_user_questions .user-info .country {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 0; }
+  .sotbit_reviews_user_questions .user-info .age span, .sotbit_reviews_user_questions .user-info .country span {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    padding-right: 10px; }
+.sotbit_reviews_user_questions .cnt {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  border-bottom: 1px solid #e2e5e9; }
+
+.reviews-user-list {
+  padding-top: 30px; }
+  .reviews-user-list .border {
+    margin-bottom: 55px;
+    border-bottom: 1px solid #e2e5e9;
+    padding-bottom: 60px; }
+  .reviews-user-list .item .title {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    font-weight: bold; }
+  .reviews-user-list .item .date-creation {
+    margin-bottom: 10px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px; }
+  .reviews-user-list .item .rating {
+    display: flex;
+    justify-content: flex-start; }
+    .reviews-user-list .item .rating .rating-text {
+      padding-right: 20px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      color: #6c727d;
+      font-size: 12px; }
+    .reviews-user-list .item .rating .empty {
+      color: #6c727d; }
+    .reviews-user-list .item .rating .full {
+      color: #303030; }
+  .reviews-user-list .item .text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .reviews-user-list .item .likes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px; }
+  .reviews-user-list .item .voted-yes, .reviews-user-list .item .voted-no {
+    width: 11px;
+    height: 12px;
+    margin-right: 8px; }
+  .reviews-user-list .item .voted-yes {
+    background: url("images/voted-like.png"); }
+  .reviews-user-list .item .voted-no {
+    background: url("images/voted-dislike.png"); }
+  .reviews-user-list .item .yescnt {
+    margin-right: 15px; }
+  .reviews-user-list .item .nocnt {
+    margin-right: 15px;
+    margin-right: 50px; }
+  .reviews-user-list .item .recommendated {
+    padding-left: 15px;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    margin-bottom: 0; }
+  .reviews-user-list .pagination {
+    float: right;
+    margin-bottom: 80px; }
+    .reviews-user-list .pagination button {
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      font-size: 12px;
+      color: #6c727d;
+      background: #ffffff;
+      border: none;
+      height: 25px;
+      line-height: 25px;
+      margin: 0 0 0 10px;
+      display: inline-block;
+      text-align: center;
+      width: 25px; }
+      .reviews-user-list .pagination button.current {
+        color: #000000; }
+    .reviews-user-list .pagination .right-arrows button, .reviews-user-list .pagination .left-arrows button {
+      color: #000000; }
+    .reviews-user-list .pagination .right-arrows button {
+      border: 1px solid #d5d9dd;
+      border-radius: 15px;
+      line-height: 22px;
+      padding-left: 8px; }
+    .reviews-user-list .pagination .left-arrows {
+      float: left; }
+      .reviews-user-list .pagination .left-arrows button {
+        border: 1px solid #d5d9dd;
+        border-radius: 15px;
+        line-height: 22px;
+        padding-left: 8px; }
+    .reviews-user-list .pagination .right-arrows {
+      float: right; }
+  .reviews-user-list .item .video-title, .reviews-user-list .item .images-title, .reviews-user-list .item .presentation-title {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px;
+    margin: 10px 0 5px 0; }
+  .reviews-user-list .item .images {
+    margin: 0; }
+  .reviews-user-list .item .image img {
+    display: inline; }
+  .reviews-user-list .item .add-field-title {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .reviews-user-list .item .item .likes .yescnt, .reviews-user-list .item .item .likes .nocnt {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .reviews-user-list .item .add-field-title {
+    padding-right: 10px; }
+  .reviews-user-list .item .add-field-text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .reviews-user-list .add-field {
+    margin-top: 15px; }
+  .reviews-user-list .element a {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    display: block; }
+    .reviews-user-list .element a:hover {
+      text-decoration: none; }
+  .reviews-user-list .shopanswer {
+    background: #f8f8f8;
+    padding: 30px 25px;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0; }
+    .reviews-user-list .shopanswer .col-shopanswer {
+      display: flex;
+      justify-content: flex-start; }
+    .reviews-user-list .shopanswer .bottom-border {
+      border-bottom: none; }
+    .reviews-user-list .shopanswer .username {
+      color: #af7676;
+      border-bottom: 0;
+      text-decoration: none; }
+    .reviews-user-list .shopanswer .text {
+      color: #303030;
+      font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .reviews-user-list .item blockquote {
+    border: none !important;
+    background-color: #f2eccf;
+    padding: 8px 6px 8px 24px;
+    border-radius: 2px !important;
+    color: #303030 !important;
+    min-height: 1em !important;
+    margin: 0.6em 0 0.8em 0 !important; }
+
+.row reviews-user-list {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+
+.sotbit_reviews_user_rcq .shopanswer .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px;
+  flex-shrink: 0; }
+  .sotbit_reviews_user_rcq .shopanswer .avatar .avatar-inner {
+    margin: auto; }
+
+.sotbit_reviews_user_reviews .user-row {
+  margin-bottom: 40px; }
+.sotbit_reviews_user_reviews .user {
+  display: flex; }
+.sotbit_reviews_user_reviews .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px; }
+  .sotbit_reviews_user_reviews .avatar .avatar-inner {
+    margin: auto; }
+.sotbit_reviews_user_reviews .user-info {
+  flex: 1; }
+  .sotbit_reviews_user_reviews .user-info .name {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    display: inline-block;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 13px; }
+  .sotbit_reviews_user_reviews .user-info .age, .sotbit_reviews_user_reviews .user-info .country {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 0; }
+  .sotbit_reviews_user_reviews .user-info .age span, .sotbit_reviews_user_reviews .user-info .country span {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    padding-right: 10px; }
+.sotbit_reviews_user_reviews .cnt {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  border-bottom: 1px solid #e2e5e9; }
+
+@media (max-width: 767px) {
+  .sotbit_reviews_user_reviews #filter .filter {
+    float: none;
+    text-align: center; }
+  .sotbit_reviews_user_reviews #filter #select-rating, .sotbit_reviews_user_reviews #filter #select-sort, .sotbit_reviews_user_reviews #filter .checkbox-group {
+    margin: 0 auto;
+    clear: both; }
+  .sotbit_reviews_user_reviews #filter .filter-photo {
+    float: left; }
+  .sotbit_reviews_user_reviews #filter .checkbox-group {
+    width: 90px;
+    text-align: center; }
+  .sotbit_reviews_user_reviews #filter .filter-sort-text {
+    clear: both;
+    text-align: center; } }
+@media (min-width: 768px) {
+  .sotbit_reviews_user_reviews #filter .filter, .sotbit_reviews_user_reviews #filter .filter-photo {
+    margin-right: 25px;
+    float: left; }
+  .sotbit_reviews_user_reviews #filter .checkbox-group {
+    float: left; }
+  .sotbit_reviews_user_reviews #select-rating {
+    float: left;
+    margin-right: 25px; }
+  .sotbit_reviews_user_reviews .sort-group {
+    float: right;
+    margin-right: 25px; }
+  .sotbit_reviews_user_reviews #select-sort {
+    float: right; }
+  .sotbit_reviews_user_reviews .filter-sort-text {
+    float: left;
+    margin-right: 25px; } }
+.sotbit_reviews_user_reviews #filter {
+  display: block; }
+  .sotbit_reviews_user_reviews #filter .filter-sort-text {
+    line-height: 40px;
+    color: #000000;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .sotbit_reviews_user_reviews #filter #filter-images {
+    display: none; }
+    .sotbit_reviews_user_reviews #filter #filter-images ~ label > span {
+      border: 1px solid #e2e5e9;
+      display: inline-block;
+      height: 10px;
+      margin: 14px 7px 0 0;
+      position: relative;
+      width: 10px; }
+    .sotbit_reviews_user_reviews #filter #filter-images:checked ~ label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 8px;
+      line-height: 10px; }
+  .sotbit_reviews_user_reviews #filter .border {
+    border-bottom: 1px solid #e6e6e6;
+    min-height: 41px; }
+  .sotbit_reviews_user_reviews #filter .filter-photo {
+    color: #6c727d;
+    margin-right: 5px; }
+  .sotbit_reviews_user_reviews #filter #select-rating, .sotbit_reviews_user_reviews #filter #select-sort {
+    width: 170px;
+    text-align: left;
+    font-size: 14px;
+    font-family: "ProximaNova", Arial, sans-serif;
+    height: 40px;
+    padding-top: 14px;
+    line-height: 14px; }
+  .sotbit_reviews_user_reviews #filter .select-rating-close, .sotbit_reviews_user_reviews #filter .select-sort-close {
+    color: #6c727d;
+    background: #ffffff; }
+  .sotbit_reviews_user_reviews #filter .select-rating-close .uni-stars {
+    color: #303030; }
+  .sotbit_reviews_user_reviews #filter .select-rating-open {
+    background: #303030;
+    color: #ffffff; }
+    .sotbit_reviews_user_reviews #filter .select-rating-open .uni-stars {
+      color: #ffffff; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-rating, .sotbit_reviews_user_reviews #filter #current-option-select-sort {
+    width: 100%;
+    cursor: pointer;
+    height: 26px;
+    padding-right: 10px;
+    padding-left: 10px; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-rating, .sotbit_reviews_user_reviews #filter #current-option-select-sort {
+    font-family: "ProximaNovaLight", Arial, sans-serif, FontAwesome; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-rating .stars-in {
+    margin-right: 10px; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-rating b {
+    height: 14px;
+    width: 20px;
+    float: right;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: 14px; }
+  .sotbit_reviews_user_reviews #filter #current-option-select-sort b {
+    height: 14px;
+    width: 20px;
+    float: right;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: 14px; }
+  .sotbit_reviews_user_reviews #filter .select-rating-close b, .sotbit_reviews_user_reviews #filter .select-sort-close b {
+    background: #303030;
+    color: #fff; }
+  .sotbit_reviews_user_reviews #filter .select-rating-open b, .sotbit_reviews_user_reviews #filter .select-sort-open b {
+    background: #fff;
+    color: #303030; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-rating, .sotbit_reviews_user_reviews #filter #custom-options-select-sort {
+    display: none;
+    width: 215px;
+    padding: 0;
+    background: #ffffff;
+    position: absolute;
+    margin: 0;
+    z-index: 100; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-rating {
+    border: 1px solid #dbdbdb; }
+    .sotbit_reviews_user_reviews #filter #custom-options-select-rating li {
+      border-top: 1px solid #e2e5e9; }
+      .sotbit_reviews_user_reviews #filter #custom-options-select-rating li .uni-stars {
+        color: #303030; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-sort {
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-rating li, .sotbit_reviews_user_reviews #filter #custom-options-select-sort li {
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    padding: 0 10px; }
+  .sotbit_reviews_user_reviews #filter #custom-options-select-rating li:hover, .sotbit_reviews_user_reviews #filter #custom-options-select-sort li:hover {
+    cursor: pointer; }
+  .sotbit_reviews_user_reviews #filter #filter-images {
+    display: none; }
+    .sotbit_reviews_user_reviews #filter #filter-images ~ label > span {
+      border: 1px solid #e2e5e9;
+      display: inline-block;
+      height: 10px;
+      margin: 15px 7px 0 0;
+      position: relative;
+      width: 10px; }
+    .sotbit_reviews_user_reviews #filter #filter-images:checked ~ label > span:after {
+      position: absolute;
+      content: "\f00c";
+      color: #303030;
+      font-family: FontAwesome;
+      font-size: 8px;
+      line-height: 10px; }
+  .sotbit_reviews_user_reviews #filter .filter, .sotbit_reviews_user_reviews #filter .filter-photo {
+    font-family: "ProximaNova", Arial, sans-serif !important;
+    font-size: 14px;
+    line-height: 40px; }
+  .sotbit_reviews_user_reviews #filter .filter {
+    color: #000000; }
+  .sotbit_reviews_user_reviews #filter .filter-photo {
+    color: #6c727d !important;
+    margin-right: 5px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+
+.reviews-user-list {
+  padding-top: 30px; }
+  .reviews-user-list .border {
+    margin-bottom: 55px;
+    border-bottom: 1px solid #e2e5e9;
+    padding-bottom: 60px; }
+  .reviews-user-list .item .title {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    font-weight: bold; }
+  .reviews-user-list .item .date-creation {
+    margin-bottom: 10px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px; }
+  .reviews-user-list .item .rating {
+    display: flex;
+    justify-content: flex-start; }
+    .reviews-user-list .item .rating .rating-text {
+      padding-right: 20px;
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      color: #6c727d;
+      font-size: 12px; }
+    .reviews-user-list .item .rating .empty {
+      color: #6c727d; }
+    .reviews-user-list .item .rating .full {
+      color: #303030; }
+  .reviews-user-list .item .text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .reviews-user-list .item .likes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px; }
+  .reviews-user-list .item .voted-yes, .reviews-user-list .item .voted-no {
+    width: 11px;
+    height: 12px;
+    margin-right: 8px; }
+  .reviews-user-list .item .voted-yes {
+    background: url("images/voted-like.png"); }
+  .reviews-user-list .item .voted-no {
+    background: url("images/voted-dislike.png"); }
+  .reviews-user-list .item .yescnt {
+    margin-right: 15px; }
+  .reviews-user-list .item .nocnt {
+    margin-right: 15px;
+    margin-right: 50px; }
+  .reviews-user-list .item .recommendated {
+    padding-left: 15px;
+    font-size: 12px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    margin-bottom: 0; }
+  .reviews-user-list .pagination {
+    float: right;
+    margin-bottom: 80px; }
+    .reviews-user-list .pagination button {
+      font-family: "ProximaNovaLight", Arial, sans-serif;
+      font-size: 12px;
+      color: #6c727d;
+      background: #ffffff;
+      border: none;
+      height: 25px;
+      line-height: 25px;
+      margin: 0 0 0 10px;
+      display: inline-block;
+      text-align: center;
+      width: 25px; }
+      .reviews-user-list .pagination button.current {
+        color: #000000; }
+    .reviews-user-list .pagination .right-arrows button, .reviews-user-list .pagination .left-arrows button {
+      color: #000000; }
+    .reviews-user-list .pagination .right-arrows button {
+      border: 1px solid #d5d9dd;
+      border-radius: 15px;
+      line-height: 22px;
+      padding-left: 8px; }
+    .reviews-user-list .pagination .left-arrows {
+      float: left; }
+      .reviews-user-list .pagination .left-arrows button {
+        border: 1px solid #d5d9dd;
+        border-radius: 15px;
+        line-height: 22px;
+        padding-left: 8px; }
+    .reviews-user-list .pagination .right-arrows {
+      float: right; }
+  .reviews-user-list .item .video-title, .reviews-user-list .item .images-title, .reviews-user-list .item .presentation-title {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #6c727d;
+    font-size: 12px;
+    margin: 10px 0 5px 0; }
+  .reviews-user-list .item .images {
+    margin: 0; }
+  .reviews-user-list .item .image img {
+    display: inline; }
+  .reviews-user-list .item .add-field-title {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .reviews-user-list .item .item .likes .yescnt, .reviews-user-list .item .item .likes .nocnt {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .reviews-user-list .item .add-field-title {
+    padding-right: 10px; }
+  .reviews-user-list .item .add-field-text {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px; }
+  .reviews-user-list .add-field {
+    margin-top: 15px; }
+  .reviews-user-list .element a {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    display: block; }
+    .reviews-user-list .element a:hover {
+      text-decoration: none; }
+  .reviews-user-list .shopanswer {
+    background: #f8f8f8;
+    padding: 30px 25px;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0; }
+    .reviews-user-list .shopanswer .col-shopanswer {
+      display: flex;
+      justify-content: flex-start; }
+    .reviews-user-list .shopanswer .bottom-border {
+      border-bottom: none; }
+    .reviews-user-list .shopanswer .username {
+      color: #af7676;
+      border-bottom: 0;
+      text-decoration: none; }
+    .reviews-user-list .shopanswer .text {
+      color: #303030;
+      font-family: "ProximaNovaLight", Arial, sans-serif; }
+  .reviews-user-list .item blockquote {
+    border: none !important;
+    background-color: #f2eccf;
+    padding: 8px 6px 8px 24px;
+    border-radius: 2px !important;
+    color: #303030 !important;
+    min-height: 1em !important;
+    margin: 0.6em 0 0.8em 0 !important; }
+
+.row reviews-user-list {
+  font-family: "ProximaNovaLight", Arial, sans-serif;
+  color: #303030;
+  font-size: 14px; }
+
+.sotbit_reviews_user_rcq .shopanswer .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px;
+  flex-shrink: 0; }
+  .sotbit_reviews_user_rcq .shopanswer .avatar .avatar-inner {
+    margin: auto; }
+
+.sotbit_reviews_user_reviews .user-row {
+  margin-bottom: 40px; }
+.sotbit_reviews_user_reviews .user {
+  display: flex; }
+.sotbit_reviews_user_reviews .avatar {
+  background: #ffffff;
+  width: 94px;
+  height: 94px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  text-align: center !important;
+  line-height: 94px;
+  border: 1px solid #e6e6e6;
+  margin-right: 25px; }
+  .sotbit_reviews_user_reviews .avatar .avatar-inner {
+    margin: auto; }
+.sotbit_reviews_user_reviews .user-info {
+  flex: 1; }
+  .sotbit_reviews_user_reviews .user-info .name {
+    font-family: "ProximaNova", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    display: inline-block;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 13px; }
+  .sotbit_reviews_user_reviews .user-info .age, .sotbit_reviews_user_reviews .user-info .country {
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    color: #303030;
+    font-size: 14px;
+    margin-bottom: 0; }
+  .sotbit_reviews_user_reviews .user-info .age span, .sotbit_reviews_user_reviews .user-info .country span {
+    color: #6c727d;
+    font-size: 14px;
+    font-family: "ProximaNovaLight", Arial, sans-serif;
+    padding-right: 10px; }
+.sotbit_reviews_user_reviews .cnt {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "ProximaNova", Arial, sans-serif;
+  color: #303030;
+  border-bottom: 1px solid #e2e5e9; }
+
+/*# sourceMappingURL=all.css.map */

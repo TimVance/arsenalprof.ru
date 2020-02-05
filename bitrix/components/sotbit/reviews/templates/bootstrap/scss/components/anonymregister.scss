@@ -1,0 +1,219 @@
+div.bx-auth-reg {
+  input.bx-auth-input {
+    vertical-align: middle;
+  }
+  span.bx-auth-secure {
+    background-color: #FFFAE3;
+    border: 1px solid #DEDBC8;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  div {
+    &.bx-auth-secure-icon {
+      background-image: url(images/sec.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 19px;
+      height: 18px;
+    }
+    &.bx-auth-secure-unlock {
+      background-image: url(images/sec-unlocked.png);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #registration_anonymous {
+    input[type="submit"] {
+      margin: 0 auto;
+      display: block;
+    }
+    .form-group {
+      margin: 0 auto 5px auto;
+      width: 230px;
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #registration_anonymous {
+    .captcha {
+      img {
+        display: inline-block;
+        margin-right: 10px;
+        width: 35%;
+      }
+      input[type="text"] {
+        height: 42px;
+        width: 60%;
+        display: inline;
+        float: right;
+      }
+    }
+    .form-group {
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+  }
+}
+
+#registration_anonymous {
+  text-align: left;
+  p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-family: $font_Light;
+    font-size: 12px;
+  }
+  input {
+    &[type="text"], &[type="password"] {
+      width: 230px;
+      color: $color_text_min_black;
+      font-size: 12px;
+      font-family: $font_Light;
+      border: $body_comment_border;
+      padding: 10px;
+      margin-right: 20px;
+    }
+  }
+  .form-group {
+    p {
+      margin-bottom: 3px;
+      text-align: left;
+      color: #6c727d;
+      font-size: 12px;
+      font-family: $font_Light;
+    }
+    a {
+      float: right;
+      color: #6c727d;
+      font-size: 12px;
+      font-family: $font_Light;
+      font-weight: lighter;
+    }
+  }
+  .checkbox {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 13px;
+    input[type="checkbox"] {
+      margin-right: 10px;
+      float: left;
+    }
+    label {
+      color: $color_text_min_black;
+      font-size: 12px;
+      font-family: $font_Light;
+      clear: both;
+    }
+  }
+  input[type="submit"] {
+    background: $color_background_white;
+    color: $color_grey;
+    font-size: $p_font_size;
+    font-family: $font_Light;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 2px 2px 1px #dedede;
+    margin-top: 15px;
+  }
+  .captcha {
+    background: #efeded;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    position: relative;
+    display: inline-block;
+    .captcha-title {
+      color: #6c727d;
+      font-size: 12px;
+      font-family: $font_Light;
+      margin-bottom: 10px;
+    }
+    .captcha-title-2 {
+      color: $color_text_min_black;
+      font-size: 12px;
+      font-family: $font_Light;
+      font-weight: lighter;
+    }
+    img {
+      display: inline-block;
+      margin-right: 10px;
+      width: 110px;
+      height: 40px;
+    }
+    input[type="text"] {
+      height: 42px;
+      width: 230px;
+      display: inline;
+      float: none;
+      margin-right: 0;
+    }
+  }
+}
+
+.bx-auth-reg-anonymous .bx-auth-lbl {
+  color: #6c727d;
+  font-family: $font_Light;
+  font-size: 12px;
+  margin: 0 0 15px 0;
+  text-align: $text_align_main;
+  position: relative;
+  overflow: hidden;
+  .soc-text {
+    display: inline-block;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      border-top: $body_comment_border;
+      margin-top: .6em;
+    }
+    &:before {
+      margin-left: -102%;
+    }
+    &:after {
+      margin-left: 2%;
+    }
+  }
+}
+
+#registration_anonymous {
+  p.anonym_registration_error {
+    color: #994d4d;
+    text-align: left;
+  }
+  .confidential-field {
+    margin-top: 0;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .checkbox label {
+    > span {
+      border: 1px solid #b8b8b8;
+      display: inline-block;
+      height: 10px;
+      margin: 0 7px 0 0;
+      position: relative;
+      width: 10px;
+      &:after {
+        position: absolute;
+        content: "\f00c";
+        color: $color_text_min_black;
+        font-family: FontAwesome;
+        font-size: 8px;
+        line-height: 8px;
+        display: none;
+      }
+    }
+    &.checked > span:after {
+      display: block;
+    }
+  }
+}

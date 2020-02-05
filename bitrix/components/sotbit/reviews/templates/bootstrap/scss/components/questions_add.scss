@@ -1,0 +1,409 @@
+@media (min-width: 768px) {
+  .spoiler-questions-body .forms {
+    display: flex;
+    .form-auth {
+      flex-grow: 1;
+      background: $main_background;
+      padding: 15px 20px 20px 20px;
+      margin: 0 10px 0 15px;
+    }
+    .form-reg {
+      flex-shrink: 1;
+      background: $main_background;
+      padding: 15px 20px 20px 20px;
+      margin: 0 15px 0 10px;
+    }
+  }
+}
+
+.add-questions {
+  margin: 20px 0;
+}
+
+.spoiler-questions-body {
+  display: none;
+  padding-top: 40px;
+}
+
+.spoiler_links {
+  cursor: pointer;
+}
+
+.add-questions {
+  .spoiler {
+    border: $reviews_input_border;
+    box-shadow: 1px 2px 1px 1px #e2e2e2;
+    padding: 5px;
+    display: inline-block;
+  }
+  .spoiler-input {
+    padding: 5px 40px;
+    color: $color_text_white;
+    text-decoration: none;
+    font-family: $font_siti;
+    font-size: 18px;
+    min-height: 30px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+}
+
+#questions-body {
+  .success {
+    color: green;
+    font-size: $p_font_size;
+    font-family: $main_font;
+    margin-top: 10px;
+  }
+  .spoiler_body p {
+    &.add-check-error, &.registration-check-error {
+      color: red;
+    }
+  }
+}
+
+.tabs {
+  a.spoiler {
+    display: inline-block;
+    padding: 10px;
+    color: $color_text_white;
+    background: #603a2f;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .auth-error {
+    font-size: 16px;
+    color: #ed008e;
+  }
+  p.auth-check-error {
+    color: red;
+  }
+}
+
+#add_question {
+  text-align: left;
+  .feed-add-post-form-but-wrap {
+    border: none;
+  }
+  .feed-add-post {
+    border: 1px solid #f0f1f2;
+  }
+  #recaptcha-question-0 {
+    margin-top: 20px;
+  }
+  p {
+    color: #6c727d;
+    font-size: $p_font_size;
+    font-family: $main_font;
+    &.example {
+      color: #b0b3bb;
+      font-size: $p_font_size;
+      font-family: $main_font;
+    }
+    &.count {
+      font-style: italic;
+      color: #c2c6cb;
+      font-size: $p_font_size;
+      font-family: $main_font;
+      margin-bottom: 20px;
+    }
+  }
+  input[type="text"] {
+    border: $body_comment_border;
+    height: 34px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-family: $font_Light;
+    color: $main_color;
+    font-size: $min_font_size;
+  }
+  textarea {
+    border: $body_comment_border;
+    width: 100%;
+    padding: 5px;
+    font-family: $font_Light;
+    color: $main_color;
+    font-size: $min_font_size;
+    height: 190px;
+  }
+  input[type="radio"] {
+    margin-right: 7px;
+    float: left;
+  }
+  span.radio-label {
+    margin-right: 15px;
+    font-family: $font_Light;
+    color: $main_color;
+    font-size: $min_font_size;
+    margin-right: 15px;
+    font-family: $font_Light;
+    color: $main_color;
+    font-size: $min_font_size;
+  }
+  .radio {
+    float: none;
+    line-height: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  input[type="submit"] {
+    background: $color_background_white;
+    color: $color_grey;
+    font-size: $p_font_size;
+    font-family: $font_Light;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 2px 2px 1px #dedede;
+    margin-top: 20px;
+  }
+  #reset-form {
+    border: 0;
+    color: #c2c6cb;
+    font-family: $font_Light;
+    font-size: $p_font_size;
+    text-decoration: underline;
+    margin-left: 15px;
+    background: $color_background_white;
+  }
+}
+
+.spoiler-questions-body .add-check-error {
+  text-align: left;
+  color: #994d4d;
+  font-size: $p_font_size;
+  font-family: $main_font;
+}
+
+#auth_question-check-error, #registration_question-check-error {
+  color: #994d4d;
+  text-align: left;
+}
+
+#add_question {
+  .bxhtmled-top-bar-wrap {
+    .bxhtmled-top-bar-btn, .bxhtmled-top-bar-select, .bxhtmled-button-fontsize-wrap {
+      display: none;
+    }
+    .bxhtmled-button-bold, .bxhtmled-button-italic, .bxhtmled-button-underline, .bxhtmled-button-strike, .bxhtmled-button-remove-format, .bxhtmled-top-bar-color, .bxhtmled-button-ordered-list, .bxhtmled-button-unordered-list, .bxhtmled-button-align-left, .bxhtmled-button-quote {
+      display: inline-block;
+    }
+  }
+  .bxhtmled-iframe-cnt {
+    overflow: hidden !important;
+  }
+  .feed-add-post-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.spoiler-questions-body {
+  .reason-title {
+    font-family: $main_font;
+    color: $color_text_min_black;
+    font-size: 16px;
+    margin-bottom: 0px;
+    text-align: $text_align_main;
+  }
+  .reason-text {
+    font-family: $main_font;
+    color: $color_text_min_black;
+    font-size: $p_font_size;
+    margin-bottom: 8px;
+    text-align: $text_align_main;
+  }
+  .not-ban-error {
+    font-size: 18px;
+    font-family: $main_font;
+    color: #994d4d;
+    text-align: $text_align_main;
+  }
+}
+
+div.bx-auth-reg {
+  input.bx-auth-input {
+    vertical-align: middle;
+  }
+  span.bx-auth-secure {
+    background-color: $color_text_white;
+    border: 1px solid #DEDBC8;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  div {
+    &.bx-auth-secure-icon {
+      background-image: url(images/sec.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 19px;
+      height: 18px;
+    }
+    &.bx-auth-secure-unlock {
+      background-image: url(images/sec-unlocked.png);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #registration_question {
+    input[type="submit"] {
+      margin: 0 auto;
+      display: block;
+    }
+    .form-group {
+      margin: 0 auto 5px auto;
+      width: 230px;
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #registration_question {
+    .captcha {
+      img {
+        display: inline-block;
+        margin-right: 10px;
+        width: 35%;
+      }
+      input[type="text"] {
+        height: 42px;
+        width: 60%;
+        display: inline;
+        float: right;
+      }
+    }
+    .form-group {
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+  }
+}
+
+#registration_question {
+  text-align: left;
+  p {
+    margin-bottom: 3px;
+    text-align: left;
+    color: #6c727d;
+    font-family: $font_Light;
+    font-size: 12px;
+  }
+  input {
+    &[type="text"], &[type="password"] {
+      width: 230px;
+      color: $color_text_min_black;
+      font-size: 12px;
+      font-family: $font_Light;
+      border: $body_comment_border;
+      padding: 10px;
+      margin-right: 20px;
+    }
+  }
+  .form-group {
+    p {
+      margin-bottom: 3px;
+      text-align: left;
+      color: #6c727d;
+      font-size: 12px;
+      font-family: $font_Light;
+    }
+    a {
+      float: right;
+      color: #6c727d;
+      font-size: 12px;
+      font-family: $font_Light;
+      font-weight: lighter;
+    }
+  }
+  .checkbox {
+    text-align: left;
+    margin-top: 20px;
+    line-height: 13px;
+    input[type="checkbox"] {
+      margin-right: 10px;
+      float: left;
+    }
+    label {
+      color: $color_text_min_black;
+      font-size: 12px;
+      font-family: $font_Light;
+      clear: both;
+    }
+  }
+  input[type="submit"] {
+    background: $color_background_white;
+    color: $color_grey;
+    font-size: $p_font_size;
+    font-family: $font_Light;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 2px 2px 1px #dedede;
+    margin-top: 15px;
+  }
+  .captcha {
+    background: #efeded;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    position: relative;
+    display: inline-block;
+    .captcha-title {
+      color: #6c727d;
+      font-size: 12px;
+      font-family: $font_Light;
+      margin-bottom: 10px;
+    }
+    .captcha-title-2 {
+      color: $color_text_min_black;
+      font-size: 12px;
+      font-family: $font_Light;
+      font-weight: lighter;
+    }
+    img {
+      display: inline-block;
+      margin-right: 10px;
+      width: 110px;
+      height: 40px;
+    }
+    input[type="text"] {
+      height: 42px;
+      width: 230px;
+      display: inline;
+      float: none;
+      margin-right: 0;
+    }
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .checkbox label {
+    > span {
+      border: 1px solid #b8b8b8;
+      display: inline-block;
+      height: 10px;
+      margin: 0 7px 0 0;
+      position: relative;
+      width: 10px;
+      &:after {
+        position: absolute;
+        content: "\f00c";
+        color: $color_text_min_black;
+        font-family: FontAwesome;
+        font-size: 8px;
+        line-height: 8px;
+        display: none;
+      }
+    }
+    &.checked > span:after {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@media (max-width: 767px) {
+  .tabs ul.tabs-caption {
+    text-align: center; }
+  .tabs a.open_window {
+    float: none; }
+  .tabs .modal-link {
+    text-align: center; } }
+@media (min-width: 768px) {
+  a.open_window {
+    float: right; } }
+/*╨ó╨░╨▒╤ï*/
+.tabs-content {
+  display: none;
+  /* ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä ╨┐╤Ç╤Å╤ç╨╡╨╝ ╨▓╤ü╨╡ ╨▒╨╗╨╛╨║╨╕ */ }
+  .tabs-content.active {
+    display: block;
+    /* ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä ╨┐╨╛╨║╨░╨╖╤ï╨▓╨░╨╡╨╝ ╨╜╤â╨╢╨╜╤ï╨╣ ╨▒╨╗╨╛╨║ */ }
+
+.tabs .tabs-caption {
+  border-bottom: 1px solid #e2e5e9; }
+.tabs ul.tabs-caption {
+  margin: 0;
+  padding: 4px;
+  padding: 0; }
+  .tabs ul.tabs-caption li {
+    display: inline-block;
+    margin-right: 0px;
+    border-left: 1px solid #e2e5e9;
+    border-top: 1px solid #e2e5e9;
+    border-right: 1px solid #e2e5e9;
+    border-radius: 2px 2px 0 0;
+    padding: 0 15px;
+    height: 41px;
+    line-height: 41px;
+    color: #c2c6cb;
+    cursor: pointer;
+    width: 180px;
+    font-family: "ProximaNovaLight", Arial, sans-serif; }
+    .tabs ul.tabs-caption li i {
+      margin-right: 6px; }
+    .tabs ul.tabs-caption li:hover {
+      color: #a6aaaf; }
+    .tabs ul.tabs-caption li.active {
+      color: #303030;
+      cursor: default; }
+
+/*# sourceMappingURL=reviews.css.map */
