@@ -5,7 +5,7 @@ global $APPLICATION;
 
 if (!function_exists("GetTreeRecursive")) //Include from main.map component
 {
-	$aMenuLinksExt = $APPLICATION->IncludeComponent("bitrix:menu.sections","",Array(
+	$aMenuLinksExt = $APPLICATION->IncludeComponent("dlay:menu.sections","",Array(
 			"IS_SEF" => "Y",
 			"SEF_BASE_URL" => "/catalog/",
 			"SECTION_PAGE_URL" => "#SECTION_CODE#/",

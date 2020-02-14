@@ -68,7 +68,6 @@
             <excludedPath path="/www/arsenalprof.ru/local/templates/b2bshop_mail" />
             <excludedPath path="/www/arsenalprof.ru/local/templates/sotbit_mailing_default_mail" />
             <excludedPath path="/www/arsenalprof.ru/local/templates/sotbit_mailing_minimal" />
-            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix" />
             <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/site_files" />
             <excludedPath path="/www/arsenalprof.ru/bitrix/activities" />
             <excludedPath path="/www/arsenalprof.ru/bitrix/admin" />
@@ -99,6 +98,37 @@
             <excludedPath path="/www/arsenalprof.ru/bitrix/updates" />
             <excludedPath path="/www/arsenalprof.ru/bitrix/wizards" />
             <excludedPath path="/www/arsenalprof.ru/bitrix/components/bitrix" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/breadcrumb" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/catalog" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/catalog.compare.list" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/catalog.item" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/catalog.smart.filter" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/catalog.top" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/form" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/forum.user.profile.view" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/main.profile" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/main.ui.filter" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/news" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/news.list" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.account.pay" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.ajax.delivery.calculator" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.basket.basket" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.basket.basket.line" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.basket.basket.small" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.gift.basket" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.gift.main.products" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.gift.product" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.notice.product" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.order.ajax" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.order.payment.change" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.personal.account" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.personal.order" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.personal.order.detail.mail" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.personal.profile.detail" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/sale.personal.profile.list" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/search.page" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/search.suggest.input" />
+            <excludedPath path="/www/arsenalprof.ru/local/templates/arsenal/components/bitrix/system.pagenavigation" />
           </excludedPaths>
         </serverdata>
       </paths>

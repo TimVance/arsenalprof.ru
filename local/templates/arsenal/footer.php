@@ -97,88 +97,104 @@
                         <h2>О компании</h2>
                         <div class="footer__menu">
                             <?$APPLICATION->IncludeComponent(
-                                "bitrix:menu",
-                                "footer",
-                                Array(
-                                    "ALLOW_MULTI_SELECT" => "N",
-                                    "CHILD_MENU_TYPE" => "footer_about",
-                                    "COMPONENT_TEMPLATE" => "footer",
-                                    "DELAY" => "N",
-                                    "MAX_LEVEL" => "1",
-                                    "MENU_CACHE_GET_VARS" => array(),
-                                    "MENU_CACHE_TIME" => "3600",
-                                    "MENU_CACHE_TYPE" => "A",
-                                    "MENU_CACHE_USE_GROUPS" => "Y",
-                                    "ROOT_MENU_TYPE" => "footer_about",
-                                    "USE_EXT" => "N"
-                                )
-                            );?>
+	"bitrix:menu", 
+	"footer", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "footer_about",
+		"COMPONENT_TEMPLATE" => "footer",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "36000",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "footer_about",
+		"USE_EXT" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);?>
                         </div>
                     </div>
                     <div class="footer__item">
                         <h2>Помощь</h2>
                         <div class="footer__menu">
                             <?$APPLICATION->IncludeComponent(
-                                "bitrix:menu",
-                                "footer",
-                                Array(
-                                    "ALLOW_MULTI_SELECT" => "N",
-                                    "CHILD_MENU_TYPE" => "footer_help",
-                                    "COMPONENT_TEMPLATE" => "footer",
-                                    "DELAY" => "N",
-                                    "MAX_LEVEL" => "1",
-                                    "MENU_CACHE_GET_VARS" => array(),
-                                    "MENU_CACHE_TIME" => "3600",
-                                    "MENU_CACHE_TYPE" => "A",
-                                    "MENU_CACHE_USE_GROUPS" => "Y",
-                                    "ROOT_MENU_TYPE" => "footer_help",
-                                    "USE_EXT" => "N"
-                                )
-                            );?>
+	"bitrix:menu", 
+	"footer", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "footer_help",
+		"COMPONENT_TEMPLATE" => "footer",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "footer_help",
+		"USE_EXT" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);?>
                         </div>
                     </div>
                     <div class="footer__item">
                         <h2>Клиентам</h2>
                         <div class="footer__menu">
                             <?$APPLICATION->IncludeComponent(
-                                "bitrix:menu",
-                                "footer",
-                                Array(
-                                    "ALLOW_MULTI_SELECT" => "N",
-                                    "CHILD_MENU_TYPE" => "footer_clients",
-                                    "COMPONENT_TEMPLATE" => "footer",
-                                    "DELAY" => "N",
-                                    "MAX_LEVEL" => "1",
-                                    "MENU_CACHE_GET_VARS" => array(),
-                                    "MENU_CACHE_TIME" => "3600",
-                                    "MENU_CACHE_TYPE" => "A",
-                                    "MENU_CACHE_USE_GROUPS" => "Y",
-                                    "ROOT_MENU_TYPE" => "footer_clients",
-                                    "USE_EXT" => "N"
-                                )
-                            );?>
+	"bitrix:menu", 
+	"footer", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "footer_clients",
+		"COMPONENT_TEMPLATE" => "footer",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "footer_clients",
+		"USE_EXT" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);?>
                         </div>
                     </div>
                     <div class="footer__item">
                         <h2>Мой кабинет</h2>
                         <div class="footer__menu">
                             <?$APPLICATION->IncludeComponent(
-                                "bitrix:menu",
-                                "footer",
-                                Array(
-                                    "ALLOW_MULTI_SELECT" => "N",
-                                    "CHILD_MENU_TYPE" => "footer_lk",
-                                    "COMPONENT_TEMPLATE" => "footer",
-                                    "DELAY" => "N",
-                                    "MAX_LEVEL" => "1",
-                                    "MENU_CACHE_GET_VARS" => array(),
-                                    "MENU_CACHE_TIME" => "3600",
-                                    "MENU_CACHE_TYPE" => "A",
-                                    "MENU_CACHE_USE_GROUPS" => "Y",
-                                    "ROOT_MENU_TYPE" => "footer_lk",
-                                    "USE_EXT" => "N"
-                                )
-                            );?>
+	"bitrix:menu", 
+	"footer", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "footer_lk",
+		"COMPONENT_TEMPLATE" => "footer",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "36000",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "footer_lk",
+		"USE_EXT" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);?>
                         </div>
                     </div>
                 </div>
@@ -226,21 +242,26 @@
     </div>
 
     <?$APPLICATION->IncludeComponent(
-        "bitrix:menu",
-        "catalog_mobile",
-        Array(
-            "ALLOW_MULTI_SELECT" => "N",
-            "CHILD_MENU_TYPE" => "left",
-            "DELAY" => "N",
-            "MAX_LEVEL" => "2",
-            "MENU_CACHE_GET_VARS" => array(""),
-            "MENU_CACHE_TIME" => "3600",
-            "MENU_CACHE_TYPE" => "N",
-            "MENU_CACHE_USE_GROUPS" => "Y",
-            "ROOT_MENU_TYPE" => "left",
-            "USE_EXT" => "Y"
-        )
-    );?>
+	"bitrix:menu", 
+	"catalog_mobile", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "left",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "2",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "36000",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "left",
+		"USE_EXT" => "Y",
+		"COMPONENT_TEMPLATE" => "catalog_mobile",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);?>
 
     <div class="basket">
         <div class="closed-basket"><i></i></div>

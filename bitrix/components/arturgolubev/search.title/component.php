@@ -134,7 +134,7 @@ if(
 			
 			$arResult["MAIN_QUERY"] = $arResult["alt_query"]? $arResult["alt_query"]: $arResult["query"];
 			$arResult["DEBUG"]["REQUESTS"][] = $arResult["MAIN_QUERY"];
-			
+
 			$arResult["DEBUG"]["QUERY_COUNT"]++;
 			if($obTitle->Search(
 				$arResult["MAIN_QUERY"]
@@ -198,7 +198,7 @@ if(
 					$arLavelsWords = CArturgolubevSmartsearch::getSimilarWordsList($arSmartParams["SETTINGS"]["WORDS"]);
 					
 					$arResult["DEBUG"]["RESULT_WORDS"] = $arLavelsWords;
-					// $arResult["DEBUG"]["TEST"] = $exFILTER;
+					//$arResult["DEBUG"]["TEST"] = $exFILTER;
 					
 					if(!empty($arLavelsWords))
 					{

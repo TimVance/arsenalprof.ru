@@ -349,41 +349,49 @@ $asset = Asset::getInstance();
                         <div class="header__top-row header-tr3">
                             <ul class="menu-big menu-big_left">
                                 <?$APPLICATION->IncludeComponent(
-                                    "bitrix:menu",
-                                    "header_left",
-                                    Array(
-                                        "ALLOW_MULTI_SELECT" => "N",
-                                        "CHILD_MENU_TYPE" => "left",
-                                        "COMPONENT_TEMPLATE" => "header",
-                                        "DELAY" => "N",
-                                        "MAX_LEVEL" => "1",
-                                        "MENU_CACHE_GET_VARS" => array(),
-                                        "MENU_CACHE_TIME" => "3600",
-                                        "MENU_CACHE_TYPE" => "N",
-                                        "MENU_CACHE_USE_GROUPS" => "Y",
-                                        "ROOT_MENU_TYPE" => "header_left",
-                                        "USE_EXT" => "N"
-                                    )
-                                );?>
+	"bitrix:menu", 
+	"header_left", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "left",
+		"COMPONENT_TEMPLATE" => "header_left",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "36000",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "header_left",
+		"USE_EXT" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);?>
                             </ul>
                             <ul class="menu-big menu-big_right">
                                 <?$APPLICATION->IncludeComponent(
-                                    "bitrix:menu",
-                                    "header_right",
-                                    Array(
-                                        "ALLOW_MULTI_SELECT" => "N",
-                                        "CHILD_MENU_TYPE" => "left",
-                                        "COMPONENT_TEMPLATE" => "header",
-                                        "DELAY" => "N",
-                                        "MAX_LEVEL" => "1",
-                                        "MENU_CACHE_GET_VARS" => array(),
-                                        "MENU_CACHE_TIME" => "3600",
-                                        "MENU_CACHE_TYPE" => "N",
-                                        "MENU_CACHE_USE_GROUPS" => "Y",
-                                        "ROOT_MENU_TYPE" => "header_right",
-                                        "USE_EXT" => "N"
-                                    )
-                                );?>
+	"bitrix:menu", 
+	"header_right", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "left",
+		"COMPONENT_TEMPLATE" => "header_right",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "36000",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "header_right",
+		"USE_EXT" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);?>
                             </ul>
                         </div>
                     </div>
@@ -395,21 +403,26 @@ $asset = Asset::getInstance();
             <section class="menu__section">
                 <div class="container">
                     <?$APPLICATION->IncludeComponent(
-                        "bitrix:menu",
-                        "catalog",
-                        Array(
-                            "ALLOW_MULTI_SELECT" => "N",
-                            "CHILD_MENU_TYPE" => "left",
-                            "DELAY" => "N",
-                            "MAX_LEVEL" => "2",
-                            "MENU_CACHE_GET_VARS" => array(""),
-                            "MENU_CACHE_TIME" => "3600",
-                            "MENU_CACHE_TYPE" => "N",
-                            "MENU_CACHE_USE_GROUPS" => "Y",
-                            "ROOT_MENU_TYPE" => "left",
-                            "USE_EXT" => "Y"
-                        )
-                    );?>
+	"bitrix:menu", 
+	"catalog", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "left",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "2",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "36000",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "left",
+		"USE_EXT" => "Y",
+		"COMPONENT_TEMPLATE" => "catalog",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);?>
                 </div>
             </section>
 
