@@ -46,10 +46,7 @@
                     "PARENT_SECTION" => "33",
                     "PARENT_SECTION_CODE" => "",
                     "PREVIEW_TRUNCATE_LEN" => "",
-                    "PROPERTY_CODE" => array(
-                        0 => "",
-                        1 => "",
-                    ),
+                    "PROPERTY_CODE" => array("","LINK",""),
                     "SET_BROWSER_TITLE" => "N",
                     "SET_LAST_MODIFIED" => "N",
                     "SET_META_DESCRIPTION" => "N",
