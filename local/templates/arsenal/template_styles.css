@@ -3139,6 +3139,7 @@ div.bx-auth {
     -ms-flex-align: center;
     align-items: center;
     flex-wrap: wrap;
+    display: none;
 }
 
 .catalog__brands_item {
@@ -3174,7 +3175,7 @@ div.bx-auth {
 .catalog__content_top {
     margin-bottom: 20px;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%
 }
 
