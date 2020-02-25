@@ -3179,6 +3179,11 @@ div.bx-auth {
     width: 100%
 }
 
+.card__box .product-item-title {
+    height: 43px;
+    overflow: hidden;
+}
+
 .catalog__content_top, .catalog__switch {
     display: -ms-flexbox;
     display: flex;
